@@ -1,0 +1,185 @@
+### Mammalian 4
+MAM4 = {
+	### SHIPS
+
+	ship_names = {
+
+		generic = {
+				"比斯" "费坦" "帕苏朗" "巴罗尔" "图安" "内米德" "达努" "努阿达" "法尔" "鲁格" "达格达" "布瑞斯" "迪安克特"
+				"海尔波" "玛查" "库兰德楚" "康齐厄伯" "涅萨" "康诺尔" "弗格斯" "迪尔德丽" "库丘林" "梅芙" "艾利尔" "洛赫"
+				"梅菲比斯" "弗拜" "康马克" "芬恩" "俄西亚" "迪尔梅德" "奥斯卡" "卡尔特" "高尔" "迪卢姆多" "梅尔顿" "德鲁伊努卡"
+				"尤瑟" "亚瑟" "格尼维尔" "兰斯洛特" "高文" "杰兰特" "加雷斯" "加拉哈德" "加赫里斯" "伯斯" "贝德维尔" "凯伊"
+				"兰马洛克" "帕西法尔" "特里斯坦" "达戈尼特" "莫德雷德" "埃克特" "摩根"
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+				"恩亚" "萨安" "艾波娜" "莫瑞甘" "安格斯"
+		}
+		
+		colonizer = {
+				"阿莫金" "塔利辛" "博阿迪西亚" "迈达" "伊洛"
+		}
+		
+		constructor = {
+				"德鲁伊" "梅林" "凯斯巴" "范格斯" "卡拉丁"
+		}
+
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+		}
+		
+		military_station_small = {
+				"阿格莱瓦" "卡多尔" "卡拉多克" "达格尼" "迪拿但"
+		}
+		military_station_medium = {
+				"白伊利安" "霍埃尔国王" "雷恩代格兰斯" "马利亚甘特" "帕拉米迪斯"
+		}
+		military_station_large = {
+				"佩利亚斯" "佩利诺尔国王" "萨菲尔" "尤瑞恩斯国王" "伊文"
+		}	
+	}
+
+	fleet_names = {
+		sequential_name = "星海第%O%舰队"
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "第%O%守备师团"
+		}
+
+		assault_army = {
+			sequential_name = "第%O%突击师团"
+		}
+		
+		slave_army = {
+			sequential_name = "第%O%辅助师团"
+		}
+		
+		clone_army = { 
+			sequential_name = "第%O%克隆人师团"
+		}
+		
+		robotic_army = {
+			sequential_name = "第%O%机器人师团"
+		}
+		
+		android_army = {
+			sequential_name = "第%O%智能人师团"
+		}
+		
+		psionic_army = { 
+			sequential_name = "第%O%灵能师团"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "第%O%异形师团"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "第%O%基因武士师团"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"阿尔斯特" "康诺特" "伦斯特" "芒斯特" "米斯" "弗莫尔" "费伯格" "马格特瑞德" "梅利西安" "恩格纳特" "米利都"
+				"加费特" "塞西亚" "克里" "塔拉" "伊塞尼" "威克洛" "加拉提亚" "加洛尔" "利菲" "卡曼" "布莱吉亚" "巴斯金" "摩那"
+				"阿瓦隆" "贝尔比克兰特" "巴多尔阿克斯" "乌涅蒂采" "乌恩菲德" "哈尔斯塔特" "拉丹" "阿洛布罗基" "阿维尔尼" "桑东" 
+				"马尔萨克" "内尔维" "布里甘特" "莫贡蒂亚克" "布雷努斯"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				"比斯" "费坦" "帕苏朗" "巴罗尔" "图安" "内米德" "达努" "努阿达" "法尔" "鲁格" "达格达" "布瑞斯" "迪安克特"
+				"海尔波" "玛查" "库兰德楚" "康齐厄伯" "涅萨" "康诺尔" "弗格斯" "迪尔德丽" "库丘林" "梅芙" "艾利尔" "洛赫"
+				"梅菲比斯" "弗拜" "康马克" "芬恩" "俄西亚" "迪尔梅德" "奥斯卡" "卡尔特" "高尔" "迪卢姆多" "梅尔顿" "德鲁伊努卡"
+				"尤瑟" "亚瑟" "格尼维尔" "兰斯洛特" "高文" "杰兰特" "加雷斯" "加拉哈德" "加赫里斯" "伯斯" "贝德维尔" "凯伊"
+				"兰马洛克" "帕西法尔" "特里斯坦" "达戈尼特" "莫德雷德" "埃克特" "摩根"
+
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				"麦克涅萨" "麦克罗伊" "麦克马特" "麦克亚特" "麦克库尔" "奥德利安" "麦克罗兰" "麦克莫纳" "奥迪那" "潘德拉贡"
+			}
+			
+			regnal_first_names = {
+				"尤瑟" "亚瑟" "格尼维尔" "兰斯洛特" "高文" "杰兰特" "加雷斯" "加拉哈德" "加赫里斯" "伯斯" "贝德维尔" "凯伊"
+				"兰马洛克" "帕西法尔" "特里斯坦" "达戈尼特" "莫德雷德" "埃克特" "摩根"
+			}
+			
+			regnal_second_names = {
+				"潘德拉贡"
+			}
+		}
+	}
+}

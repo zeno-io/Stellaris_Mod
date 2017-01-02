@@ -1,0 +1,2863 @@
+##############
+# NAME PARTS #
+##############
+
+### AUTOCRACY
+
+# Autocracy Militarist
+empire_name_parts_list = {
+	key = "autocracy_mil"
+	parts = {
+		"帝国" = 1
+		"苏丹国" = 1
+		"沙皇国" = 1
+		"联合王国" = 1
+		"君合国" = 1
+		"君主国" = 1
+	}
+}
+
+# Autocracy Spiritualist
+empire_name_parts_list = {
+	key = "autocracy_spi"
+	parts = {
+		"帝国" = 1	
+		"王国" = 4
+		"亲王国" = 2
+		"公国" = 1
+		"教廷国" = 3
+		"联邦共和国" = 3
+	}
+}
+
+# Autocracy Materialist
+empire_name_parts_list = {
+	key = "autocracy_mat"
+	parts = {
+		"帝国" = 3
+		"沙皇国" = 1
+		"联合王国" = 4
+		"联合社会主义共和国" = 4
+		"人民社会主义共和国" = 4
+		"社会主义自治省" = 4
+		"国" = 1
+		"民国" = 1
+		"政合国" = 1
+	}
+}
+
+# Autocracy Pacifist
+empire_name_parts_list = {
+	key = "autocracy_pac"
+	parts = {
+		"王国" = 4
+		"亲王国" = 1
+		"公国" = 1
+		"国" = 1
+		"民国" = 2
+		"政合国" = 1
+		"联邦共和国" = 1
+	}
+}
+
+# Autocracy Generic
+empire_name_parts_list = {
+	key = "autocracy_gen"
+	parts = {
+		"帝国" = 3
+		"苏丹国" = 2
+		"沙皇国" = 2
+		"联合王国" = 2
+		"君合国" = 1
+		"君主国" = 2
+		"王国" = 1
+	}
+}
+
+### OLIGARCHY
+
+# Oligarchy Militarist
+empire_name_parts_list = {
+	key = "oligarchy_mil"
+	parts = {
+		"共和国" = 2
+		"国协" = 3
+		"联合共和国" = 2
+		"邦联" = 2
+		"联盟" = 2
+		"联合国" = 3
+		"同盟" = 3
+		"国家联合体" = 5
+		"联合大公国" = 3
+		"行星邦联" = 5
+		"行星联盟" = 5
+		"专制国" = 5
+		"社会主义共和国" = 3
+	}
+}
+
+# Oligarchy Spiritualist
+empire_name_parts_list = {
+	key = "oligarchy_spi"
+	parts = {
+		"共和国" = 2
+		"国协" = 3
+		"联合共和国" = 1
+		"邦联" = 3
+		"联盟" = 3
+		"联合国" = 3
+		"同盟" = 3
+		"达鲁萨兰国" = 5
+		"联邦共和国" = 4
+		"合众国" = 4
+		"国联" = 5
+		"人民共和国" = 1
+		"国" = 1
+		"民国" = 1
+		"政合国" = 1
+		"联合邦" = 1
+		"社会主义共和国" = 1
+	}
+}
+
+# Oligarchy Materialist
+empire_name_parts_list = {
+	key = "oligarchy_mat"
+	parts = {
+		"共和国" = 2
+		"国协" = 3
+		"联合共和国" = 3
+		"邦联" = 2
+		"联盟" = 2
+		"联合国" = 3
+		"同盟" = 3
+		"尊贵共和国" = 4
+		"联邦共和国" = 4
+		"行星联合体" = 3
+		"联邦共同体" = 3
+		"联盟共同体" = 3
+		"主席团国" = 4
+		"合众国" = 3
+		"国家联合体" = 3
+		"人民共和国" = 1
+		"国" = 1
+		"民国" = 1
+		"政合国" = 1
+		"特别行政区" = 1
+		"联合邦" = 1
+		"社会主义共和国" = 1
+	}
+}
+
+# Oligarchy Pacifist
+empire_name_parts_list = {
+	key = "oligarchy_pac"
+	parts = {
+		"共和国" = 2
+		"国协" = 3
+		"联合共和国" = 2
+		"邦联" = 3
+		"联盟" = 3
+		"联合国" = 3
+		"同盟" = 3
+		"联邦共和国" = 4
+		"合众国" = 3
+		"联合大公国" = 3
+		"人民共和国" = 1
+		"国" = 1
+		"民国" = 1
+		"政合国" = 1
+		"特别行政区" = 1
+		"联合邦" = 1
+		"社会主义共和国" = 1
+	}
+}
+
+# Oligarchy Generic
+empire_name_parts_list = {
+	key = "oligarchy_gen"
+	parts = {
+		"共和国" = 2
+		"国协" = 3
+		"邦联" = 3
+		"联盟" = 3
+		"联合国" = 3
+		"同盟" = 3
+		"行星联合体" = 4
+		"联邦共同体" = 4
+		"联盟共同体" = 4
+		"主席团国" = 4
+		"合众国" = 1
+		"国家联合体" = 4
+		"人民共和国" = 1
+		"国" = 1
+		"民国" = 1
+		"政合国" = 1
+		"特别行政区" = 1
+		"联合邦" = 1
+		"社会主义共和国" = 1
+	}
+}
+
+### DEMOCRACY
+
+# Democracy Militarist
+empire_name_parts_list = {
+	key = "democracy_mil"
+	parts = {
+		"共和国" = 3
+		"国协" = 3
+		"邦联" = 3
+		"联盟" = 3
+		"联合国" = 3
+		"同盟" = 3
+		"合众国" = 2
+		"国家联合体" = 2
+		"国" = 2
+		"民国" = 2
+		"政合国" = 2
+	}
+}
+
+# Democracy Spiritualist
+empire_name_parts_list = {
+	key = "democracy_spi"
+	parts = {
+		"共和国" = 3
+		"国协" = 3
+		"邦联" = 3
+		"联盟" = 3
+		"联合国" = 3
+		"同盟" = 3
+		"合众国" = 2
+		"自治邦" = 2
+		"联合邦" = 2
+		"合作共和国" = 2
+		"国" = 2
+		"民国" = 2
+		"政合国" = 1
+		"人民共和国" = 1
+		"社会主义联邦共和国" = 1
+		"社会主义共和国" = 1
+		"国家联盟" = 1
+		"国联" = 3
+		"特别行政区" = 1
+	}
+}
+
+# Democracy Materialist
+empire_name_parts_list = {
+	key = "democracy_mat"
+	parts = {
+		"共和国" = 3
+		"国协" = 3
+		"邦联" = 3
+		"联盟" = 3
+		"联合国" = 3
+		"同盟" = 3
+		"合众国" = 2
+		"国家联合体" = 2
+		"自治邦" = 2
+		"联合邦" = 2
+		"合作共和国" = 2
+		"国" = 1
+		"民国" = 2
+		"政合国" = 1
+		"人民共和国" = 1
+		"社会主义联邦共和国" = 1
+		"国家联盟" = 1
+		"社会主义共和国" = 1
+		"特别行政区" = 1
+		"行星同盟" = 3
+	}
+}
+
+# Democracy Pacifist
+empire_name_parts_list = {
+	key = "democracy_pac"
+	parts = {
+		"共和国" = 3
+		"国协" = 3
+		"邦联" = 3
+		"联盟" = 3
+		"联合国" = 3
+		"同盟" = 3
+		"合众国" = 2
+		"国家联合体" = 2
+		"自治邦" = 2
+		"联合邦" = 2
+		"合作共和国" = 2
+		"国" = 1
+		"民国" = 2
+		"政合国" = 1
+		"人民共和国" = 1
+		"社会主义联邦共和国" = 1
+		"国家联盟" = 1
+		"社会主义共和国" = 1
+		"特别行政区" = 1
+	}
+}
+
+# Democracy Generic
+empire_name_parts_list = {
+	key = "democracy_gen"
+	parts = {
+		"共和国" = 3
+		"国协" = 3
+		"邦联" = 3
+		"联盟" = 3
+		"联合国" = 3
+		"同盟" = 3
+		"合众国" = 1
+		"国家联合体" = 1
+		"自治邦" = 1
+		"联合邦" = 1
+		"合作共和国" = 1
+		"国" = 1
+		"民国" = 1
+		"政合国" = 1
+		"人民共和国" = 1
+		"社会主义联邦共和国" = 1
+		"国家联盟" = 1
+		"社会主义共和国" = 1
+		"特别行政区" = 1
+	}
+}
+
+### AUTOCRACY DESCRIPTIVE
+
+# Autocracy Militarist Descriptive
+empire_name_parts_list = {
+	key = "autocracy_mil_desc"
+	parts = {
+		"星际" = 1
+		"银河" = 2
+		"统合" = 3
+		"大" = 3
+	}
+}
+
+# Autocracy Spiritualist Descriptive
+empire_name_parts_list = {
+	key = "autocracy_spi_desc"
+	parts = {
+		"神圣" = 4
+		"至圣" = 4
+		"无忧" = 4
+		"星际" = 1
+		"银河" = 2
+		"统合" = 2
+		"大" = 2
+	}
+}
+
+# Autocracy Materialist Descriptive
+empire_name_parts_list = {
+	key = "autocracy_mat_desc"
+	parts = {
+		"星际" = 1
+		"银河" = 3
+		"统合" = 3
+		"大" = 3
+	}
+}
+
+# Autocracy Pacifist Descriptive
+empire_name_parts_list = {
+	key = "autocracy_pac_desc"
+	parts = {
+		"和平" = 3
+		"星际" = 1
+		"银河" = 2
+		"统合" = 3
+		"大" = 3
+	}
+}
+
+# Autocracy Generic Descriptive
+empire_name_parts_list = {
+	key = "autocracy_gen_desc"
+	parts = {
+		"星际" = 1
+		"银河" = 2
+		"统合" = 3
+		"大" = 3
+	}
+}
+
+### OLIGARCHY DESCRIPTIVE
+
+# Oligarchy Militarist Descriptive
+empire_name_parts_list = {
+	key = "oligarchy_mil_desc"
+	parts = {
+		"星际" = 1
+		"银河" = 2
+		"统合" = 3
+		"至高" = 1
+	}
+}
+
+# Oligarchy Spiritualist Descriptive
+empire_name_parts_list = {
+	key = "oligarchy_spi_desc"
+	parts = {
+		"神圣" = 3
+		"至圣" = 3
+		"无忧" = 3
+		"星际" = 1
+		"银河" = 2
+		"统合" = 3
+		"至高" = 1
+	}
+}
+
+# Oligarchy Materialist Descriptive
+empire_name_parts_list = {
+	key = "oligarchy_mat_desc"
+	parts = {
+		"星际" = 1
+		"银河" = 2
+		"统合" = 3
+		"至高" = 1
+	}
+}
+
+# Oligarchy Pacifist Descriptive
+empire_name_parts_list = {
+	key = "oligarchy_pac_desc"
+	parts = {
+		"和平" = 3
+		"星际" = 1
+		"银河" = 1
+		"统合" = 3
+		"至高" = 1
+	}
+}
+
+# Oligarchy Generic Descriptive
+empire_name_parts_list = {
+	key = "oligarchy_gen_desc"
+	parts = {
+		"星际" = 1
+		"银河" = 2
+		"统合" = 3
+		"至高" = 1
+	}
+}
+
+### DEMOCRACY DESCRIPTIVE
+
+# Democracy Militarist Descriptive
+empire_name_parts_list = {
+	key = "democracy_mil_desc"
+	parts = {
+		"自由" = 3
+		"独立" = 3
+		"星际" = 1
+		"银河" = 1
+		"统合" = 3
+		"民主" = 1
+	}
+}
+
+# Democracy Spiritualist Descriptive
+empire_name_parts_list = {
+	key = "democracy_spi_desc"
+	parts = {
+		"神圣" = 3
+		"至圣" = 3
+		"无忧" = 3
+		"星际" = 1
+		"银河" = 1
+		"统合" = 2
+		"民主" = 2
+	}
+}
+
+# Democracy Materialist Descriptive
+empire_name_parts_list = {
+	key = "democracy_mat_desc"
+	parts = {
+		"星际" = 1
+		"银河" = 1
+		"统合" = 3
+		"民主" = 3
+	}
+}
+
+# Democracy Pacifist Descriptive
+empire_name_parts_list = {
+	key = "democracy_pac_desc"
+	parts = {
+		"和平" = 3
+		"星际" = 1
+		"银河" = 1
+		"统合" = 3
+		"民主" = 3
+	}
+}
+
+# Democracy Generic Descriptive
+empire_name_parts_list = {
+	key = "democracy_gen_desc"
+	parts = {
+		"星际" = 1
+		"银河" = 1
+		"统合" = 3
+		"民主" = 3
+	}
+}
+
+### GENERIC DESCRIPTIVES
+
+# Generic Autocracy Descriptive
+empire_name_parts_list = {
+	key = "generic_aut_desc"
+	parts = {
+		"独裁" = 3
+		"皇家" = 3
+		"统合" = 3
+		"威权" = 1
+		"至高" = 1
+		"统一" = 3
+		"极权" = 3
+		"强权" = 3
+	}
+}
+
+# Generic Oligarchy Descriptive
+empire_name_parts_list = {
+	key = "generic_oli_desc"
+	parts = {
+		"复兴" = 3
+		"保守" = 3
+		"协约" = 3
+		"协和" = 2
+		"和谐" = 1
+		"团结" = 1
+		"缔约" = 1
+		"霸权" = 1
+		"独立" = 1
+		"统合" = 3
+		"威权" = 1
+		"至高" = 2
+	}
+}
+
+# Generic Democracy Descriptive
+empire_name_parts_list = {
+	key = "generic_dem_desc"
+	parts = {
+		"民主" = 3
+		"复兴" = 3
+		"保守" = 2
+		"协约" = 4
+		"协和" = 1
+		"和谐" = 1
+		"团结" = 1
+		"缔约" = 1
+		"霸权" = 1
+		"独立" = 1
+		"统合" = 4
+		"威权" = 1
+		"至高" = 3
+	}
+}
+
+### STATES
+
+# Generic States (for use with Generic Descriptives)
+empire_name_parts_list = {
+	key = "generic_states"
+	parts = {
+		"联邦" = 4
+		"行星共和国" = 4
+		"行星共同体" = 4
+		"星系共和国" = 4
+		"帝国" = 4
+		"自治共和国" = 3
+		"州" = 1
+		"省" = 1
+		"民国" = 3
+		"国" = 3
+		"侯国" = 1
+		"伯国" = 1
+		"共和国联盟" = 1
+		"托管国" = 1
+		"王国" = 1
+		"联合王国" = 1
+		"行星自治共和国" = 1
+		"民众国" = 1
+		"自治领" = 1
+		"人民社会主义民众国" = 1
+	}
+}
+
+# Various States
+empire_name_parts_list = {
+	key = "various_states"
+	parts = {
+		"自治共和国" = 3
+		"州" = 1
+		"省" = 2
+		"民国" = 3
+		"国" = 3
+		"侯国" = 1
+		"伯国" = 1
+		"共和国联盟" = 1
+		"托管国" = 1
+		"王国" = 1
+		"联合王国" = 1
+		"行星自治共和国" = 1
+		"民众国" = 1
+		"自治领" = 1
+		"人民社会主义民众国" = 1
+	}
+}
+
+### AUTOCRACY MIDDLE DESCRIPTIVE
+
+# Autocracy Militarist Middle Descriptive
+empire_name_parts_list = {
+	key = "autocracy_mil_mid_desc"
+	parts = {
+		"星际" = 1
+		"星海" = 1
+		"银河" = 1
+		"光明" = 3
+		"光辉" = 1
+	}
+}
+
+# Autocracy Spiritualist Middle Descriptive
+empire_name_parts_list = {
+	key = "autocracy_spi_mid_desc"
+	parts = {
+		"神圣" = 3
+		"至圣" = 3
+		"无忧" = 3
+		"星际" = 1
+		"星海" = 1
+		"银河" = 1
+		"光明" = 2
+		"光辉" = 1
+	}
+}
+
+# Autocracy Materialist Middle Descriptive
+empire_name_parts_list = {
+	key = "autocracy_mat_mid_desc"
+	parts = {
+		"星际" = 1
+		"星海" = 1
+		"银河" = 1
+		"光明" = 3
+		"光辉" = 1
+	}
+}
+
+# Autocracy Pacifist Middle Descriptive
+empire_name_parts_list = {
+	key = "autocracy_pac_mid_desc"
+	parts = {
+		"和平" = 3
+		"星际" = 1
+		"星海" = 1
+		"银河" = 1
+		"光明" = 2
+		"光辉" = 1
+	}
+}
+
+# Autocracy Generic Middle Descriptive
+empire_name_parts_list = {
+	key = "autocracy_gen_mid_desc"
+	parts = {
+		"星际" = 1
+		"星海" = 1
+		"银河" = 2
+		"光明" = 3
+		"光辉" = 1
+	}
+}
+
+### OLIGARCHY MIDDLE DESCRIPTIVE
+
+# Oligarchy Militarist Middle Descriptive
+empire_name_parts_list = {
+	key = "oligarchy_mil_mid_desc"
+	parts = {
+		"星际" = 1
+		"星海" = 1
+		"银河" = 1
+		"光明" = 3
+		"光辉" = 1
+	}
+}
+
+# Oligarchy Spiritualist Middle Descriptive
+empire_name_parts_list = {
+	key = "oligarchy_spi_mid_desc"
+	parts = {
+		"神圣" = 3
+		"至圣" = 3
+		"无忧" = 3
+		"星际" = 1
+		"星海" = 1
+		"银河" = 1
+		"光明" = 2
+		"光辉" = 1
+	}
+}
+
+# Oligarchy Materialist Middle Descriptive
+empire_name_parts_list = {
+	key = "oligarchy_mat_mid_desc"
+	parts = {
+		"星际" = 1
+		"星海" = 1
+		"银河" = 1
+		"光明" = 3
+		"光辉" = 1
+	}
+}
+
+# Oligarchy Pacifist Middle Descriptive
+empire_name_parts_list = {
+	key = "oligarchy_pac_mid_desc"
+	parts = {
+		"和平" = 2
+		"星际" = 1
+		"星海" = 1
+		"银河" = 1
+		"光明" = 3
+		"光辉" = 1
+	}
+}
+
+# Oligarchy Generic Middle Descriptive
+empire_name_parts_list = {
+	key = "oligarchy_gen_mid_desc"
+	parts = {
+		"星际" = 1
+		"星海" = 1
+		"银河" = 2
+		"光明" = 3
+		"光辉" = 1
+	}
+}
+
+### DEMOCRACY MIDDLE DESCRIPTIVE
+
+# Democracy Militarist Middle Descriptive
+empire_name_parts_list = {
+	key = "democracy_mil_mid_desc"
+	parts = {
+		"星际" = 1
+		"星海" = 1
+		"银河" = 1
+		"光明" = 3
+		"光辉" = 1
+		"民主" = 3
+	}
+}
+
+# Democracy Spiritualist Middle Descriptive
+empire_name_parts_list = {
+	key = "democracy_spi_mid_desc"
+	parts = {
+		"神圣" = 3
+		"至圣" = 3
+		"无忧" = 3
+		"星际" = 1
+		"星海" = 1
+		"银河" = 1
+		"光明" = 2
+		"光辉" = 1
+		"民主" = 1
+	}
+}
+
+# Democracy Materialist Middle Descriptive
+empire_name_parts_list = {
+	key = "democracy_mat_mid_desc"
+	parts = {
+		"星际" = 1
+		"星海" = 1
+		"银河" = 1
+		"光明" = 3
+		"光辉" = 1
+		"民主" = 1
+	}
+}
+
+# Democracy Pacifist Middle Descriptive
+empire_name_parts_list = {
+	key = "democracy_pac_mid_desc"
+	parts = {
+		"和平"	 = 2
+		"星际" = 1
+		"星海" = 1
+		"银河" = 1
+		"光明" = 3
+		"光辉" = 1
+		"民主" = 2
+	}
+}
+
+# Democracy Generic Middle Descriptive
+empire_name_parts_list = {
+	key = "democracy_gen_mid_desc"
+	parts = {
+		"星际" = 1
+		"星海" = 1
+		"银河" = 2
+		"光明" = 3
+		"光辉" = 1
+		"民主" = 1
+	}
+}
+
+################
+# NAME FORMATS #
+################
+
+### Autocracy Militarist 
+
+# Autocracy Militarist 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "military_dictatorship"
+				has_government = "martial_empire"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<autocracy_mil>"
+	prefix_format = ""
+	noun = "[This.GetSpeciesName]"
+	# Sol Empire
+}
+
+# Autocracy Militarist 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			OR = {
+				has_government = "military_dictatorship"
+				has_government = "martial_empire"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<autocracy_mil>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
+
+# Autocracy Militarist 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "military_dictatorship"
+				has_government = "martial_empire"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<autocracy_mil_desc>[This.GetSpeciesName]<autocracy_mil>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Great Human Empire
+}
+
+# Autocracy Militarist 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "military_dictatorship"
+				has_government = "martial_empire"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<autocracy_mil_mid_desc><autocracy_mil>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Star Empire
+}
+
+### Autocracy Spiritualist
+
+# Autocracy Spiritualist 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "divine_mandate"
+				has_government = "transcendent_empire"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<autocracy_spi>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Sol Empire
+}
+
+# Autocracy Spiritualist 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			OR = {
+				has_government = "divine_mandate"
+				has_government = "transcendent_empire"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<autocracy_spi>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
+
+# Autocracy Spiritualist 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "divine_mandate"
+				has_government = "transcendent_empire"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<autocracy_spi_desc>[This.GetSpeciesName]<autocracy_spi>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Great Human Empire
+}
+
+# Autocracy Spiritualist 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "divine_mandate"
+				has_government = "transcendent_empire"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<autocracy_spi_mid_desc><autocracy_spi>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Star Empire
+}
+
+### Autocracy Materialist
+
+# Autocracy Materialist 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "despotic_hegemony"
+				has_government = "ai_overlordship"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<autocracy_mat>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Sol Empire
+}
+
+# Autocracy Materialist 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			OR = {
+				has_government = "despotic_hegemony"
+				has_government = "ai_overlordship"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<autocracy_mat>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
+
+# Autocracy Materialist 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "despotic_hegemony"
+				has_government = "ai_overlordship"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<autocracy_mat_desc>[This.GetSpeciesName]<autocracy_mat>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Great Human Empire
+}
+
+# Autocracy Materialist 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "despotic_hegemony"
+				has_government = "ai_overlordship"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<autocracy_mat_mid_desc><autocracy_mat>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Star Empire
+}
+
+### Autocracy Pacifist
+
+# Autocracy Pacifist 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "enlightened_monarchy"
+				has_government = "irenic_monarchy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<autocracy_pac>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Sol Empire
+}
+
+# Autocracy Pacifist 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			OR = {
+				has_government = "enlightened_monarchy"
+				has_government = "irenic_monarchy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<autocracy_pac>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
+
+# Autocracy Pacifist 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "enlightened_monarchy"
+				has_government = "irenic_monarchy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<autocracy_pac_desc>[This.GetSpeciesName]<autocracy_pac>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Great Human Empire
+}
+
+# Autocracy Pacifist 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "enlightened_monarchy"
+				has_government = "irenic_monarchy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<autocracy_pac_mid_desc><autocracy_pac>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Star Empire
+}
+
+### Autocracy Generic
+
+# Autocracy Generic 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "despotic_empire"
+				has_government = "star_empire"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<autocracy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Sol Empire
+}
+
+# Autocracy Generic 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			OR = {
+				has_government = "despotic_empire"
+				has_government = "star_empire"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<autocracy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
+
+# Autocracy Generic 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "despotic_empire"
+				has_government = "star_empire"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<autocracy_gen_desc>[This.GetSpeciesName]<autocracy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Great Human Empire
+}
+
+# Autocracy Generic 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "despotic_empire"
+				has_government = "star_empire"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<autocracy_gen_mid_desc><autocracy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Star Empire
+}
+
+### Oligarchy Militarist 
+
+# Oligarchy Militarist 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "military_junta"
+				has_government = "ordered_stratocracy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<oligarchy_mil>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Sol Empire
+}
+
+# Oligarchy Militarist 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			OR = {
+				has_government = "military_junta"
+				has_government = "ordered_stratocracy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<oligarchy_mil>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
+
+# Oligarchy Militarist 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "military_junta"
+				has_government = "ordered_stratocracy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<oligarchy_mil_desc>[This.GetSpeciesName]<oligarchy_mil>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Great Human Empire
+}
+
+# Oligarchy Militarist 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "military_junta"
+				has_government = "ordered_stratocracy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<oligarchy_mil_mid_desc><oligarchy_mil>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Star Empire
+}
+
+### Oligarchy Spiritualist
+
+# Oligarchy Spiritualist 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "theocratic_oligarchy"
+				has_government = "transcendent_oligarchy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<oligarchy_spi>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Sol Empire
+}
+
+# Oligarchy Spiritualist 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			OR = {
+				has_government = "theocratic_oligarchy"
+				has_government = "transcendent_oligarchy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<oligarchy_spi>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
+
+# Oligarchy Spiritualist 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "theocratic_oligarchy"
+				has_government = "transcendent_oligarchy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<oligarchy_spi_desc>[This.GetSpeciesName]<oligarchy_spi>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Great Human Empire
+}
+
+# Oligarchy Spiritualist 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "theocratic_oligarchy"
+				has_government = "transcendent_oligarchy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<oligarchy_spi_mid_desc><oligarchy_spi>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Star Empire
+}
+
+### Oligarchy Materialist
+
+# Oligarchy Materialist 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "science_directorate"
+				has_government = "illuminated_technocracy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<oligarchy_mat>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Sol Empire
+}
+
+# Oligarchy Materialist 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			OR = {
+				has_government = "science_directorate"
+				has_government = "illuminated_technocracy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<oligarchy_mat>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
+
+# Oligarchy Materialist 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "science_directorate"
+				has_government = "illuminated_technocracy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<oligarchy_mat_desc>[This.GetSpeciesName]<oligarchy_mat>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Great Human Empire
+}
+
+# Oligarchy Materialist 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "science_directorate"
+				has_government = "illuminated_technocracy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<oligarchy_mat_mid_desc><oligarchy_mat>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Star Empire
+}
+
+### Oligarchy Pacifist
+
+# Oligarchy Pacifist 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "peaceful_bureaucracy"
+				has_government = "irenic_protectorate"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<oligarchy_pac>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Sol Empire
+}
+
+# Oligarchy Pacifist 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			OR = {
+				has_government = "peaceful_bureaucracy"
+				has_government = "irenic_protectorate"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<oligarchy_pac>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
+
+# Oligarchy Pacifist 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "peaceful_bureaucracy"
+				has_government = "irenic_protectorate"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<oligarchy_pac_desc>[This.GetSpeciesName]<oligarchy_pac>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Great Human Empire
+}
+
+# Oligarchy Pacifist 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "peaceful_bureaucracy"
+				has_government = "irenic_protectorate"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<oligarchy_pac_mid_desc><oligarchy_pac>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Star Empire
+}
+
+### Oligarchy Generic
+
+# Oligarchy Generic 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "plutocratic_oligarchy"
+				has_government = "mega_corporation"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<oligarchy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Sol Empire
+}
+
+# Oligarchy Generic 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			OR = {
+				has_government = "plutocratic_oligarchy"
+				has_government = "mega_corporation"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<oligarchy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
+
+# Oligarchy Generic 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "plutocratic_oligarchy"
+				has_government = "mega_corporation"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<oligarchy_gen_desc>[This.GetSpeciesName]<oligarchy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Great Human Empire
+}
+
+# Oligarchy Generic 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "plutocratic_oligarchy"
+				has_government = "mega_corporation"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<oligarchy_gen_mid_desc><oligarchy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Star Empire
+}
+
+### Democracy Militarist 
+
+# Democracy Militarist 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "military_republic"
+				has_government = "martial_demarchy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<democracy_mil>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Sol Empire
+}
+
+# Democracy Militarist 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			OR = {
+				has_government = "military_republic"
+				has_government = "martial_demarchy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<democracy_mil>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
+
+# Democracy Militarist 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "military_republic"
+				has_government = "martial_demarchy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<democracy_mil_desc>[This.GetSpeciesName]<democracy_mil>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Great Human Empire
+}
+
+# Democracy Militarist 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "military_republic"
+				has_government = "martial_demarchy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<democracy_gen_mid_desc><democracy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Star Empire
+}
+
+### Democracy Spiritualist
+
+# Democracy Spiritualist 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "theocratic_republic"
+				has_government = "transcendent_republic"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<democracy_spi>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Sol Empire
+}
+
+# Democracy Spiritualist 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			OR = {
+				has_government = "theocratic_republic"
+				has_government = "transcendent_republic"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<democracy_spi>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
+
+# Democracy Spiritualist 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "theocratic_republic"
+				has_government = "transcendent_republic"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<democracy_spi_desc>[This.GetSpeciesName]<democracy_spi>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Great Human Empire
+}
+
+# Democracy Spiritualist 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "theocratic_republic"
+				has_government = "transcendent_republic"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<democracy_spi_mid_desc><democracy_spi>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Star Empire
+}
+
+### Democracy Materialist
+
+# Democracy Materialist 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "direct_democracy"
+				has_government = "subconscious_consensus"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<democracy_mat>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Sol Empire
+}
+
+# Democracy Materialist 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			OR = {
+				has_government = "direct_democracy"
+				has_government = "subconscious_consensus"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<democracy_mat>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
+
+# Democracy Materialist 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "direct_democracy"
+				has_government = "subconscious_consensus"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<democracy_mat_desc>[This.GetSpeciesName]<democracy_mat>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Great Human Empire
+}
+
+# Democracy Materialist 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "direct_democracy"
+				has_government = "subconscious_consensus"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<democracy_mat_mid_desc><democracy_mat>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Star Empire
+}
+
+### Democracy Pacifist
+
+# Democracy Pacifist 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "moral_democracy"
+				has_government = "irenic_democracy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<democracy_pac>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Sol Empire
+}
+
+# Democracy Pacifist 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			OR = {
+				has_government = "moral_democracy"
+				has_government = "irenic_democracy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<democracy_pac>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
+
+# Democracy Pacifist 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "moral_democracy"
+				has_government = "irenic_democracy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<democracy_pac_desc>[This.GetSpeciesName]<democracy_pac>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Great Human Empire
+}
+
+# Democracy Pacifist 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "moral_democracy"
+				has_government = "irenic_democracy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<democracy_pac_mid_desc><democracy_pac>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Star Empire
+}
+
+### Democracy Generic
+
+# Democracy Generic 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "indirect_democracy"
+				has_government = "democratic_utopia"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<democracy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Sol Empire
+}
+
+# Democracy Generic 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			OR = {
+				has_government = "indirect_democracy"
+				has_government = "democratic_utopia"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<democracy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
+
+# Democracy Generic 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "indirect_democracy"
+				has_government = "democratic_utopia"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<democracy_gen_desc>[This.GetSpeciesName]<democracy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Great Human Empire
+}
+
+# Democracy Generic 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "indirect_democracy"
+				has_government = "democratic_utopia"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<democracy_gen_mid_desc><democracy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Star Empire
+}
+
+### Generic Combinations
+
+# Generic Autocracy 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "military_dictatorship"
+				has_government = "martial_empire"
+				has_government = "divine_mandate"
+				has_government = "transcendent_empire"
+				has_government = "despotic_hegemony"
+				has_government = "ai_overlordship"
+				has_government = "enlightened_monarchy"
+				has_government = "irenic_monarchy"
+				has_government = "despotic_empire"
+				has_government = "star_empire"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<generic_aut_desc>[This.GetSpeciesName]<generic_states>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# United Human Colonies
+}
+
+# Generic Autocracy 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "military_dictatorship"
+				has_government = "martial_empire"
+				has_government = "divine_mandate"
+				has_government = "transcendent_empire"
+				has_government = "despotic_hegemony"
+				has_government = "ai_overlordship"
+				has_government = "enlightened_monarchy"
+				has_government = "irenic_monarchy"
+				has_government = "despotic_empire"
+				has_government = "star_empire"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<generic_states>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Federated Colonies
+}
+
+# Generic Oligarchy 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "military_junta"
+				has_government = "ordered_stratocracy"
+				has_government = "theocratic_oligarchy"
+				has_government = "transcendent_oligarchy"
+				has_government = "science_directorate"
+				has_government = "illuminated_technocracy"
+				has_government = "peaceful_bureaucracy"
+				has_government = "irenic_protectorate"
+				has_government = "plutocratic_oligarchy"
+				has_government = "mega_corporation"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<generic_oli_desc>[This.GetSpeciesName]<generic_states>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# United Human Colonies
+}
+
+# Generic Oligarchy 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "military_junta"
+				has_government = "ordered_stratocracy"
+				has_government = "theocratic_oligarchy"
+				has_government = "transcendent_oligarchy"
+				has_government = "science_directorate"
+				has_government = "illuminated_technocracy"
+				has_government = "peaceful_bureaucracy"
+				has_government = "irenic_protectorate"
+				has_government = "plutocratic_oligarchy"
+				has_government = "mega_corporation"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<generic_states>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Federated Colonies
+}
+
+# Generic Democracy 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "military_republic"
+				has_government = "martial_demarchy"
+				has_government = "theocratic_republic"
+				has_government = "transcendent_republic"
+				has_government = "direct_democracy"
+				has_government = "subconscious_consensus"
+				has_government = "moral_democracy"
+				has_government = "irenic_democracy"
+				has_government = "indirect_democracy"
+				has_government = "democratic_utopia"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<generic_dem_desc>[This.GetSpeciesName]<generic_states>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# United Human Colonies
+}
+
+# Generic Democracy 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "military_republic"
+				has_government = "martial_demarchy"
+				has_government = "theocratic_republic"
+				has_government = "transcendent_republic"
+				has_government = "direct_democracy"
+				has_government = "subconscious_consensus"
+				has_government = "moral_democracy"
+				has_government = "irenic_democracy"
+				has_government = "indirect_democracy"
+				has_government = "democratic_utopia"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName]<generic_states>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Federated Colonies
+}
+
+############################## Primitives ##############################
+
+empire_name_parts_list = {
+	key = "primitive_names"
+	parts = {
+		"文明" = 1
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			OR = {
+				has_government = "primitive_feudalism"
+				has_government = "fragmented_nations"
+			}
+		}
+	}
+	format = "[This.GetSpeciesName]<primitive_names>"
+	noun = "[This.GetSpeciesName]"
+	# Human Civilization
+}
+
+############################## Pirates ##############################
+
+### OLD NAMES
+#empire_name_parts_list = {
+#	key = "pirate_nouns"
+#	parts = {
+#		"Makrabi" = 10
+#		"Eskanabian" = 10
+#		"Veltari" = 10
+#		"Surellian" = 10
+#		"Hyggian" = 10
+#		"Boltaran" = 10
+#		"Geltan" = 10
+#		"Jeldari" = 10
+#		"Minaatan" = 10
+#		"Tel-Karanian" = 10
+#		"Sil Vakrish" = 10
+#		"Beldrish" = 10
+#		"Caaganian" = 10
+#		"Taldurakkan" = 10
+#		"Vish'Naharian" = 10
+#		"Bhakkan" = 10
+#		"B'Tiran" = 10
+#		"Hevessian" = 10
+#		"Tir'Mulian" = 10
+#		"Bodrassan" = 10
+#		"Debari" = 10
+#		"Veldrish" = 10
+#		"Sogaran" = 10
+#		"Ymari" = 10
+#		"T'Kani" = 10
+#		"Uskandi" = 10
+#		"Majaaran" = 10
+#		"Iltarish" = 10
+#		"Zulmarakhan" = 10
+#		"Lyrannic" = 10
+#		"Terbanic" = 10
+#		"Gorranic" = 10
+#		"F'Hanntiri" = 10
+#		"Jydhaalan" = 10
+#		"Modrickan" = 10
+#		"Suuldic" = 10
+#		"Miiran" = 10
+#		"Rutharic" = 10
+#		"Rythian" = 10
+#		"Penndirian" = 10
+#		"Oskian" = 10
+#		"Qarabi" = 10
+#		"Edrani" = 10
+#		"Qunntharan" = 10
+#		"Celgaari" = 10
+#		"Srikkan" = 10
+#		"Xeldorian" = 10
+#		"Xhalgaaran" = 10
+#		"Pogro's" = 10
+#		"Bendrak's" = 10
+#		"Grocka's" = 10
+#		"Nijarga's" = 10
+#		"Hadloc's" = 10
+#		"Cleska's" = 10
+#		"Joppla's" = 10
+#		"Zelgor's" = 10
+#		"Lord Xuhmalz's" = 10
+#		"Vigrax's" = 10
+#		"T'Lazim's" = 10
+#		"Pralax's" = 10
+#		"Dumgar's" = 10
+#		"Isskar's" = 10
+#		"Galanna's" = 10
+#	}
+#}
+#
+#empire_name_parts_list = {
+#	key = "pirate_names"
+#	parts = {
+#		"Pirates" = 40
+#		"Raiders" = 40
+#		"Buccaneers" = 20
+#		"Freebooters" = 20
+#		"Marauders" = 30
+#		"Reavers" = 30
+#		"Fiends" = 10
+#		"Privateers" = 20
+#		"Corsairs" = 20
+#		"Warband" = 10
+#		"Nomads" = 10
+#		"Ravagers" = 10
+#		"Outcasts" = 20
+#		"Terrors" = 10
+#		"Bandits" = 20
+#		"Barbarians" = 10
+#		"Outlaws" = 20
+#		"Brigands" = 20
+#		"Zealots" = 10
+#		"Fanatics" = 10
+#		"Lowlifes" = 10
+#		"Savages" = 10
+#		"Profiteers" = 10
+#		"Wildlings" = 10
+#		"Looters" = 10
+#		"Scavengers" = 30
+#		"Adventurers" = 10
+#		"Slavers" = 30
+#		"Hunters" = 10
+#		"Mutineers" = 10
+#		"Warriors" = 10
+#		"Smugglers" = 20
+#		"Cutthroats" = 10
+#		"Bandit Kingdom" = 10
+#		"Blood Clans" = 10
+#		"Skull Clans" = 10
+#		"Pirate Clans" = 10
+#		"Star Clans" = 10
+#		"Space Pirates" = 10
+#		"Free Navy" = 10
+#		"Treasure Hunters" = 10
+#		"Fortune Seekers" = 10
+#		"Nomadic Tribes" = 10
+#		"Death Brigades" = 10
+#		"Death Merchants" = 10
+#		"War Host" = 10
+#		"Skullcrushers" = 10
+#	}
+#}
+#
+#empire_name_format = {
+#	random_weight = {
+#		factor = 0
+#		modifier = {
+#			add = 100
+#			is_pirate = yes
+#		}
+#	}
+#	format = "<pirate_nouns><pirate_names>"
+#	# Terbanic Raiders
+#}
+
+empire_name_parts_list = {
+	key = "pirate_names"
+	parts = {
+		"人民海军" = 10
+		"黑暗公会" = 10
+		"死神商会" = 10
+		"碎头联盟" = 10
+		"命运教会" = 10
+		"头骨家族" = 10
+		"赤色海盗" = 10
+		"血色旅团" = 10
+		"诅咒舰队" = 10
+		"星海狼骑" = 10
+		"狂暴海盗" = 10
+		"恐怖魔王" = 10
+		"血腥凶手" = 10
+		"鲜血家族" = 10
+		"暴风领主" = 10
+		"诅咒之人" = 10
+		"流浪舰队" = 10
+		"梅利掠者" = 10
+		"虚空游骑" = 10
+		"深红战队" = 10
+		"厄运战队" = 10
+		"杰克舰队" = 10
+		"黑暗武士" = 10
+		"灰色伙伴" = 10
+		"影子舰队" = 10
+		"野性伙伴" = 10
+		"黑夜航队" = 10
+		"迷失舰队" = 10
+		"黄铜战队" = 10
+		"幽灵舰队" = 10
+		"血宿教团" = 10
+		"星海掠者" = 10
+		"堕落军团" = 10
+		"尖声掠者" = 10
+		"残暴商会" = 10
+		"黑色舰队" = 10
+		"虚空巨蛇" = 10
+		"银牙舰队" = 10
+		"钢爪舰队" = 10
+		"愤怒之子" = 10
+		"铁爪舰队" = 10
+		"幻影舰队" = 10
+		"恐怖太阳" = 10
+		"白色掠者" = 10
+		"复仇军团" = 10
+		"赤色战队" = 10
+		"不朽朋党" = 10
+		"黑夜之子" = 10
+		"死神朋党" = 10
+		"星海收割者" = 10
+		"虚空联盟" = 10
+		"尖声恶魔" = 10
+		"堕落之人" = 10
+		"虚空猎人" = 10
+		"死神联盟" = 10
+		"流浪联盟" = 10
+		"星海管理者" = 10
+		"星海施刑者" = 10
+		"火焰掠者" = 10
+		"寒冷之人" = 10
+		"虚空兄弟会" = 10
+		"鲜血伙伴" = 10
+		"星海猎人" = 10
+		"嗜血海盗" = 10
+		"微笑门徒" = 10
+		"野性掠者" = 10
+		"外来骑士" = 10
+		"上校朋党" = 10
+		"清野舰队" = 10
+		"星海役兵" = 10
+		"堕落之星" = 10
+		"狂暴武士" = 10
+		"自由海军" = 10
+		"灼热盗贼" = 10
+		"冷酷灵魂" = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pirate = yes
+		}
+	}
+	format = "<pirate_names>"
+	noun = "<pirate_names>"
+}
+
+############################## Fallen Empires ##############################
+
+# Xenophobe
+empire_name_parts_list = {
+	key = "fallen_empire_names_1"
+	parts = {
+		"专制帝国" = 10
+		"骑士团国" = 10
+		"防卫联盟" = 10
+	}
+}
+
+# Materialist
+empire_name_parts_list = {
+	key = "fallen_empire_names_2"
+	parts = {
+		"主席团国" = 10
+		"议会辖领" = 10
+		"自治星国" = 10
+	}
+}
+
+
+# Xenophile
+empire_name_parts_list = {
+	key = "fallen_empire_names_3"
+	parts = {		
+		"行星联邦" = 10
+		"行星邦联" = 10
+		"行星同盟" = 10
+	}
+}
+
+# Spiritualist
+empire_name_parts_list = {
+	key = "fallen_empire_names_4"
+	parts = {	
+		"总主教国" = 10
+		"教长属邦" = 10
+		"教团属邦" = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_country_type = fallen_empire
+			has_ethic = ethic_fanatic_xenophobe
+		}
+	}
+	format = "[This.GetSpeciesName]<fallen_empire_names_1>"
+	noun = "[This.GetSpeciesName]"
+	# Human Core Worlds
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_country_type = fallen_empire
+			has_ethic = ethic_fanatic_materialist		
+		}
+	}
+	format = "[This.GetSpeciesName]<fallen_empire_names_2>"
+	noun = "[This.GetSpeciesName]"
+	# Human Remnant
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_country_type = fallen_empire
+			has_ethic = ethic_fanatic_xenophile
+		}
+	}
+	format = "[This.GetSpeciesName]<fallen_empire_names_3>"
+	noun = "[This.GetSpeciesName]"
+	# Human Ancients
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_country_type = fallen_empire
+			has_ethic = ethic_fanatic_spiritualist
+		}
+	}
+	format = "[This.GetSpeciesName]<fallen_empire_names_4>"
+	noun = "[This.GetSpeciesName]"
+	# Human Shard
+}
+
+############################## Awakened Fallen Empires ##############################
+
+
+# Xenophobe
+empire_name_parts_list = {
+	key = "awakened_fallen_empire_names_1"
+	parts = {
+		"专制帝国" = 10
+		"骑士团国" = 10
+		"防卫联盟" = 10
+	}
+}
+
+# Materialist
+empire_name_parts_list = {
+	key = "awakened_fallen_empire_names_2"
+	parts = {
+		"主席团国" = 10
+		"议会辖领" = 10
+		"自治星国" = 10
+	}
+}
+
+
+# Xenophile
+empire_name_parts_list = {
+	key = "awakened_fallen_empire_names_3"
+	parts = {		
+		"行星联邦" = 10
+		"行星邦联" = 10
+		"行星同盟" = 10
+	}
+}
+
+# Spiritualist
+empire_name_parts_list = {
+	key = "awakened_fallen_empire_names_4"
+	parts = {	
+		"总主教国" = 10
+		"教长属邦" = 10
+		"教团属邦" = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_country_type = awakened_fallen_empire
+			has_ethic = ethic_fanatic_xenophobe
+		}
+	}
+	format = "[This.GetSpeciesName]<awakened_fallen_empire_names_1>"
+	noun = "[This.GetSpeciesName]"
+	# Human Core Worlds
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_country_type = awakened_fallen_empire
+			has_ethic = ethic_fanatic_materialist		
+		}
+	}
+	format = "[This.GetSpeciesName]<awakened_fallen_empire_names_2>"
+	noun = "[This.GetSpeciesName]"
+	# Human Remnant
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_country_type = awakened_fallen_empire
+			has_ethic = ethic_fanatic_xenophile
+		}
+	}
+	format = "[This.GetSpeciesName]<awakened_fallen_empire_names_3>"
+	noun = "[This.GetSpeciesName]"
+	# Human Ancients
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_country_type = awakened_fallen_empire
+			has_ethic = ethic_fanatic_spiritualist
+		}
+	}
+	format = "[This.GetSpeciesName]<awakened_fallen_empire_names_4>"
+	noun = "[This.GetSpeciesName]"
+	# Human Shard
+}
+
+
+############################## Radical Cult ##############################
+
+empire_name_parts_list = {
+	key = "radical_cult_names"
+	parts = {
+		"最终审判教会" = 10
+		"正确道路教会" = 10
+		"光照教会" = 10
+		"友谊教团" = 10
+		"忏悔教团" = 10
+		"统合圣殿教团" = 10
+		"真主王座教团" = 10
+		"赤色先知教团" = 10
+		"灰色门徒教团" = 10
+		"真主之拳教团" = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_country_flag = radical_cult
+		}
+	}
+	format = "<radical_cult_names>"
+	noun = "<radical_cult_names>"
+	# Final Crucible
+}
+
+############################## AI ##############################
+
+empire_name_parts_list = {
+	key = "ai_names"
+	parts = {
+		"机械意志联合体" = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_government = "machine_consciousness"
+		}
+	}
+	format = "<ai_names>"
+	noun = "<ai_names>"
+	# Skynet
+}
+
+### ENCLAVES
+
+empire_name_parts_list = {
+	key = "trader_names"
+	parts = {
+		"商业自治领" = 10
+	}
+}
+
+empire_name_parts_list = {
+	key = "curator_names"
+	parts = {
+		"策展人自治领" = 10
+	}
+}
+
+empire_name_parts_list = {
+	key = "artist_names"
+	parts = {
+		"艺术家自治领" = 10
+	}
+}
+
+# Traders
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_country_type = enclave
+			has_government = trader_government
+		}
+	}
+	format = "<trader_names>"
+	noun = "<trader_names>"
+}
+
+# Curators
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_country_type = enclave
+			has_government = curator_government
+		}
+	}
+	format = "<curator_names>"
+	noun = "<curator_names>"
+}
+
+# Artists
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_country_type = enclave
+			has_government = artist_government
+		}
+	}
+	format = "<artist_names>"
+	noun = "<artist_names>"
+}

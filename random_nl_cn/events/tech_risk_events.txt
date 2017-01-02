@@ -1,0 +1,328 @@
+########################
+#
+# Tech Risk Events
+#
+# Written by Henrik Eklund
+#
+########################
+
+namespace = techrisk
+
+@tier1influencecontact = 7
+@tier1influencecontactxenophile = 8
+@tier1influencecontactmin = 20
+@tier1influencecontactmax = 80
+
+@tier2influencecontact = 10
+@tier2influencecontactxenophile = 12
+@tier2influencecontactmin = 40
+@tier2influencecontactmax = 100
+
+@tier1materialreward = 6
+@tier1materialmin = 100
+@tier1materialmax = 500
+@tier2materialreward = 12
+@tier2materialmin = 150
+@tier2materialmax = 1000
+@tier3materialreward = 18
+@tier3materialmin = 250
+@tier3materialmax = 1500
+@tier4materialreward = 24
+@tier4materialmin = 350
+@tier4materialmax = 2000
+@tier5materialreward = 48
+@tier5materialmin = 700
+@tier5materialmax = 4000
+
+@tier1influencereward = 6
+@tier1influencemin = 40
+@tier1influencemax = 100
+@tier2influencereward = 12
+@tier2influencemin = 80
+@tier2influencemax = 175
+@tier3influencereward = 18
+@tier3influencemin = 125
+@tier3influencemax = 250
+@tier4influencereward = 24
+@tier4influencemin = 150
+@tier4influencemax = 300
+@tier5influencereward = 36
+@tier5influencemin = 250
+@tier5influencemax = 500
+@tier6influencereward = 48
+@tier6influencemin = 300
+@tier6influencemax = 600
+
+@tier1researchreward = 6
+@tier1researchmin = 60
+@tier1researchmax = 150
+@tier2researchreward = 12
+@tier2researchmin = 90
+@tier2researchmax = 250
+@tier3researchreward = 18
+@tier3researchmin = 120
+@tier3researchmax = 350
+@tier4researchreward = 24
+@tier4researchmin = 150
+@tier4researchmax = 500
+@tier5researchreward = 48
+@tier5researchmin = 300
+@tier5researchmax = 1000
+
+### AI Rebellion!
+
+# Rebellion breaks out (HIDDEN)
+#country_event = {
+#	id = techrisk.1
+#	hide_window = yes
+#	
+#	is_triggered_only = yes
+#	
+#	immediate = {
+#		create_species = {
+#			name = "Evil Robots"
+#			class = random
+#			portrait = random
+#			traits = random
+#		}
+#		random_owned_planet = {
+#			limit = {
+#				is_capital = no
+#				num_pops > 0
+#			}
+#			planet_event = { id = techrisk.2 }
+#			create_rebels = {
+#				name = "Skynet"
+#				government = random
+#				species = last_created
+#				ethos = {
+#					ethic = "ethic_xenophile"
+#					ethic = "ethic_fanatic_individualist"			
+#				}
+#				color = random
+#				icon = random
+#			}
+#			create_pop = {
+#				species = last_created
+#				ethos = {
+#					ethic = "ethic_xenophile"
+#					ethic = "ethic_fanatic_individualist"			
+#				}
+#			}
+#			create_pop = {
+#				species = last_created
+#				ethos = {
+#					ethic = "ethic_xenophile"
+#					ethic = "ethic_fanatic_individualist"			
+#				}
+#			}
+#			create_pop = {
+#				species = last_created
+#				ethos = {
+#					ethic = "ethic_xenophile"
+#					ethic = "ethic_fanatic_individualist"			
+#				}
+#			}
+#			create_army = {
+#				name = "1st Kitchen Appliance Battalion"
+#				owner = last_created
+#				species = last_created
+#				type = "assault_army"
+#			}
+#			create_army = {
+#				name = "2nd Kitchen Appliance Battalion"
+#				owner = last_created
+#				species = last_created
+#				type = "assault_army"
+#			}
+#			create_army = {
+#				name = "3rd Kitchen Appliance Battalion"
+#				owner = last_created
+#				species = last_created
+#				type = "assault_army"
+#			}
+#			create_army = {
+#				name = "1st Washing Machine Regiment"
+#				owner = last_created
+#				species = last_created
+#				type = "defense_army"
+#			}
+#			create_army = {
+#				name = "2nd Washing Machine Regiment"
+#				owner = last_created
+#				species = last_created
+#				type = "defense_army"
+#			}
+#			create_army = {
+#				name = "3rd Washing Machine Regiment"
+#				owner = last_created
+#				species = last_created
+#				type = "defense_army"
+#			}
+#			create_army = {
+#				name = "1st Cleaning Drone Brigade"
+#				owner = last_created
+#				species = last_created
+#				type = "defense_army"
+#			}
+#			create_army = {
+#				name = "2nd Cleaning Drone Brigade"
+#				owner = last_created
+#				species = last_created
+#				type = "defense_army"
+#			}
+#			create_army = {
+#				name = "3rd Cleaning Drone Brigade"
+#				owner = last_created
+#				species = last_created
+#				type = "defense_army"
+#			}
+#			set_planet_flag = ai_rebellion
+#			last_created_country = {
+#				set_country_flag = ai_rebels
+#			}
+#		}
+#	}
+#}
+#
+## New AI Homeworld (HIDDEN)
+#planet_event = {
+#	id = techrisk.2
+#	hide_window = yes
+#	
+#	is_triggered_only = yes
+#	
+#	immediate = {
+#		FROM = {
+#			country_event = { id = techrisk.3 }
+#		}
+#	}
+#}
+#
+## Rebellion Announcement
+#country_event = {
+#	id = techrisk.3
+#	title = "techrisk.3.name"
+#	desc = "techrisk.3.desc"
+#	picture = GFX_evt_metropolis
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "techrisk.3.a"
+#	}
+#}
+#
+## AI Rebels Capture Planet (HIDDEN)
+country_event = {
+	id = techrisk.4
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		FROMFROM = { has_planet_flag = ai_rebellion }
+		has_country_flag = ai_rebels
+	}
+	
+	immediate = {
+		FROMFROM = { remove_planet_flag = ai_rebellion}
+		remove_country_flag = ai_rebels
+		every_owned_pop = {
+			limit = {
+				NOT = { is_same_species = ROOT }
+			}
+			enslave_pop = yes
+		}
+		FROM = { country_event = { id = techrisk.5 } }
+	}
+}
+
+# AI Diplomatic Message
+country_event = {
+	id = techrisk.5
+	title = TRANSMISSION
+	desc = "techrisk.5.desc"
+	
+	diplomatic = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			FROM = { country_event = { id = techrisk.6 days = 30 random = 10 } }
+		}
+	}
+	
+	option = {
+		name = techrisk.5.a
+		response_text = techrisk.5.a.response
+	}
+	option = {
+		name = techrisk.5.b
+		response_text = techrisk.5.b.response
+	}
+}
+
+# AI Builds Fleet (HIDDEN)
+country_event = {
+	id = techrisk.6
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		add_monthly_resource_mult = {
+			resource = energy
+			value = @tier4materialreward
+			min = @tier4materialmin
+			max = @tier4materialmax
+		}
+		capital_scope = {
+			create_fleet = { 
+				name = "机械舰队"
+				effect = {
+					set_owner = ROOT
+					create_ship = {
+						name = "嘈杀者"
+						design = "Ravager"
+					}
+					create_ship = {
+						name = "暴怒者"
+						design = "Ravager"
+					}
+					create_ship = {
+						name = "多余者"
+						design = "Ravager"
+					}
+					create_ship = {
+						name = "肉包处理器"
+						design = "Ravager"
+					}
+					create_ship = {
+						name = "001011010001010"
+						design = "Ravager"
+					}
+					set_location = PREV
+				}
+			}
+		}
+		FROM = {
+			country_event = { id = techrisk.7 }
+		}
+	}
+}
+
+# AI Fleet Announcement
+country_event = {
+	id = techrisk.7
+	title = "techrisk.7.name"
+	desc = "techrisk.7.desc"
+	picture = GFX_evt_ship_in_orbit
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "techrisk.7.a"
+	}
+}
