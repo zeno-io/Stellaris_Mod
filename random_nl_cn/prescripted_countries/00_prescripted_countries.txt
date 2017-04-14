@@ -1,6 +1,7 @@
 humans1 = {
 	name = "humans1"
 	spawn_enabled = yes # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	name_list = "HUM3"
 	ship_prefix = "UNS"
@@ -14,9 +15,12 @@ humans1 = {
 	portrait = "human"
 	adjective = "Human"
 	
-	government = "indirect_democracy"
+	authority = "auth_democratic"
+	civics = { "civic_beacon_of_liberty" "civic_idealistic_foundation" }
+	government = gov_representative_democracy
+	
 	ethic = "ethic_xenophile"
-	ethic = "ethic_fanatic_individualist"
+	ethic = "ethic_fanatic_egalitarian"
 
 	flags = { human_1 custom_start_screen }
 	
@@ -47,12 +51,6 @@ humans1 = {
 			"null"
 		}
 	}
-	#leader = {
-	#	name = "Dolores Muwanga"
-	#	class = ruler
-	#	portrait = "human_female_05"
-	#	experience = 1200.0
-	#}
 	
 	ruler = {
 		name = "多洛雷斯 穆万加"
@@ -66,6 +64,7 @@ humans1 = {
 humans2 = {
 	name = "humans2"
 	spawn_enabled = yes # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	name_list = "HUM4"
 	ship_prefix = "CNS"
@@ -79,7 +78,10 @@ humans2 = {
 	portrait = "human"
 	adjective = "Human"
 	
-	government = "military_dictatorship"
+	authority = "auth_dictatorial"
+	civics = { "civic_nationalistic_zeal" "civic_distinguished_admiralty" }
+	government = gov_constitutional_dictatorship
+
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_fanatic_militarist"
 
@@ -113,12 +115,6 @@ humans2 = {
 		}
 	}
 	
-	#leader = {
-	#	name = "Sidney Beauclair"
-	#	class = ruler
-	#	portrait = "human_male_04"
-	#	experience = 1200.0
-	#}	
 	ruler = {
 		name = "西德尼 博克莱"
 		portrait = "human_female_04"
@@ -143,12 +139,16 @@ tzynn = {
 	species_class = "REP"
 	trait = "trait_strong"
 	trait = "trait_talented"
+	trait = "trait_rapid_breeders"
 	trait = "trait_nonadaptive"
 	portrait = "rep9"
 	adjective = "Tzynn"
 	
-	government = "military_dictatorship"
-	ethic = "ethic_collectivist"
+	authority = "auth_imperial"
+	civics = { "civic_police_state" "civic_slaver_guilds" }
+	government = gov_despotic_empire
+
+	ethic = "ethic_authoritarian"
 	ethic = "ethic_fanatic_militarist"	
 	
 	weapon = "tech_mass_drivers_1"
@@ -178,16 +178,11 @@ tzynn = {
 		}
 	}
 	
-	#leader = {
-	#	class = ruler
-	#	experience = 1200.0
-	#}
 	ruler = {
 		name = "萨齐加"
 		gender = male
 		portrait = "rep9"
 		texture = 1
-		#hair = 0
 		clothes = 4
 	}	
 }
@@ -206,17 +201,20 @@ yondar = {
 	ship_prefix = "YRS"
 	
 	species_class = "AVI"
+	trait = "trait_conformists"
 	trait = "trait_talented"
 	trait = "trait_solitary"
-	trait = "trait_natural_physicists"
 	portrait = "avi10"
 	
 	planet_name = "勇达林"
 	planet_class = "pc_alpine"
 	system_name = 比-勇达
 	
-	government = "divine_mandate"
-	ethic = "ethic_pacifist"
+	authority = "auth_imperial"
+	civics = { "civic_imperial_cult" "civic_aristocratic_elite" }
+	government = gov_divine_empire
+
+	ethic = "ethic_authoritarian"
 	ethic = "ethic_fanatic_spiritualist"	
 	
 	weapon = "tech_lasers_1"
@@ -247,7 +245,6 @@ yondar = {
 		gender = male
 		portrait = "avi10"
 		texture = 1
-		#hair = 0
 		clothes = 3
 	}
 }
@@ -276,10 +273,13 @@ ixidar = {
 	planet_class = "pc_arctic"
 	system_name = 安瑟拉克
 	
-	government = "despotic_hegemony"
+	authority = "auth_dictatorial"
+	civics = { "civic_efficient_bureaucracy" "civic_functional_architecture" }
+	government = gov_constitutional_dictatorship
+
 	ethic = "ethic_materialist"
-	ethic = "ethic_fanatic_collectivist"
-	
+	ethic = "ethic_fanatic_authoritarian"
+
 	weapon = "tech_mass_drivers_1"
 	ftl = hyperdrive
 	
@@ -304,11 +304,10 @@ ixidar = {
 	}
 	
 	ruler = {
-		name = "西德'伊克'夏'伊顿"
+		name = "Xid'Ixa'Xir'Idon"
 		gender = male
 		portrait = "art12"
 		texture = -1
-		#hair = 0
 		clothes = 2
 	}
 }
@@ -336,8 +335,11 @@ chinorr = {
 	planet_class = "pc_arid"
 	system_name = 奇科纳菲
 	
-	government = "science_directorate"
-	ethic = "ethic_individualist"
+	authority = "auth_oligarchic"
+	civics = { "civic_technocracy" "civic_mining_guilds" }
+	government = gov_plutocratic_oligarchy
+
+	ethic = "ethic_egalitarian"
 	ethic = "ethic_fanatic_materialist"	
 	
 	weapon = "tech_lasers_1"
@@ -395,9 +397,12 @@ jehetma = {
 	planet_name = "杰赫主星"
 	planet_class = "pc_tundra"
 	system_name = 杰赫
-	
-	government = "peaceful_bureaucracy"
-	ethic = "ethic_collectivist"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_environmentalist" "civic_aristocratic_elite" }
+	government = gov_plutocratic_oligarchy
+
+	ethic = "ethic_authoritarian"
 	ethic = "ethic_fanatic_pacifist"
 	
 	weapon = "tech_mass_drivers_1"
@@ -424,7 +429,7 @@ jehetma = {
 	}
 	
 	ruler = {
-		name = "哈尔戈玛"
+		name = "Haragma"
 		gender = female
 		portrait = "fun13"
 		texture = -1
@@ -457,7 +462,10 @@ scyldari = {
 	planet_class = "pc_ocean"
 	system_name = 辛顿
 	
-	government = "direct_democracy"
+	authority = "auth_democratic"
+	civics = { "civic_environmentalist" "civic_free_haven" }
+	government = gov_representative_democracy
+
 	ethic = "ethic_materialist"
 	ethic = "ethic_pacifist"
 	ethic = "ethic_xenophile"
@@ -486,7 +494,7 @@ scyldari = {
 	}
 	
 	ruler = {
-		name = "达克姆"
+		name = "Dackam"
 		gender = female
 		portrait = "mam6"
 		texture = 3
@@ -518,8 +526,11 @@ kel_azaan = {
 	system_name = "克尔-亚扎克"
 	planet_class = "pc_savannah"
 	
-	government = "military_republic"
-	ethic = "ethic_individualist"
+	authority = "auth_democratic"
+	civics = { "civic_warrior_culture" "civic_citizen_service" }
+	government = gov_representative_democracy
+
+	ethic = "ethic_egalitarian"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"	
 	
@@ -547,7 +558,7 @@ kel_azaan = {
 	}
 	
 	ruler = {
-		name = "科勒克"
+		name = "Krexax"
 		gender = male
 		portrait = "art8"
 		texture = 1
@@ -571,7 +582,11 @@ blorg={
 	portrait="fun12"
 	name="布罗格联邦"
 	adjective="Blorg"
-	government="plutocratic_oligarchy"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_free_haven" "civic_distinguished_admiralty" }
+	government = gov_plutocratic_oligarchy
+
 	ftl=warp
 	weapon="tech_lasers_1"
 	planet_name="布罗格"
@@ -607,5 +622,4 @@ blorg={
 	trait="trait_repugnant"
 	trait="trait_solitary"
 	trait="trait_venerable"
-	trait="trait_slow_breeders"
 }

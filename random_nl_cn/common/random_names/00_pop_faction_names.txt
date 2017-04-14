@@ -1,261 +1,508 @@
-
+## Supremacists
 pop_faction_name_parts_list = {
-	key = "loyalist_names"
+	key = "supremacist_names_1"
 	parts = {
-		"æ•ˆå¿ æ´¾" = 1
+		"ÖÁÉÏ" = 1
+		"Í³ºÏ" = 1
+		"ÓÅÏÈ" = 1
+		"Ö§Åä" = 1
+		"Î´À´" = 1
+		"ÓÅÊÆ" = 1
+		"ÓÅÔ½" = 1
+		"´æĞø" = 1
+		"´¿Õı" = 1
 	}
 }
 
 pop_faction_name_parts_list = {
-	key = "docile_slaves_names"
+	key = "supremacist_names_2"
 	parts = {
-		"å¥´éš¶æ¸©å’Œæ´¾" = 1
+		"ÏÈ·æ" = 1
+		"Ç°Ïß" = 1
+		"ÔË¶¯" = 1
+		"µ³ÅÉ" = 1
+		"¼¯ÍÅ" = 1
 	}
 }
 
-pop_faction_name_parts_list = {
-	key = "malcontent_slaves_names"
-	parts = {
-		"å¥´éš¶åæŠ—è€…" = 1
-	}
-}
-
-pop_faction_name_parts_list = {
-	key = "emancipation_names"
-	parts = {
-		"è§£æ”¾è¿åŠ¨" = 1
-	}
-}
-
-pop_faction_name_parts_list = {
-	key = "peace_names"
-	parts = {
-		"å’Œå¹³è¿åŠ¨" = 1
-		"åæˆ˜åŒç›Ÿ" = 1
-	}
-}
-
-pop_faction_name_parts_list = {
-	key = "purged_names"
-	parts = {
-		"å‡€åŒ–æŠ—è®®è€…" = 1
-	}
-}
-
-pop_faction_name_parts_list = {
-	key = "planet_separatist_names_1"
-	parts = {
-		"åˆ†ç¦»" = 1
-		"åˆ†ç¦»ä¸»ä¹‰" = 1
-		"ç‹¬ç«‹" = 1
-		"è§£æ”¾" = 1
-		"æ°‘æ—ä¸»ä¹‰" = 1
-		"ä¸»æƒ" = 1
-		"è‡ªä¸»" = 1
-		"å¤§ä¼—" = 1
-		"è‡ªæ²»" = 1
-		"ç¬¬ä¸€" = 1
-		"è‡ªç”±" = 1
-	}
-}
-
-pop_faction_name_parts_list = {
-	key = "planet_separatist_names_2"
-	parts = {
-		"è¿åŠ¨" = 1
-		"é˜µçº¿" = 1
-		"åŒç›Ÿ" = 1
-		"åä¼š" = 1
-		"è”åˆ" = 1
-		"å§”å‘˜ä¼š" = 1
-		"è”åˆä¼š" = 1
-		"å†›" = 1
-		"æŠµæŠ—è¿åŠ¨" = 1
-		"å…š" = 1
-		"åœ°ä¸‹ç»„ç»‡" = 1
-		"å‰é”‹" = 1
-		"åæŠ—è€…" = 1
-		"é›†å›¢" = 1
-		"å›ä¹±è€…" = 1
-		"è¿‘å«å†›" = 1
-		"æ—…" = 1
-		"å¿—æ„¿è€…æ­¦è£…" = 1
-		"å›½æ°‘å¤§ä¼š" = 1
-		"æ°‘å…µç»„ç»‡" = 1
-		"æ–—å£«" = 1
-		"æ¸¸å‡»é˜Ÿ" = 1
-		"æ´¾" = 1
-		"çªå‡»é˜Ÿ" = 1
-		"ç»„ç»‡" = 1
-	}
-}
-
-pop_faction_name_parts_list = {
-	key = "nationalist_names"
-	parts = {
-		"ä¸»ä½“æ°‘æ—æ´¾" = 1
-		"é½è¯ºæ–¯è”åˆ" = 1
-		"ç¥–å›½æ´¾" = 1
-	}
-}
-
-pop_faction_name_parts_list = {
-	key = "democratic_election_faction_names"
-	parts = {
-		"æ”¿åºœæ‹¥æŠ¤é›†å›¢" = 1
-		"æ”¿åºœæ¸¸è¯´è¿åŠ¨" = 1
-		"æ”¿åºœå†…éƒ¨æ´¾" = 1
-		"æ”¿åºœå¤–å›´æ´¾" = 1
-		"æ”¿åºœæ¸©å’Œæ´¾" = 1
-	}
-}
-
-# Loyalists
 pop_faction_name_format = {
 	random_weight = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_pop_faction_type = "loyalist"
+			is_pop_faction_type = "supremacist"
 		}
 	}
-	format = "<loyalist_names>"
+	format = "[This.Owner.GetSpeciesName] <supremacist_names_1> <supremacist_names_2>"
 }
 
-# Slaves
-#pop_faction_name_format = {
-#	random_weight = {
-#		factor = 0
-#		modifier = {
-#			add = 100
-#			is_pop_faction_type = "slave"
-#		}
-#	}
-#	format = "<slave_names>"
-#}
+## Imperialists
+pop_faction_name_parts_list = {
+	key = "imperialist_names"
+	parts = {
+		"¾ü¹ÙĞ­»á" = 1
+		"Ê¤ÀûÀÏ±øÔË¶¯" = 1
+		"¾ü»ğ¹¤Òµ¸´ºÏÌå" = 1
+		"Í¸¹ıÕ÷·şÕ¹ÏÖÊµÁ¦ÁªÃË" = 1
+		"Ğé¿ÕÆïÊ¿ÍÅ" = 1
+		"°®¹úÕßÏÈ·æ" = 1
+		"È¼ÉÕĞÇµÄÖÈĞò" = 1
+		"ºìÉ«Õ½Ê¿ÊØÎÀ" = 1
+		"µÚÒ»Õ½¶·¾üÍÅ"= 1
+		"ºìÉ«¾üÍÅ"= 1
+		"Ä¥µ¶³«Òé"= 1
+		"×÷Õ½ÄÅº°"= 1
+		"Ê¤ÀûÆìÖÄ"= 1
+		"Õ½ÓÑĞÖµÜ»á"= 1
+		"ÒøÉ«ÎÀ¶Ó"= 1
+		"ÈÙÒ«³«Òé"= 1
+		"Ê¤ÀûÖ®Â·Î¯Ô±»á"= 1
+		"ÏÈ·æÖ®Ñ¡"= 1
+		"Ê¤Àûµ³ÅÉ"= 1
+		"¾£¼¬¶·Ê¿"= 1
+		"¾üÊÂ°ÔÈ¨ÁªÃË"= 1
+		"ÈıÔÂÓÂÆø"= 1
+	}
+}
 
-# Docile Slaves
 pop_faction_name_format = {
 	random_weight = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_pop_faction_type = "docile_slaves"
+			is_pop_faction_type = "imperialist"
 		}
 	}
-	format = "<docile_slaves_names>"
+	format = "<imperialist_names>"
 }
 
-# Malcontent Slaves
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "malcontent_slaves"
-		}
+## Isolationists
+pop_faction_name_parts_list = {
+	key = "isolationist_names_1"
+	parts = {
+		"·Ç¸ÉÔ¤Õß"= 1
+		"ÎŞ¾À·×"= 1
+		"¹ú·ÀµÚÒ»"= 1
+		"ÄÚ²¿·±ÈÙ"= 1
+		"¹ú¼Ò×¼±¸"= 1
+		"·ÀÓù×¼±¸"= 1
+		"ÖĞÁ¢Ö÷Òå"= 1
+		"ÄÚ²¿Á¦Á¿"= 1
+		"·â±Õ±ß½ç"= 1
+		"ÓÀºã¾¯Ìè"= 1
 	}
-	format = "<malcontent_slaves_names>"
-}
-
-# Emancipation Faction
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "emancipation"
-		}
-	}
-	format = "<emancipation_names>"
-}
-
-# Peace Movement
-#pop_faction_name_format = {
-#	random_weight = {
-#		factor = 0
-#		modifier = {
-#			add = 100
-#			is_pop_faction_type = "peace"
-#		}
-#	}
-#	format = "<peace_names>"
-#}
-
-# Purged
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "purged"
-		}
-	}
-	format = "<purged_names>"
-}
-
-# Separatists
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "planet_separatists"
-		}
-	}
-	format = "[parameter:planet.GetName]<planet_separatist_names_1><planet_separatist_names_2>"
-}
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "sector_separatists"
-		}
-	}
-	format = "[parameter:sector.GetName]<planet_separatist_names_1><planet_separatist_names_2>"
-}
-
-
-# Nationalist
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "nationalist"
-		}
-	}
-	format = "[parameter:country.GetAdj]<nationalist_names>"
 }
 
 pop_faction_name_parts_list = {
-	key = "pretender_names"
+	key = "isolationist_names_2"
 	parts = {
-		"Pretender to the Throne" = 1
+		"ÁªÃË"= 1
+		"Òé»á"= 1
+		"Î¯Ô±»á"= 1
+		"ÖĞĞÄ"= 1
+		"»ù½ğ»á"= 1
+		"³«Òé"= 1
+		"Éç»á"= 1
+		"ÊØÍû"= 1
+		"ÁªÃË"= 1
+		"ÔË¶¯"= 1
+		"ÍÅÌå"= 1
+		"×éÖ¯"= 1
+		"ÍøÂç"= 1
+		"ÂÛÌ³"= 1
+		"Ğ­»á"= 1
+		"Áª»á"= 1
+		"µ³ÅÉ"= 1
 	}
 }
 
-# Pretender
 pop_faction_name_format = {
 	random_weight = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_pop_faction_type = "pretender"
+			is_pop_faction_type = "isolationist"
 		}
 	}
-	format = "<pretender_names>"
+	format = "<isolationist_names_1> <isolationist_names_2>"
 }
 
-# Democratic election
+## Totalitarians
+pop_faction_name_parts_list = {
+	key = "totalitarian_names_1"
+	parts = {
+		"ÍÅ½áÁ¦Á¿"= 1
+		"×¨ÖÆ"= 1
+		"µÛ¹úÍ³ºÏ"= 1
+		"Ò»¸öÍõ×ù"= 1
+		"Ã÷È·½×¼¶"= 1
+		"ÍÅ½áÒ»Ìå"= 1
+		"¹ó×åÌØÈ¨"= 1
+		"¾ıÖ÷Ö÷Òå"= 1
+		"ÓĞĞòÉç»á"= 1
+		"ºÍÆ½ÓëÖÈĞò"= 1
+		"ÖÒ³Ï¹«Ãñ"= 1
+		"¹«Ãñ¾«Ó¢"= 1
+		"¹«Ãñ·ş´Ó"= 1
+		"·ş´ÓÖÒ³ÏÓëÒåÎñ"= 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "totalitarian_names_2"
+	parts = {
+		"³«Òé" = 1
+		"ÁªÃË" = 1
+		"ÔË¶¯" = 1
+		"ÍÅÌå" = 1
+		"Áª»á" = 1
+		"µ³ÅÉ" = 1
+		"ÏÈ·æ" = 1
+	}
+}
+
 pop_faction_name_format = {
 	random_weight = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_pop_faction_type = "democratic_election_faction"
+			is_pop_faction_type = "totalitarian"
 		}
 	}
-	format = "<democratic_election_faction_names>"
+	format = "<totalitarian_names_1> <totalitarian_names_2>"
+}
+
+## Progressives
+pop_faction_name_parts_list = {
+	key = "progressive_names_1"
+	parts = {
+		"ÃñÖ÷³±Á÷"= 1
+		"×ÔÓÉÀÖÍÁ"= 1
+		"×ÔÓÉÑ¡¾Ù"= 1
+		"ÏÖÔÚ×ÔÓÉ"= 1
+		"ÃñÖ÷¸Ä¸ï"= 1
+		"¹«Ãñ×Ô¾öÖ÷Òå"= 1
+		"½â·Å"= 1
+		"ÕæÕıµÄÃñÖ÷"= 1
+		"¸öÈËÑ¡Ôñ"= 1
+		"×ÔÓÉË¼Ïë"= 1
+		"Ãâ·Ñ¹«Ãñ"= 1
+		"È«ÃñÍ¶Æ±"= 1
+		"ÃñÖ÷È¨Àû"= 1
+		"×ÔÓÉÖ®ÓÑ"= 1
+		"ÒøºÓ½â·Å"= 1
+		"Ñ¡¾Ù×ÔÓÉ"= 1
+		"×ÔÓÉ¹«Ãñ"= 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "progressive_names_2"
+	parts = {
+        "Í¬ÃË"= 1
+		"Òé»á"= 1
+		"Î¯Ô±»á"= 1
+		"ÖĞĞÄ"= 1
+		"»ù½ğ»á"= 1
+		"³«Òé"= 1
+		"Éç»á"= 1
+		"ÊØÍû"= 1
+		"ÁªÃË"= 1
+		"ÔË¶¯"= 1
+		"ÍÅÌå"= 1
+		"×éÖ¯"= 1
+		"ÍøÂç"= 1
+		"ÂÛÌ³"= 1
+		"Ğ­»á"= 1
+		"Áª»á"= 1
+		"µ³ÅÉ"= 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "progressive"
+		}
+	}
+	format = "<progressive_names_1> <progressive_names_2>"
+}
+
+
+## Prosperity Faction
+pop_faction_name_parts_list = {
+	key = "prosperity_names_1"
+	parts = {
+		"¾­¼ÃÔö³¤"= 1
+		"¾­¼Ã·¢Õ¹"= 1
+		"¹ú¼Ò²ÆÕş"= 1
+		"½ğÈÚÎÈ¶¨"= 1
+		"½ğÈÚ·¢Õ¹"= 1
+		"¾­¼Ã°²È«"= 1
+		"¹ú¼Ò²Æ¸»"= 1
+		"×ÊÔ´¿ØÖÆ"= 1
+		"¾­¼Ã·¢Õ¹"= 1
+		"ÁªºÏ¾­¼ÃÑ§¼Ò"= 1
+		"¹ú¼Ò³¥¸¶ÄÜÁ¦"= 1
+		"¹ú¼ÒĞÅÍ¶"= 1
+		"ÉÌÒµ·ÖÎöÊ¦"= 1
+		"½ğÈÚ¼à¹Ü"= 1
+		"²Æ¸»ÌáÉı"= 1
+		"·±ÈÙ"= 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "prosperity_names_2"
+	parts = {
+		"»ù½ğ»á" = 1
+		"³«Òé" = 1
+		"Áª»á" = 1
+		"Æ½Ì¨" = 1
+		"Î¯Ô±»á" = 1
+		"µ³ÅÉ" = 1
+		"ÁªÃË" = 1
+		"ÍÅÌå" = 1
+		"ÓÎĞĞ" = 1
+		"ÍøÂç" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "prosperity"
+		}
+	}
+	format = "<prosperity_names_1> <prosperity_names_2>"
+}
+
+## Technologists
+pop_faction_name_parts_list = {
+	key = "technologist_names_2"
+	parts = {
+		"Î¯Ô±»á" = 1
+		"Ñ§ÊõÍÅÌå" = 1
+		"Òé»á" = 1
+		"Ñ§»á" = 1
+		"Áª»á" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "technologist_names_1"
+	parts = {
+		"¸ßµÈ½ÌÓı"= 1
+		"ÁªºÏ¿ÆÑ§¼Ò"= 1
+		"¼¼Êõ½ø²½"= 1
+		"¼¼Êõ×¨¼Ò"= 1
+		"ÏÈ½ø¿ÆÑ§"= 1
+		"¿ÆÑ§Ñ§Õß"= 1
+		"¿ÆÑ§ÓÅÔ½"= 1
+		"¸ß¼¼Êõ"= 1
+		"¿ÆÑ§½ø²½"= 1
+		"¼¼Êõ¸Ä¸ï"= 1
+		"ÑĞ¾¿Ğ§ÂÊ"= 1
+		"¼¼Êõ¾«Í¨"= 1
+		"¿ÆÑ§¸ÄÁ¼"= 1
+		"»úÆ÷ÈË¿ÆÑ§"= 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "technologist"
+		}
+	}
+	format = "<technologist_names_1> <technologist_names_2>"
+}
+
+## Traditionalists
+pop_faction_name_parts_list = {
+	key = "traditionalist_names_2"
+	parts = {
+		"ÁªºÏ" = 1
+		"Í¬ÃË" = 1
+		"Òé»á" = 1
+		"Î¯Ô±»á" = 1
+		"½Ì»á" = 1
+		"Ö÷½Ì»áÒé" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "traditionalist_names_1"
+	parts = {
+		"´«Í³¼ÛÖµ¹Û"= 1
+		"¾«Éñ¼Ò"= 1
+		"ÉñÊ¥Ö¸Òı"= 1
+		"ÉñÊ¥´«Í³"= 1
+		"×Ú½Ì±£ÊØÖ÷Òå"= 1
+		"¾«Éñ¾ÈÊê"= 1
+		"ÁéĞÔ"= 1
+		"Õæ¸£Òô"= 1
+		"¾«ÉñÕÜÑ§"= 1
+		"´«Í³»ù½ğ"= 1
+		"ĞÎ¶øÉÏ¾»»¯"= 1
+		"³ç¸ßµÄÉñÖ°ÈËÔ±"= 1
+		"´ó¼ÀË¾"= 1
+		"ÉñÊ¥ÕæÀí"= 1
+		"ò¯³Ï´«Í³Ö÷ÒåÕß"= 1
+		"ĞÅÑöÓë¼ÛÖµ¹Û"= 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "traditionalist"
+		}
+	}
+	format = "<traditionalist_names_1> <traditionalist_names_2>"
+}
+
+## Xenoists
+pop_faction_name_parts_list = {
+	key = "xenoist_names_1"
+	parts = {
+		"ÍâĞÇÈË" = 1
+		"ÒìĞÇÈË" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "xenoist_names_2"
+	parts = {
+		"È¨Àû"= 1
+		"ÈİÈÌ"= 1
+		"ÓÑÒê"= 1
+		"Æ½µÈ"= 1
+		"ÕıÒå"= 1
+		"Í¬Çé"= 1
+		"±£»¤"= 1
+		"×ÔÓÉ"= 1
+		"×ÔÓÉ"= 1
+		"Ô®Öú"= 1
+		"¸Ä¸ï"= 1
+		"ÒâÊ¶"= 1
+		"Ñ¡¾ÙÈ¨"= 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "xenoist_names_3"
+	parts = {
+		"ÁªÃË"= 1
+		"ÓÎĞĞ"= 1
+		"Òé»á"= 1
+		"Î¯Ô±»á"= 1
+		"ÖĞĞÄ"= 1
+		"»ù½ğ»á"= 1
+		"³«Òé"= 1
+		"Éç»á"= 1
+		"¹Û²ì"= 1
+		"ÁªÃË"= 1
+		"ÔË¶¯"= 1
+		"ÍÅÌå"= 1
+		"×éÖ¯"= 1
+		"ÍøÂç"= 1
+		"ÂÛÌ³"= 1
+		"Ğ­»á"= 1
+		"ĞÅÑö"= 1
+		"Ñ§»á"= 1
+		"Áª»á"= 1
+		"ÌìÎÄÌ¨"= 1
+		"µ³ÅÉ"= 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "xenoist"
+		}
+	}
+	format = "<xenoist_names_1> <xenoist_names_2> <xenoist_names_3>"
+}
+
+## Democratic election minor factions
+pop_faction_name_parts_list = {
+	key = "democratic_election_names_1_1"
+	parts = {
+		"ÃñÖ÷"= 1
+		"ÈËÃñÃñÖ÷"= 1
+		"×ÔÓÉÃñÖ÷"= 1
+		"½ø²½"= 1
+		"ÁªºÏÃñÖ÷"= 1
+		"ĞÂÃñÖ÷µ³"= 1
+		"ÈËÈËÃñÖ÷"= 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "democratic_election_names_1_2"
+	parts = {
+		"µ³ÅÉ" = 6
+		"´ú±í´ó»á" = 1
+		"Áª»á" = 1
+		"Í¬ÃË" = 1
+		"¼¯ÍÅ" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "democratic_election_faction_1"
+		}
+	}
+	format = "<democratic_election_names_1_1> <democratic_election_names_1_2>"
+}
+
+pop_faction_name_parts_list = {
+	key = "democratic_election_names_2_1"
+	parts = {
+		"Í³ºÏÖĞÁ¢"= 1
+		"½ø²½ÖĞĞÄ"= 1
+		"¹«Ãñ´«Í³"= 1
+		"¼¤½øÊĞÕş"= 1
+		"ÈËÈËÖĞĞÄ"= 1
+		"¹«Ãñµä·¶"= 1
+		"ÖĞÁ¢Ö÷Òå"= 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "democratic_election_names_2_2"
+	parts = {
+		"µ³ÅÉ" = 6
+		"´ú±í´ó»á" = 1
+		"Áª»á" = 1
+		"Í¬ÃË" = 1
+		"¼¯ÍÅ" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "democratic_election_faction_2"
+		}
+	}
+	format = "<democratic_election_names_2_1> <democratic_election_names_2_2>"
 }
