@@ -1,7 +1,7 @@
 name="Random NameList : Chinese"
 path="mod/random_nl_cn"
 tags={
-	"Gameplay"
+	"Translation"
 }
 picture="random_nl_cn.png"
 remote_file_id="832446933"
