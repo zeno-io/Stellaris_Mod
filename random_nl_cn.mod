@@ -5,4 +5,4 @@ tags={
 }
 picture="random_nl_cn.png"
 remote_file_id="832446933"
-supported_version="1.6.*"
+supported_version="1.8.*"

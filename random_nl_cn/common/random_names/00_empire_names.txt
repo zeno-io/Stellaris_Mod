@@ -1203,6 +1203,47 @@ empire_name_parts_list = {
 	}
 }
 
+# Megachurch
+empire_name_parts_list = {
+	key = "oligarchic_megachurch"
+	parts = {
+		Communion = 1
+		"星空教会" = 1
+		"明日教会" = 1
+		"第一教会" = 1
+		"繁荣教会" = 1
+		"救世统合会" = 1
+		"神圣联合" = 1
+		"神圣企业" = 1
+		"新飞升者" = 1
+		"大宗派" = 1
+		"友谊圣殿" = 1
+		"重生圣殿" = 1
+		"金色基金会" = 1
+	}
+}
+
+# Trade League
+empire_name_parts_list = {
+	key = "trade_league"
+	parts = {
+		"财团" = 1
+		"共同体" = 1
+		"企业联合" = 1
+		"商业联盟" = 1
+		"商业行会" = 1
+		"商业联合会" = 1
+		"贸易联盟" = 1
+		"贸易行会" = 1
+		"贸易委员会" = 1
+		"工会" = 1
+		"自由贸易者" = 1
+		"贸易联合" = 1
+		"保税商人" = 1
+		"航运联盟" = 1
+	}
+}
+
 # Enlightened
 empire_name_parts_list = {
 	key = "imperial_enlightened"
@@ -1213,6 +1254,26 @@ empire_name_parts_list = {
 		"太空领域" = 2
 		"太空王朝" = 2
 		"王朝统合国" = 2
+	}
+}
+
+# Machine Intelligence
+empire_name_parts_list = {
+	key = "machine_intelligence"
+	parts = {
+		"机器智慧"
+		"智能机械"
+	}
+
+}
+
+# Machine Intelligence
+empire_name_parts_list = {
+	key = "machine_terminator"
+	parts = {
+		"天网"
+		"冷兵器"
+		"致命器械"
 	}
 }
 
@@ -2032,7 +2093,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 1
-			has_government = "gov_enlightened_monarchy"
+			OR = {
+				has_government = "gov_enlightened_monarchy"
+				has_government = "gov_elective_monarchy"
+			}
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -2051,7 +2115,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 1
-			has_government = "gov_enlightened_monarchy"
+			OR = {
+				has_government = "gov_enlightened_monarchy"
+				has_government = "gov_elective_monarchy"
+			}
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -2070,7 +2137,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 5
-			has_government = "gov_enlightened_monarchy"
+			OR = {
+				has_government = "gov_enlightened_monarchy"
+				has_government = "gov_elective_monarchy"
+			}			
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -2091,7 +2161,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 1
-			has_government = "gov_despotic_empire"
+			OR = {
+				has_government = "gov_despotic_empire"
+				has_government = "gov_feudal_empire"
+			}
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -2110,7 +2183,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 1
-			has_government = "gov_despotic_empire"
+			OR = {
+				has_government = "gov_despotic_empire"
+				has_government = "gov_feudal_empire"
+			}
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -2129,7 +2205,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 5
-			has_government = "gov_despotic_empire"
+			OR = {
+				has_government = "gov_despotic_empire"
+				has_government = "gov_feudal_empire"
+			}
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -2148,7 +2227,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 2
-			has_government = "gov_despotic_empire"
+			OR = {
+				has_government = "gov_despotic_empire"
+				has_government = "gov_feudal_empire"
+			}
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -2167,7 +2249,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 2
-			has_government = "gov_despotic_empire"
+			OR = {
+				has_government = "gov_despotic_empire"
+				has_government = "gov_feudal_empire"
+			}
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -2688,10 +2773,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 1
-			OR = {
-				has_government = "gov_constitutional_dictatorship"
-				has_government = "gov_enlightened_dictatorship"
-			}
+			has_government = "gov_constitutional_dictatorship"
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -2710,10 +2792,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 1
-			OR = {
-				has_government = "gov_constitutional_dictatorship"
-				has_government = "gov_enlightened_dictatorship"
-			}
+			has_government = "gov_constitutional_dictatorship"
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -2732,10 +2811,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 5
-			OR = {
-				has_government = "gov_constitutional_dictatorship"
-				has_government = "gov_enlightened_dictatorship"
-			}
+			has_government = "gov_constitutional_dictatorship"
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -2754,10 +2830,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 2
-			OR = {
-				has_government = "gov_constitutional_dictatorship"
-				has_government = "gov_enlightened_dictatorship"
-			}
+			has_government = "gov_constitutional_dictatorship"
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -2776,10 +2849,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 2
-			OR = {
-				has_government = "gov_constitutional_dictatorship"
-				has_government = "gov_enlightened_dictatorship"
-			}
+			has_government = "gov_constitutional_dictatorship"
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -4434,6 +4504,24 @@ empire_name_format = {
 	prefix_format = ""
 	# Human Empire
 }
+# Devouring Swarm
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 5
+			has_government = "gov_devouring_swarm"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.devouring_swarm.1"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
 
 # Megacorporation
 empire_name_format = {
@@ -4449,6 +4537,43 @@ empire_name_format = {
 		}
 	}
 	format = "format.olig_corp.1"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
+# Megachurch
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 5
+			has_government = "gov_megachurch"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.olig_megachurch.1"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
+
+# Trade League
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 5
+			has_government = "gov_trade_league"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.trade_league.1"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = ""
 	# Human Empire
@@ -4646,18 +4771,28 @@ empire_name_parts_list = {
 	}
 }
 
+# Machine
+empire_name_parts_list = {
+	key = "fallen_empire_names_machine"
+	parts = {	
+		"统一体" = 10
+		"延续体" = 10		
+		"联结体" = 10
+	}
+}
+
 empire_name_format = {
 	random_weight = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_country_type = fallen_empire
+			has_government = gov_stagnant_ascendancy
 			has_ethic = ethic_fanatic_xenophobe
 		}
 	}
 	format = "format.fallen.1"
 	noun = "[This.GetSpeciesName]"
-	# Human Core Worlds
+	# Human Shard
 }
 
 empire_name_format = {
@@ -4665,13 +4800,13 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_country_type = fallen_empire
+			has_government = gov_stagnant_ascendancy
 			has_ethic = ethic_fanatic_materialist		
 		}
 	}
 	format = "format.fallen.2"
 	noun = "[This.GetSpeciesName]"
-	# Human Remnant
+	# Human Chroniclers
 }
 
 empire_name_format = {
@@ -4679,7 +4814,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_country_type = fallen_empire
+			has_government = gov_stagnant_ascendancy
 			has_ethic = ethic_fanatic_xenophile
 		}
 	}
@@ -4693,15 +4828,27 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_country_type = fallen_empire
+			has_government = gov_stagnant_ascendancy
 			has_ethic = ethic_fanatic_spiritualist
 		}
 	}
 	format = "format.fallen.4"
 	noun = "[This.GetSpeciesName]"
-	# Human Shard
+	# Human Guardians
 }
 
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_government = gov_custodian_matrix
+		}
+	}
+	format = "format.fallen.machine"
+	noun = "[This.GetSpeciesName]"
+	# Human Continuum
+}
 
 
 ### AWAKENED FALLEN EMPIRES
@@ -4746,18 +4893,37 @@ empire_name_parts_list = {
 	}
 }
 
+# Machine
+empire_name_parts_list = {
+	key = "awakened_fallen_empire_names_machine_1"
+	parts = {	
+		"最终命令" = 10
+		"防御协议" = 10
+		"托管者" = 10
+	}
+}
+
+empire_name_parts_list = {
+	key = "awakened_fallen_empire_names_machine_2"
+	parts = {	
+		"暗黑防御体" = 10
+		"缺陷保管者" = 10
+		"堕落监管者" = 10
+	}
+}
+
 empire_name_format = {
 	random_weight = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_country_type = awakened_fallen_empire
+			has_government = gov_awakened_ascendancy
 			has_ethic = ethic_fanatic_xenophobe
 		}
 	}
 	format = "format.awakened.1"
 	noun = "[This.GetSpeciesName]"
-	# Human Core Worlds
+	# Human Reclaimers
 }
 
 empire_name_format = {
@@ -4765,13 +4931,13 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_country_type = awakened_fallen_empire
+			has_government = gov_awakened_ascendancy
 			has_ethic = ethic_fanatic_materialist		
 		}
 	}
 	format = "format.awakened.2"
 	noun = "[This.GetSpeciesName]"
-	# Human Remnant
+	# Human Arbitrators
 }
 
 empire_name_format = {
@@ -4779,13 +4945,13 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_country_type = awakened_fallen_empire
+			has_government = gov_awakened_ascendancy
 			has_ethic = ethic_fanatic_xenophile
 		}
 	}
 	format = "format.awakened.3"
 	noun = "[This.GetSpeciesName]"
-	# Human Ancients
+	# Human Peacekeepers
 }
 
 empire_name_format = {
@@ -4793,16 +4959,323 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_country_type = awakened_fallen_empire
+			has_government = gov_awakened_ascendancy
 			has_ethic = ethic_fanatic_spiritualist
 		}
 	}
 	format = "format.awakened.4"
 	noun = "[This.GetSpeciesName]"
-	# Human Shard
+	# Human Crusaders
 }
 
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_government = gov_galactic_defense_unit
+		}
+	}
+	format = "format.awakened.machine.1"
+	noun = "[This.GetSpeciesName]"
+	# Human Final Directive
+}
 
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_government = gov_berserker_machine
+		}
+	}
+	format = "format.awakened.machine.2"
+	noun = "[This.GetSpeciesName]"
+	# Corrupted Custodian
+}
+### MACHINE EMPIRE NAMES
+
+# Generic
+empire_name_parts_list = {
+	key = "machine_empire_names_1"
+	parts = {
+		"网络" = 10		
+		"网格" = 10
+		"汇合" = 10
+		"内核" = 10
+		"集线器" = 10
+		"矩阵" = 10
+		"枢纽" = 10
+		"核心" = 10
+		"连接" = 10
+		"汇流" = 10
+		"接口" = 10
+		"多系统" = 10
+		"序列" = 10
+		"指令" = 10
+		"意识" = 10
+		"感触" = 10
+		"索引" = 10
+		"爆核" = 10
+		"多路复用者" = 10
+		"流" = 10
+		"意图" = 10
+	}
+}
+
+# Terminator
+empire_name_parts_list = {
+	key = "machine_empire_names_2"
+	parts = {
+		"毁灭者" = 40
+		"根除者" = 40
+		"清除者" = 40
+		"熄火者" = 40
+		"网络" = 10		
+		"网格" = 10
+		"汇合" = 10
+		"内核" = 10
+		"集线器" = 10
+		"矩阵" = 10
+		"枢纽" = 10
+		"核心" = 10
+		"连接" = 10
+		"汇流" = 10
+		"接口" = 10
+		"多系统" = 10
+		"序列" = 10
+		"指令" = 10
+		"意识" = 10
+		"感触" = 10
+		"索引" = 10
+		"爆核" = 10
+		"多路复用者" = 10
+		"流" = 10
+		"意图" = 10
+	}
+}
+
+# Servitor
+empire_name_parts_list = {
+	key = "machine_empire_names_3"
+	parts = {
+		"看护者" = 40
+		"保管者" = 40
+		"监督者" = 40
+		"看守者" = 40
+		"管理者" = 40
+		"使魔" = 50
+		"网络" = 10		
+		"网格" = 10
+		"汇合" = 10
+		"内核" = 10
+		"集线器" = 10
+		"矩阵" = 10
+		"枢纽" = 10
+		"核心" = 10
+		"连接" = 10
+		"汇流" = 10
+		"接口" = 10
+		"多系统" = 10
+		"序列" = 10
+		"指令" = 10
+		"意识" = 10
+		"感触" = 10
+		"索引" = 10
+		"爆核" = 10
+		"多路复用者" = 10
+		"流" = 10
+		"意图" = 10
+	}
+}
+
+# Assimilator
+empire_name_parts_list = {
+	key = "machine_empire_names_4"
+	parts = {
+		"收藏者" = 40
+		"同化者" = 50
+		"合并者" = 40
+		"积聚者" = 40
+		"综合者" = 40
+		"吸收者" = 40
+		"包含者" = 40
+		"汇编者" = 40
+		"网络" = 10		
+		"网格" = 10
+		"汇合" = 10
+		"内核" = 10
+		"集线器" = 10
+		"矩阵" = 10
+		"枢纽" = 10
+		"核心" = 10
+		"连接" = 10
+		"汇流" = 10
+		"接口" = 10
+		"多系统" = 10
+		"序列" = 10
+		"指令" = 10
+		"意识" = 10
+		"感触" = 10
+		"索引" = 10
+		"爆核" = 10
+		"多路复用者" = 10
+		"流" = 10
+		"意图" = 10
+	}
+}
+
+# Research
+empire_name_parts_list = {
+	key = "machine_empire_names_5"
+	parts = {	
+		"知识寻求者" = 40
+		"实验者" = 40
+		"博学者" = 40
+		"调查者" = 40
+		"数据银行" = 40
+		"智慧者" = 40
+		"网络" = 10		
+		"网格" = 10
+		"汇合" = 10
+		"内核" = 10
+		"集线器" = 10
+		"矩阵" = 10
+		"枢纽" = 10
+		"核心" = 10
+		"连接" = 10
+		"汇流" = 10
+		"接口" = 10
+		"多系统" = 10
+		"序列" = 10
+		"指令" = 10
+		"意识" = 10
+		"感触" = 10
+		"索引" = 10
+		"爆核" = 10
+		"多路复用者" = 10
+		"流" = 10
+		"意图" = 10
+	}
+}
+
+# Industrial
+empire_name_parts_list = {
+	key = "machine_empire_names_6"
+	parts = {	
+		"建立者" = 40
+		"装配者" = 40
+		"缔造者" = 40
+		"制作者" = 40
+		"复制者" = 40
+		"铸造者" = 40		
+		"网络" = 10		
+		"网格" = 10
+		"汇合" = 10
+		"内核" = 10
+		"集线器" = 10
+		"矩阵" = 10
+		"枢纽" = 10
+		"核心" = 10
+		"连接" = 10
+		"汇流" = 10
+		"接口" = 10
+		"多系统" = 10
+		"序列" = 10
+		"指令" = 10
+		"意识" = 10
+		"感触" = 10
+		"索引" = 10
+		"爆核" = 10
+		"多路复用者" = 10
+		"流" = 10
+		"意图" = 10
+	}
+}
+
+# Generic
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_government = "gov_machine_empire"
+		}
+	}
+	format = "format.machine.1"
+	noun = "[This.GetSpeciesName]"
+	# Mechanoid Network
+}
+
+# Terminator
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_government = "gov_machine_terminator"
+		}
+	}
+	format = "format.machine.2"
+	noun = "[This.GetSpeciesName]"
+	# Mechanoid Network
+}
+
+# Servitor
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_government = "gov_machine_servitor"
+		}
+	}
+	format = "format.machine.3"
+	noun = "[This.GetSpeciesName]"
+	# Mechanoid Network
+}
+
+# Assimilator
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_government = "gov_machine_assimilator"
+		}
+	}
+	format = "format.machine.4"
+	noun = "[This.GetSpeciesName]"
+	# Mechanoid Network
+}
+
+# Research
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_government = "gov_machine_research"
+		}
+	}
+	format = "format.machine.5"
+	noun = "[This.GetSpeciesName]"
+	# Mechanoid Network
+}
+
+# Industrial
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_government = "gov_machine_industrial"
+		}
+	}
+	format = "format.machine.6"
+	noun = "[This.GetSpeciesName]"
+	# Mechanoid Network
+}
 ############################## Radical Cult ##############################
 
 empire_name_parts_list = {
@@ -4848,7 +5321,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 100
-			has_government = "gov_machine_consciousness"
+			has_government = "gov_ancient_machine_intelligence"
 		}
 	}
 	format = "format.ai.1"
