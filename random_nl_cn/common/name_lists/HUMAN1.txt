@@ -1,7 +1,8 @@
 ### United Nations of Earth
-Human = {
+HUMAN1 = {
 	randomized = no
-
+	alias = "Human"
+	
 	ship_names = {
 
 		generic = {

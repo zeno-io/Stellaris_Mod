@@ -1,6 +1,7 @@
 ### Commonwealth of Man
-Human2 = {
+HUMAN2 = {
 	randomized = no
+	alias = "Human2"
 
 	ship_names = {
 
