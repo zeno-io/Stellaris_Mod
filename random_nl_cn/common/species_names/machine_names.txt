@@ -3,13 +3,6 @@
 ### MACHINES
 
 MACHINE = {
-	xt-489 = {
-		name = XT-489
-		plural = XT-489s
-		home_planet = X-01
-		home_system = VX-2291
-		name_list = "MACHINE1"
-	}
 
 	shazarak = {
 		name = 沙扎拉克
@@ -48,7 +41,7 @@ MACHINE = {
 		plural = 泽纳基
 		home_planet = 泽纳克-普鲁
 		home_system = 泽纳空
-		name_list = "MACHINE2"
+		name_list = "MACHINE1"
 	}
 
 	omni = {
@@ -56,7 +49,7 @@ MACHINE = {
 		plural = 奥密
 		home_planet = "阿尔法阵列"
 		home_system = 欧姆纳克
-		name_list = "MACHINE1"
+		name_list = "MACHINE2"
 	}
 
 	daar = {
@@ -64,7 +57,7 @@ MACHINE = {
 		plural = 达尔
 		home_planet = 达尔-1
 		home_system = 达尔鲁兹
-		name_list = "MACHINE2"
+		name_list = "MACHINE3"
 	}
 
 	tronzaru = {
@@ -72,7 +65,7 @@ MACHINE = {
 		plural = 创泽鲁
 		home_planet = 创兹
 		home_system = "创兹_卡拉斯"
-		name_list = "MACHINE1"
+		name_list = "MACHINE4"
 	}
 
 	techarus = {
@@ -80,7 +73,7 @@ MACHINE = {
 		plural = 塔其斯
 		home_planet = 塔夏
 		home_system = "塔夏-尤巴斯"
-		name_list = "MACHINE3"
+		name_list = "MACHINE1"
 	}
 
 	jonus = {
@@ -88,7 +81,7 @@ MACHINE = {
 		plural = 乔纳西
 		home_planet = 贾拉
 		home_system = 杰尼萨
-		name_list = "MACHINE3"
+		name_list = "MACHINE2"
 	}
 
 	iribot = {
@@ -96,7 +89,7 @@ MACHINE = {
 		plural = 伊利波特
 		home_planet = 伊尔
 		home_system = 伊利
-		name_list = "MACHINE2"
+		name_list = "MACHINE3"
 	}
 
 	silicron = {
@@ -104,7 +97,7 @@ MACHINE = {
 		plural = 西利克隆斯
 		home_planet = "主管道"
 		home_system = SI-1
-		name_list = "MACHINE1"
+		name_list = "MACHINE4"
 	}
 
 	dekron = {
@@ -112,7 +105,7 @@ MACHINE = {
 		plural = 戴克隆斯
 		home_planet = 戴克隆尼亚
 		home_system = 戴克鲁斯
-		name_list = "MACHINE3"
+		name_list = "MACHINE1"
 	}
 
 	tebrid = {

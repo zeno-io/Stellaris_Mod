@@ -1120,6 +1120,20 @@ empire_name_parts_list = {
 
 # Hive Mind
 empire_name_parts_list = {
+	key = "devouring_swarm"
+	parts = {
+		"蜂群" = 5
+		"部落" = 3
+		"群集" = 3
+		"吞食者" = 2
+		"蛇虫" = 2	
+		"宿主" = 1
+	}
+}
+
+
+# Hive Mind
+empire_name_parts_list = {
 	key = "hive_mind"
 	parts = {
 		"蜂群" = 5
@@ -1190,15 +1204,12 @@ empire_name_parts_list = {
 		"群星重工" = 1
 		"君合国" = 1
 		"贸易公司" = 1
-		"日用品公司" = 1
-		"星星良品" = 1
 		"交易联盟" = 1
 		"消费协同" = 1
 		"并购企业" = 1
 		"贸易联盟" = 1
 		"商业公会" = 1
 		"贸易委员会" = 1
-		"制造厂" = 1
 		"星系" = 1
 	}
 }
@@ -1243,6 +1254,19 @@ empire_name_parts_list = {
 		"航运联盟" = 1
 	}
 }
+
+# Bandit Kingdom
+empire_name_parts_list = {
+	key = "bandit_kingdom"
+	parts = {
+		"劫掠者" = 1
+		"企业联合" = 1
+		"三合会" = 1
+		"财团" = 1
+		"团体" = 1
+	}
+}
+
 
 # Enlightened
 empire_name_parts_list = {
@@ -4579,6 +4603,28 @@ empire_name_format = {
 	# Human Empire
 }
 
+# Bandit Kingdom
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 5
+			OR = {
+				has_government = "gov_bandit_kingdom"
+				has_government = "gov_bandit_commune"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.bandit_kingdom.1"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+	# Human Empire
+}
+
 # Fanatical Purifiers
 empire_name_format = {
 	random_weight = {
@@ -4720,14 +4766,294 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_pirate = yes
+			AND = {
+				is_pirate = yes
+				NOT = {
+					has_country_flag = drone_pirate
+					has_country_flag = machine_pirate
+				}
+			}
 		}
 	}
 	format = "format.pirate.1"
 	noun = "<pirate_names>"
 }
 
+empire_name_parts_list = {
+	key = "drone_pirate_names"
+	parts = {
+		"流氓无人机" = 10
+		"任性无人机" = 10
+		"暴躁无人机" = 10
+		"狂野无人机" = 10
+		"叛变无人机" = 10
+	}
+}
 
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			AND = {
+				is_pirate = yes
+				has_country_flag = drone_pirate
+			}
+		}
+	}
+	format = "format.drone_pirate.1"
+	noun = "<drone_pirate_names>"
+}
+
+empire_name_parts_list = {
+	key = "machine_pirate_names"
+	parts = {
+		"故障单元" = 10
+		"失灵单元" = 10
+		"恶性单元" = 10
+		"缺陷单元" = 10
+		"错误单元" = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			AND = {
+				is_pirate = yes
+				has_country_flag = machine_pirate
+			}
+		}
+	}
+	format = "format.machine_pirate.1"
+	noun = "<machine_pirate_names>"
+}
+
+### MARAUDER NAMES
+
+# Dormant
+empire_name_parts_list = {
+	key = "marauder_names"
+	parts = {
+		"突击者"＝30
+		"劫掠者"＝30
+		"自由卫士"＝20
+		"自由战士"＝20
+		"救赎者"＝10
+		"自由首领"＝10
+		"海盗"＝10
+		"勇士"＝10
+		"掠夺者"＝10
+		"野蛮人"＝10
+		"星族"＝10
+		"天空骑士"＝10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			is_country_type = dormant_marauders
+		}
+	}
+	format = "format.marauder.1"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+}
+
+# Awakened
+empire_name_parts_list = {
+	key = "awakened_marauder_names"
+	parts = {
+		"部落" = 30
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			is_country_type = awakened_marauders
+		}
+	}
+	format = "format.awakened_marauder.1"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = ""
+}
+
+# Diadochi 1
+empire_name_parts_list = {
+	key = "diadochi_names_1_1"
+	parts = {
+		"超" = 30
+	}
+}
+empire_name_parts_list = {
+	key = "diadochi_names_1_2"
+	parts = {
+		"汗国" = 30
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			AND = {
+				has_government = "gov_diadochi"
+				has_country_flag = diadochi_1
+			}
+		}
+	}
+	format = "format.diadochi.1"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<diadochi_names_1_1>[This.GetSpeciesName]<diadochi_names_1_2>"
+}
+
+# Diadochi 2
+empire_name_parts_list = {
+	key = "diadochi_names_2_1"
+	parts = {
+		"汗帝国" = 30
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			AND = {
+				has_government = "gov_diadochi"
+				has_country_flag = diadochi_2
+			}
+		}
+	}
+	format = "format.diadochi.2"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName]<diadochi_names_2_1>"
+}
+
+# Diadochi 3
+empire_name_parts_list = {
+	key = "diadochi_names_3_1"
+	parts = {
+		"真理" = 30
+	}
+}
+empire_name_parts_list = {
+	key = "diadochi_names_3_2"
+	parts = {
+		"部落" = 30
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			AND = {
+				has_government = "gov_diadochi"
+				has_country_flag = diadochi_3
+			}
+		}
+	}
+	format = "format.diadochi.3"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName]<diadochi_names_3_1><diadochi_names_3_2>"
+}
+
+# Diadochi 4
+empire_name_parts_list = {
+	key = "diadochi_names_4_1"
+	parts = {
+		"后" = 30
+	}
+}
+empire_name_parts_list = {
+	key = "diadochi_names_4_2"
+	parts = {
+		"汗国" = 30
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			AND = {
+				has_government = "gov_diadochi"
+				has_country_flag = diadochi_4
+			}
+		}
+	}
+	format = "format.diadochi.4"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName]<diadochi_names_4_1><diadochi_names_4_2>"
+}
+
+# New Khanate
+empire_name_parts_list = {
+	key = "new_khanate_names_1_1"
+	parts = {
+		"新" = 30
+	}
+}
+empire_name_parts_list = {
+	key = "new_khanate_names_1_2"
+	parts = {
+		"汗国" = 30
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			has_country_flag = new_khanate_flag
+		}
+	}
+	format = "format.new_khanate"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = " [This.GetSpeciesName]<new_khanate_names_1_1><new_khanate_names_1_2>"
+}
+
+# Democratic Khanate
+empire_name_parts_list = {
+	key = "free_khanate_names_1_1"
+	parts = {
+		"自由" = 30
+		"民主" = 30
+	}
+}
+empire_name_parts_list = {
+	key = "free_khanate_names_1_2"
+	parts = {
+		"汗国" = 30
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			has_country_flag = democratic_khanate_flag
+		}
+	}
+	format = "format.free_khanate"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName]<free_khanate_names_1_1><free_khanate_names_1_2>"
+}
 
 ### FALLEN EMPIRE NAMES
 

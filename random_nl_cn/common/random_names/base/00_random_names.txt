@@ -17,7 +17,7 @@ species_modification_postfix = {
 }
 
 black_hole_names = {
-	"恶魔黑洞"
+	"魔女黑洞"
 	"魔鬼黑洞"
 	"地狱黑洞"
 	"苏斯卡特黑洞"
@@ -72,6 +72,8 @@ black_hole_names = {
 	"升之终点"
 	"宁静黑洞"
 	"地狱领地"
+	"永恒的地平线"
+	"鹰眼"
 }
 
 asteroid_prefix = {
@@ -177,6 +179,42 @@ asteroid_prefix = {
 	LK12-
 	YZ9-
 	VIR-
+	RF-
+	J999-
+	QT1-
+	9192-
+	B4-3-
+	ONA-
+	VA99-
+	B9-
+	CR9-
+	LA4-
+	WT9-
+	IU11-
+	944-
+	8Y-I-
+	VK1-
+	MF-
+	L49-
+	PO1-
+	B1R-
+	E44-
+	AR-2-
+	2940-
+	2195-
+	YU-5-
+	TR44-
+	AKU-9-
+	Z9-
+	N01-4-
+	NCC-
+	QI778-
+	G1-
+	50-K-
+	409F-
+	T1-T9-
+	SA-093-
+	W112-
 }
 
 asteroid_postfix = {
@@ -281,10 +319,38 @@ asteroid_postfix = {
 	6498
 	984
 	009
+	LT-47
+	002
+	K14
+	997
+	72
+	0004
+	32-X
+	55987
+	572
+	285
+	487
+	11-F
+	64-D
+	59-C
+	03-A
+	71-J
+	89-T
+	90-B
+	LF4
+	OT9
+	XI2
+	PN-98
+	TS-8
+	IJ-087
+	XR-1
+	193
+	141
+	717
 }
 
 star_names = {
-	### REAL ###
+  ### REAL ###
  "一壶"
  "七弦"
  "七曜"

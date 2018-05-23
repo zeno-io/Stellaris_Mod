@@ -8,7 +8,7 @@ HUM = {
 		plural = 阿罗毗
 		home_planet = 艾拉利亚
 		home_system = 艾拉尔
-		name_list = "HUM2"
+		name_list = "HUM1"
 	}	
 	
 	mireesh = {
@@ -24,7 +24,7 @@ HUM = {
 		plural = 特里希
 		home_planet = 特里希
 		home_system = 里希欧
-		name_list = "HUM1"
+		name_list = "HUM3"
 	}
 	
 	vrinn = {
@@ -32,7 +32,7 @@ HUM = {
 		plural = 维恩
 		home_planet = 维恩
 		home_system = 维里努斯
-		name_list = "HUM1"
+		name_list = "HUM4"
 	}
 	
 	cevanti = {
@@ -40,7 +40,7 @@ HUM = {
 		plural = 策万提
 		home_planet = 奥罗斯
 		home_system = 策万提
-		name_list = "HUM2"
+		name_list = "HUM1"
 	}
 	
 	mishar = {
@@ -48,7 +48,7 @@ HUM = {
 		plural = 米萨尔
 		home_planet = 米萨里
 		home_system = 萨尔
-		name_list = "HUM1"
+		name_list = "HUM2"
 	}
 	
 	fareen = {
@@ -56,7 +56,7 @@ HUM = {
 		plural = 法雷恩
 		home_planet = 法拉
 		home_system = 厄纳托
-		name_list = "HUM2"
+		name_list = "HUM3"
 	}
 	
 	yldar = {
@@ -64,7 +64,7 @@ HUM = {
 		plural = 雅达尔
 		home_planet = 雅达尔
 		home_system = 雅里安提
-		name_list = "HUM2"
+		name_list = "HUM4"
 	}
 	
 	korinth = {
@@ -80,8 +80,49 @@ HUM = {
 		plural = 西多尔
 		home_planet = 西多里亚
 		home_system = 西拉
+		name_list = "HUM2"
+	}
+	
+	nagyari = {
+		name = 纳吉里
+		plural = 纳吉里
+		home_planet = 纳吉里亚
+		home_system = 纳吉尔
+		name_list = "HUM3"
+	}
+
+	kobarian = {
+		name = 科巴里人
+		plural = 科巴里人
+		home_planet = 科巴里亚
+		home_system = 科伯
+		name_list = "HUM4"
+	}
+
+	Hesukar = {
+		name = 黑塞卡
+		plural = 黑塞卡
+		home_planet = "赫苏克母星"
+		home_system = 赫苏克
 		name_list = "HUM1"
 	}
+
+	giroid = {
+		name = 吉罗德
+		plural = 吉罗德
+		home_planet = 吉尔-扎纳
+		home_system = 吉尔
+		name_list = "HUM2"
+	}
+
+	akkano = {
+		name = 阿卡诺
+		plural = 阿卡诺人
+		home_planet = 阿卡纳
+		home_system = 阿卡
+		name_list = "HUM3"
+	}
+	
 }
 
 
@@ -115,7 +156,7 @@ MAM = {
 		plural = 伊曼提兰
 		home_planet = 伊曼提
 		home_system = 伊曼提尔
-		name_list = "MAM2"
+		name_list = "MAM4"
 	}
 
 	hiffnar = {
@@ -147,7 +188,7 @@ MAM = {
 		plural = 瓦尔伦
 		home_planet = 瓦尔加
 		home_system = 维迪瑞恩
-		name_list = "MAM1"
+		name_list = "MAM4"
 	}
 
 	raltek = {
@@ -155,7 +196,7 @@ MAM = {
 		plural = 雷尔特克
 		home_planet = "雷坦尼主星"
 		home_system = 雷尔茨
-		name_list = "MAM2"
+		name_list = "MAM1"
 	}
 
 	birnathi = {
@@ -163,7 +204,7 @@ MAM = {
 		plural = 博纳蒂
 		home_planet = 博努斯
 		home_system = 德西厄斯
-		name_list = "MAM3"
+		name_list = "MAM2"
 	}
 
 	othari = {
@@ -171,7 +212,7 @@ MAM = {
 		plural = 奥塔里
 		home_planet = 奥塔里亚
 		home_system = 奥托尔
-		name_list = "MAM1"
+		name_list = "MAM3"
 	}
 
 	evandari = {
@@ -179,7 +220,7 @@ MAM = {
 		plural = 埃文达里
 		home_planet = "埃文达祖恩"
 		home_system = 埃文
-		name_list = "MAM2"
+		name_list = "MAM4"
 	}
 
 	bothrian = {
@@ -211,7 +252,7 @@ MAM = {
 		plural = 肯约达恩
 		home_planet = "肯约尔主星"
 		home_system = 肯约尔
-		name_list = "MAM3"
+		name_list = "MAM4"
 	}
 
 	glyrran = {
@@ -227,7 +268,7 @@ MAM = {
 		plural = 帕尔瑞安
 		home_planet = 帕尔瑞亚
 		home_system = 德迪尔
-		name_list = "MAM3"
+		name_list = "MAM2"
 	}
 	
 	quvarian = {
@@ -235,7 +276,7 @@ MAM = {
 		plural = 库瓦里安
 		home_planet = 库托斯
 		home_system = "库拉比纳姆"
-		name_list = "MAM1"
+		name_list = "MAM3"
 	}
 	
 	qellnuram = {
@@ -243,7 +284,7 @@ MAM = {
 		plural = 齐尔努达尔
 		home_planet = 齐尔
 		home_system = "黑齐尔利"
-		name_list = "MAM2"
+		name_list = "MAM4"
 	}
 	
 	valdari = {
@@ -251,7 +292,7 @@ MAM = {
 		plural = 瓦达尔里
 		home_planet = 瓦克-诺沙
 		home_system = 瓦尔沙
-		name_list = "MAM2"
+		name_list = "MAM1"
 	}
 	
 	igarian = {
@@ -259,7 +300,7 @@ MAM = {
 		plural = 伊格利安
 		home_planet = 伊格利亚
 		home_system = 伊格拉
-		name_list = "MAM3"
+		name_list = "MAM2"
 	}
 	
 	adnoran = {
@@ -275,7 +316,7 @@ MAM = {
 		plural = 蒂杰尔
 		home_planet = "蒂里斯莫"
 		home_system = 塔卡恩加
-		name_list = "MAM1"
+		name_list = "MAM4"
 	}
 	
 	tarassi = {
@@ -283,6 +324,46 @@ MAM = {
 		plural = 塔拉西
 		home_planet = 塔拉斯卡
 		home_system = 罗德尔
+		name_list = "MAM1"
+	}
+	
+	sinrath = {
+		name = 辛拉思
+		plural = 辛拉思
+		home_planet = 辛加-拔
+		home_system = 辛拉克
+		name_list = "MAM2"
+	}
+
+	kaan_visam = {
+		name = 卡恩-维萨姆
+		plural = 卡恩-维萨米
+		home_planet = 卡恩
+		home_system = 诸仑
+		name_list = "MAM3"
+	}
+
+	tebazoid = {
+		name = 斯错
+		plural = 斯错人
+		home_planet = 斯错主星
+		home_system = 斯错
+		name_list = "MAM4"
+	}
+
+	kazam = {
+		name = 卡赞姆
+		plural = 卡赞姆
+		home_planet = 卡赞卡尔
+		home_system = 卡赞
+		name_list = "MAM1"
+	}
+
+	quvab = {
+		name = 奎瓦布
+		plural = 奎瓦布
+		home_planet =奎瓦
+		home_system = 伏奇
 		name_list = "MAM2"
 	}
 }
@@ -311,7 +392,7 @@ FUN = {
 		plural = 汉恩-穆尔
 		home_planet = 汉恩-穆里亚
 		home_system = 穆里亚
-		name_list = "FUN1"
+		name_list = "FUN3"
 	}
 	
 	menjeti = {
@@ -319,7 +400,7 @@ FUN = {
 		plural = 孟加蒂
 		home_planet = 孟加斯
 		home_system = 孟加萨那
-		name_list = "FUN2"
+		name_list = "FUN4"
 	}
 
 	hissma = {
@@ -343,7 +424,7 @@ FUN = {
 		plural = 加提尔里
 		home_planet = "加提尔苏克"
 		home_system = 加托
-		name_list = "FUN1"
+		name_list = "FUN3"
 	}
 	
 	otaga = {
@@ -351,7 +432,7 @@ FUN = {
 		plural = 奥德加
 		home_planet = 奥德瓜尔
 		home_system = 奥德拉
-		name_list = "FUN2"
+		name_list = "FUN4"
 	}
 	
 	zracon = {
@@ -375,7 +456,7 @@ FUN = {
 		plural = 约奥利安
 		home_planet = "约奥尔主星"
 		home_system = 约奥尔
-		name_list = "FUN1"
+		name_list = "FUN3"
 	}
 	
 	djunn = {
@@ -383,7 +464,7 @@ FUN = {
 		plural = 德吉恩
 		home_planet = 德吉巴尔
 		home_system = 德吉尼尔
-		name_list = "FUN2"
+		name_list = "FUN4"
 	}
 	
 	hulfir = {
@@ -407,7 +488,7 @@ FUN = {
 		plural = 泰拉提安
 		home_planet = 泰拉斯
 		home_system = 泰拉提努斯
-		name_list = "FUN1"
+		name_list = "FUN3"
 	}
 	
 	kithri = {
@@ -415,7 +496,7 @@ FUN = {
 		plural = 基提里
 		home_planet = 基提乌尔
 		home_system = 基提瓦拉斯
-		name_list = "FUN2"
+		name_list = "FUN4"
 	}
 	
 	jibru = {
@@ -439,7 +520,7 @@ FUN = {
 		plural = 卡尔-杜乌
 		home_planet = 卡尔-努
 		home_system = 卡尔-祖
-		name_list = "FUN1"
+		name_list = "FUN3"
 	}
 	
 	uriy = {
@@ -447,7 +528,7 @@ FUN = {
 		plural = 优瑞亚
 		home_planet = 优瑞亚
 		home_system = 优瑞代特
-		name_list = "FUN2"
+		name_list = "FUN4"
 	}
 	
 	gorf = {
@@ -471,7 +552,7 @@ FUN = {
 		plural = 尼博里特
 		home_planet = 尼博里亚
 		home_system = 尼博里特尔
-		name_list = "FUN1"
+		name_list = "FUN3"
 	}
 	
 	syldaean = {
@@ -479,7 +560,7 @@ FUN = {
 		plural = 萨尔达安
 		home_planet = "萨尔达主星"
 		home_system = 萨尔杜斯
-		name_list = "FUN2"
+		name_list = "FUN4"
 	}
 	
 	meshben = {
@@ -489,6 +570,47 @@ FUN = {
 		home_system = 梅夏卡
 		name_list = "FUN1"
 	}
+	
+	bothrazoid = {
+		name = 博特拉佐迪
+		plural = 博特拉佐迪人
+		home_planet = 博特拉佐星
+		home_system = 博特拉
+		name_list = "FUN2"
+	}
+
+	makaru = {
+		name = 马卡鲁
+		plural = 马卡鲁
+		home_planet = 马卡鲁
+		home_system = 尼克-拉尔
+		name_list = "FUN3"
+	}
+
+	sojagg = {
+		name = 索贾格
+		plural = 索贾格
+		home_planet = "索贾格主星"
+		home_system = 索贾格
+		name_list = "FUN4"
+	}
+
+	vatnaka = {
+		name = 瓦特纳卡
+		plural = 瓦特纳卡
+		home_planet = "大瓦特尼"
+		home_system = 克拉马克
+		name_list = "FUN1"
+	}
+
+	ishni = {
+		name = 伊什尼
+		plural = 伊什尼
+		home_planet = 伊什
+		home_system = "伊什-塔里"
+		name_list = "FUN2"
+	}
+	
 }
 
 ### ARTHROPOID
@@ -515,7 +637,7 @@ ART = {
 		plural = 皮托克
 		home_planet = 托克基亚
 		home_system = 皮托拉
-		name_list = "ART1"
+		name_list = "ART3"
 	}
 
 	cithin = {
@@ -523,7 +645,7 @@ ART = {
 		plural = 西提尼
 		home_planet = 西提拉尔
 		home_system = "西提博卡"
-		name_list = "ART2"
+		name_list = "ART4"
 	}
 
 	thimoid = {
@@ -547,7 +669,7 @@ ART = {
 		plural = 加哈巴尼迪
 		home_planet = 加哈巴
 		home_system = "加哈巴西莫尔"
-		name_list = "ART1"
+		name_list = "ART3"
 	}
 
 	saathid = {
@@ -555,7 +677,7 @@ ART = {
 		plural = 萨提迪
 		home_planet = 萨图尔纳
 		home_system = 萨塔尔
-		name_list = "ART2"
+		name_list = "ART4"
 	}
 
 	iknurval = {
@@ -579,7 +701,7 @@ ART = {
 		plural = 西尔特克
 		home_planet = "西尔米罗斯"
 		home_system = 西尔提尔
-		name_list = "ART1"
+		name_list = "ART3"
 	}
 
 	zithorian = {
@@ -587,7 +709,7 @@ ART = {
 		plural = 齐托尔里安
 		home_planet = 齐托尔里亚
 		home_system = 齐托尔斯
-		name_list = "ART2"
+		name_list = "ART4"
 	}
 	
 	hantak = {
@@ -611,7 +733,7 @@ ART = {
 		plural = 塔尔阿库尔
 		home_planet = 塔尔迪塞
 		home_system = 阿库尔
-		name_list = "ART1"
+		name_list = "ART3"
 	}
 	
 	myrran = {
@@ -619,7 +741,7 @@ ART = {
 		plural = 麦尔兰
 		home_planet = 麦尔利亚
 		home_system = 麦尔拉克
-		name_list = "ART2"
+		name_list = "ART4"
 	}
 	
 	athallid = {
@@ -643,7 +765,7 @@ ART = {
 		plural = 齐姆
 		home_planet = 齐姆纳尔
 		home_system = 齐利尔
-		name_list = "ART1"
+		name_list = "ART3"
 	}
 	
 	shabtak = {
@@ -651,7 +773,7 @@ ART = {
 		plural = 沙伯塔克
 		home_planet = 沙伯托尔
 		home_system = 沙伯托利斯
-		name_list = "ART2"
+		name_list = "ART4"
 	}
 	
 	yibrak = {
@@ -675,7 +797,7 @@ ART = {
 		plural = 埃提尔
 		home_planet = 埃伯恩特斯
 		home_system = 埃尼特塔斯
-		name_list = "ART1"
+		name_list = "ART3"
 	}
 	
 	avtyrran = {
@@ -683,7 +805,7 @@ ART = {
 		plural = 阿瓦提兰
 		home_planet = "阿瓦提利亚主星"
 		home_system = 阿瓦提利亚
-		name_list = "ART2"
+		name_list = "ART4"
 	}
 	
 	pirak = {
@@ -693,6 +815,47 @@ ART = {
 		home_system = 皮拉祖尔
 		name_list = "ART1"
 	}
+	
+	izki = {
+		name = 伊兹基
+		plural = 伊兹基
+		home_planet = "伊兹基之心"
+		home_system = 伊兹
+		name_list = "ART2"
+	}
+
+	pakari = {
+		name = 帕卡里
+		plural = 帕卡里
+		home_planet = 帕卡
+		home_system = 迦琳
+		name_list = "ART3"
+	}
+
+	wi-ziraki = {
+		name = 维泽拉基
+		plural = 维泽拉基
+		home_planet = 温尼希
+		home_system = 韦瑟尔
+		name_list = "ART4"
+	}
+
+	maggar = {
+		name = 麦加
+		plural = 麦加
+		home_planet = 麦加
+		home_system = 马格尔
+		name_list = "ART1"
+	}
+
+	krithakkan = {
+		name = 克里斯塔坎
+		plural = 克里斯塔坎
+		home_planet = 克里斯
+		home_system = 克里卡尔
+		name_list = "ART2"
+	}
+	
 }
 
 ### REPTILIAN
@@ -727,7 +890,7 @@ REP = {
 		plural = 祖伊夫万
 		home_planet = 祖伊夫
 		home_system = 祖伊夫尔
-		name_list = "REP1"
+		name_list = "REP4"
 	}
 	
 	reshethi = {
@@ -735,7 +898,7 @@ REP = {
 		plural = 瑞夏提
 		home_planet = 瑞夏
 		home_system = 瑞夏瓦尔
-		name_list = "REP2"
+		name_list = "REP1"
 	}
 
 	dethakkan = {
@@ -743,7 +906,7 @@ REP = {
 		plural = 德塔克安
 		home_planet = 德塔克
 		home_system = 德塔拉尔
-		name_list = "REP3"
+		name_list = "REP2"
 	}
 
 	ikarzuri = {
@@ -751,7 +914,7 @@ REP = {
 		plural = 伊卡尔祖里
 		home_planet = 伊卡拉
 		home_system = 卡尔祖
-		name_list = "REP1"
+		name_list = "REP3"
 	}
 
 	vhemm = {
@@ -759,7 +922,7 @@ REP = {
 		plural = 瓦赫姆
 		home_planet = 瓦赫姆
 		home_system = 瓦赫姆博尔
-		name_list = "REP2"
+		name_list = "REP4"
 	}
 	
 	tendrakkian = {
@@ -767,7 +930,7 @@ REP = {
 		plural = 特恩达里基安
 		home_planet = 特恩达里基亚
 		home_system = 特恩多尔
-		name_list = "REP3"
+		name_list = "REP1"
 	}
 	
 	baanthurian = {
@@ -775,7 +938,7 @@ REP = {
 		plural = 巴纳图里安
 		home_planet = 巴纳图尔
 		home_system = "巴纳图维尔"
-		name_list = "REP1"
+		name_list = "REP2"
 	}
 	
 	cormathani = {
@@ -783,7 +946,7 @@ REP = {
 		plural = 克尔马提尼
 		home_planet = 克尔马提
 		home_system = 克尔马萨
-		name_list = "REP2"
+		name_list = "REP3"
 	}
 	
 	kirillian = {
@@ -791,7 +954,7 @@ REP = {
 		plural = 基里尔安
 		home_planet = 基里尔
 		home_system = "科塔拉斯纳达"
-		name_list = "REP3"
+		name_list = "REP4"
 	}
 	
 	beldross = {
@@ -823,7 +986,7 @@ REP = {
 		plural = 阿塔尼比安
 		home_planet = 阿塔尼比亚
 		home_system = 阿塔斯
-		name_list = "REP1"
+		name_list = "REP4"
 	}
 	
 	diri = {
@@ -831,7 +994,7 @@ REP = {
 		plural = 迪里
 		home_planet = 迪里-瓦努斯
 		home_system = 迪里
-		name_list = "REP2"
+		name_list = "REP1"
 	}
 	
 	hydari = {
@@ -839,7 +1002,7 @@ REP = {
 		plural = 赫达里
 		home_planet = 赫达克
 		home_system = 赫达尔
-		name_list = "REP3"
+		name_list = "REP2"
 	}
 	
 	cirrulan = {
@@ -847,7 +1010,7 @@ REP = {
 		plural = 支罗兰
 		home_planet = 支罗拉
 		home_system = 支罗达鲁斯
-		name_list = "REP1"
+		name_list = "REP3"
 	}
 	
 	yaanari = {
@@ -855,7 +1018,7 @@ REP = {
 		plural = 亚纳利
 		home_planet = 亚安
 		home_system = 亚努斯
-		name_list = "REP2"
+		name_list = "REP4"
 	}
 	
 	ubaric = {
@@ -863,7 +1026,7 @@ REP = {
 		plural = 乌巴里克
 		home_planet = 乌巴里亚
 		home_system = 乌扎巴鲁
-		name_list = "REP3"
+		name_list = "REP1"
 	}
 	
 	kedeshi = {
@@ -871,7 +1034,7 @@ REP = {
 		plural = 科德斯
 		home_planet = 科索
 		home_system = "科索-苏拉斯"
-		name_list = "REP1"
+		name_list = "REP2"
 	}
 	
 	tebadoran = {
@@ -879,7 +1042,7 @@ REP = {
 		plural = 特巴多兰
 		home_planet = 特巴多尔
 		home_system = 塔巴特
-		name_list = "REP2"
+		name_list = "REP3"
 	}
 	
 	bessadon = {
@@ -887,7 +1050,7 @@ REP = {
 		plural = 贝谢顿
 		home_planet = 贝斯齐
 		home_system = 贝斯库洛
-		name_list = "REP3"
+		name_list = "REP4"
 	}
 	
 	lyrite = {
@@ -896,6 +1059,46 @@ REP = {
 		home_planet = 莱拉斯
 		home_system = 卡鲁斯
 		name_list = "REP1"
+	}
+	
+	sathori = {
+		name = 萨索里
+		plural = 萨索里
+		home_planet = 萨索亚
+		home_system = 萨索
+		name_list = "REP2"
+	}
+
+	suramo = {
+		name = 苏拉莫
+		plural = 苏拉莫
+		home_planet = "苏拉莫主星"
+		home_system = 苏拉莫
+		name_list = "REP3"
+	}
+
+	knatza = {
+		name = 克纳扎
+		plural = 克纳扎
+		home_planet = 克纳扎
+		home_system = 伊巴那兹
+		name_list = "REP4"
+	}
+
+	bryll = {
+		name = 布莱尔
+		plural = 布莱尔
+		home_planet = 布雷特纳
+		home_system = 布雷特卢
+		name_list = "REP1"
+	}
+
+	raxar = {
+		name = 格帕沙星
+		plural = 格帕沙星
+		home_planet = 拉克斯-卡娜
+		home_system = 拉克斯
+		name_list = "REP2"
 	}
 }
 
@@ -931,7 +1134,7 @@ AVI = {
 		plural = 阿瓦利安
 		home_planet = "阿瓦尔主星"
 		home_system = 阿瓦尔
-		name_list = "AVI1"
+		name_list = "AVI4"
 	}
 
 	khessam = {
@@ -939,7 +1142,7 @@ AVI = {
 		plural = 科萨姆
 		home_planet = "科萨尔托拉利斯"
 		home_system = 科萨尔
-		name_list = "AVI2"
+		name_list = "AVI1"
 	}
 	
 	cynn = {
@@ -947,7 +1150,7 @@ AVI = {
 		plural = 库恩
 		home_planet = 库恩多尔
 		home_system = 库特拉
-		name_list = "AVI3"
+		name_list = "AVI2"
 	}
 	
 	yeon = {
@@ -955,7 +1158,7 @@ AVI = {
 		plural = 延恩
 		home_planet = "延恩杜斯"
 		home_system = "亚尔巴斯克"
-		name_list = "AVI1"
+		name_list = "AVI3"
 	}
 	
 	tezekian = {
@@ -963,7 +1166,7 @@ AVI = {
 		plural = 特扎基安
 		home_planet = 特扎克
 		home_system = "提尔巴特纳"
-		name_list = "AVI2"
+		name_list = "AVI4"
 	}
 	
 	khemplar = {
@@ -971,7 +1174,7 @@ AVI = {
 		plural = 科姆普拉尔
 		home_planet = 科姆萨拉
 		home_system = "科姆约恩"
-		name_list = "AVI3"
+		name_list = "AVI1"
 	}
 	
 	vissari = {
@@ -979,7 +1182,7 @@ AVI = {
 		plural = 维萨里
 		home_planet = 维斯
 		home_system = 维斯洛克
-		name_list = "AVI1"
+		name_list = "AVI2"
 	}
 
 	rackuddon = {
@@ -987,7 +1190,7 @@ AVI = {
 		plural = 拉库顿
 		home_planet = 拉库尔
 		home_system = 拉库塔
-		name_list = "AVI2"
+		name_list = "AVI3"
 	}
 	
 	tiyal = {
@@ -995,7 +1198,7 @@ AVI = {
 		plural = 蒂亚尔
 		home_planet = 亚诺
 		home_system = 亚希姆
-		name_list = "AVI3"
+		name_list = "AVI4"
 	}
 	
 	keerim = {
@@ -1027,7 +1230,7 @@ AVI = {
 		plural = 伊马里
 		home_planet = 伊马里亚
 		home_system = 伊穆尔
-		name_list = "AVI1"
+		name_list = "AVI4"
 	}
 	
 	izirian = {
@@ -1035,7 +1238,7 @@ AVI = {
 		plural = 伊齐利安
 		home_planet = 伊齐尔
 		home_system = 齐尔马
-		name_list = "AVI2"
+		name_list = "AVI1"
 	}
 	
 	figyar = {
@@ -1043,7 +1246,7 @@ AVI = {
 		plural = 费亚尔
 		home_planet = "亚罗斯主星"
 		home_system = 亚罗斯
-		name_list = "AVI3"
+		name_list = "AVI2"
 	}
 	
 	sibulan = {
@@ -1051,7 +1254,7 @@ AVI = {
 		plural = 西布兰
 		home_planet = "古西布拉"
 		home_system = 梅塔克
-		name_list = "AVI1"
+		name_list = "AVI3"
 	}
 	
 	miidari = {
@@ -1059,7 +1262,7 @@ AVI = {
 		plural = 米达尔里
 		home_planet = 米达克
 		home_system = 米塔恩
-		name_list = "AVI2"
+		name_list = "AVI4"
 	}
 	
 	spyran = {
@@ -1067,7 +1270,7 @@ AVI = {
 		plural = 斯班兰
 		home_planet = 斯班利亚
 		home_system = "斯班克塔"
-		name_list = "AVI3"
+		name_list = "AVI1"
 	}
 	
 	bruggan = {
@@ -1075,7 +1278,7 @@ AVI = {
 		plural = 比罗格安
 		home_planet = 比拉纳戈
 		home_system = 比尔加斯
-		name_list = "AVI1"
+		name_list = "AVI2"
 	}
 	
 	inari = {
@@ -1083,7 +1286,7 @@ AVI = {
 		plural = 伊纳里
 		home_planet = 伊纳罗斯
 		home_system = 伊纳克
-		name_list = "AVI2"
+		name_list = "AVI3"
 	}
 	
 	penthulan = {
@@ -1091,7 +1294,7 @@ AVI = {
 		plural = 本都兰
 		home_planet = 本都
 		home_system = 本卡尔
-		name_list = "AVI3"
+		name_list = "AVI4"
 	}
 	
 	rixi = {
@@ -1101,6 +1304,47 @@ AVI = {
 		home_system = 里夏鲁
 		name_list = "AVI1"
 	}
+	
+	baviir = {
+		name = 巴维尔
+		plural = 巴维尔
+		home_planet = 巴维尔
+		home_system = "巴维尔-蒂里"
+		name_list = "AVI2"
+	}
+
+	ospranian = {
+		name = 奥斯普里安
+		plural = 奥斯普里安
+		home_planet = 奥斯普纳
+		home_system = 奥斯普拉
+		name_list = "AVI3"
+	}
+
+	erissu = {
+		name = 埃拉塞克
+		plural = 埃拉塞克
+		home_planet = 马拉斯
+		home_system = 马拉斯
+		name_list = "AVI4"
+	}
+
+	skanuri = {
+		name = 斯卡努里
+		plural = 斯卡努里
+		home_planet = 斯卡纳
+		home_system = 斯凯鲁
+		name_list = "AVI1"
+	}
+
+	hiran = {
+		name = 希兰
+		plural = 希兰
+		home_planet = 希尔
+		home_system = "希尔-阿尔库'T"
+		name_list = "AVI2"
+	}
+	
 }
 
 ### MOLLUSCOID
@@ -1127,7 +1371,7 @@ MOL = {
 		plural = 亚莫齐
 		home_planet = 亚莫里亚
 		home_system = "亚莫扎"
-		name_list = "MOL1"
+		name_list = "MOL3"
 	}
 	
 	bilnoc = {
@@ -1135,7 +1379,7 @@ MOL = {
 		plural = 比尔诺克
 		home_planet = 比里斯
 		home_system = 比尔纳格
-		name_list = "MOL2"
+		name_list = "MOL4"
 	}
 	
 	larongo = {
@@ -1159,7 +1403,7 @@ MOL = {
 		plural = 埃安米德
 		home_planet = 埃安姆
 		home_system = "埃阿格安"
-		name_list = "MOL1"
+		name_list = "MOL3"
 	}
 	
 	heejam = {
@@ -1167,7 +1411,7 @@ MOL = {
 		plural = 赫加姆
 		home_planet = 赫加尔
 		home_system = 赫吉里斯
-		name_list = "MOL2"
+		name_list = "MOL4"
 	}
 	
 	hannfelir = {
@@ -1191,7 +1435,7 @@ MOL = {
 		plural = 格罗丁
 		home_planet = 格罗提
 		home_system = 格罗
-		name_list = "MOL1"
+		name_list = "MOL3"
 	}
 	
 	connisthian = {
@@ -1199,7 +1443,7 @@ MOL = {
 		plural = 康尼斯提安
 		home_planet = "康恩阿拉米斯"
 		home_system = 康恩提尔
-		name_list = "MOL2"
+		name_list = "MOL4"
 	}
 	
 	nuurian = {
@@ -1223,7 +1467,7 @@ MOL = {
 		plural = 达布兰
 		home_planet = 达布尔
 		home_system = "德梅斯齐"
-		name_list = "MOL1"
+		name_list = "MOL3"
 	}
 	
 	uthabulan = {
@@ -1231,7 +1475,7 @@ MOL = {
 		plural = 乌塔布兰
 		home_planet = 乌塔布
 		home_system = "伊托尼扎拉克"
-		name_list = "MOL2"
+		name_list = "MOL4"
 	}
 	
 	gurite = {
@@ -1255,7 +1499,7 @@ MOL = {
 		plural = 特博兰
 		home_planet = 特博尔
 		home_system = 特巴瑞斯
-		name_list = "MOL1"
+		name_list = "MOL3"
 	}
 	
 	kundaric = {
@@ -1263,7 +1507,7 @@ MOL = {
 		plural = 库恩坦
 		home_planet = 库恩迪亚
 		home_system = 库恩-蒂
-		name_list = "MOL2"
+		name_list = "MOL4"
 	}
 	
 	sejethari = {
@@ -1287,7 +1531,7 @@ MOL = {
 		plural = 塞巴恩
 		home_planet = 塞巴恩尼卡
 		home_system = 塞巴托-卡
-		name_list = "MOL1"
+		name_list = "MOL3"
 	}
 	
 	jakly = {
@@ -1295,7 +1539,7 @@ MOL = {
 		plural = 加卡利
 		home_planet = 加卡罗
 		home_system = 加卡
-		name_list = "MOL2"
+		name_list = "MOL4"
 	}
 	
 	bavi = {
@@ -1305,6 +1549,46 @@ MOL = {
 		home_system = 巴瓦
 		name_list = "MOL1"
 	}
+	
+	endurga = {
+		name = 恩度加萨
+		plural = 恩度加萨
+		home_planet = 杜加萨
+		home_system = 杜加
+		name_list = "MOL2"
+	}
+
+	xabir = {
+		name = 萨比尔
+		plural = 萨比尔
+		home_planet = "萨比尔主星"
+		home_system = 萨比尔
+		name_list = "MOL3"
+	}
+
+	jubaran = {
+		name = 朱巴兰
+		plural = 朱巴兰
+		home_planet = 朱巴巴星
+		home_system = 杰瑟拉-瓦兹 
+		name_list = "MOL4"
+	}
+
+	norani = {
+		name = 诺拉尼
+		plural = 诺拉尼
+		home_planet = 诺拉尼亚
+		home_system = 纳思
+		name_list = "MOL1"
+	}
+
+	urzo = {
+		name = 乌尔佐
+		plural = 乌尔佐
+		home_planet = 乌苏里亚
+		home_system = "乌尔兹-哥巴"
+		name_list = "MOL2"
+	}
 }
 
 ### AI
@@ -1313,8 +1597,8 @@ AI = {
 	ai = {
 		name = 人工智能
 		plural = 人工智能
-		home_planet = "Grid x0y0z0"
-		home_system = "UGrid x0y0z0"
+		home_planet = "x0y0z0矩阵"
+		home_system = "x0y0z0矩阵"
 		name_list = "AI"
 	}
 }
