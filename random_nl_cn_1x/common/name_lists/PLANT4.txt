@@ -1,0 +1,203 @@
+### Plantoid 4
+### Created by Miranda van den Brink
+### Latin plant names theme
+PLANT4 = {	
+	### SHIPS
+
+	ship_names = {
+	
+		generic = {
+				"奥丁" "弗丽加" "索尔" "提尔" "洛基" "希芙" "海姆达尔" "巴德尔" "霍德尔" "布拉基" "伊登" "纳尔弗" "海尼尔"
+				"乌勒尔" "斯露德" "维达" "弗雷" "弗雷亚" "尼奥尔德" "古尔维格" "乌尔德" "维尔丹蒂" "斯库蒂" "亚尔维特"
+				"布伦希尔德" "杰罗露尔" "杰尔斯科古尔" "格雷" "格恩达尔" "冈恩" "古斯" "海芙约特" "赫尔维尔" "希露德"
+				"荷拉德古纳" "荷拉斯古斯" "赫罗克" "荷瑞斯特" "密斯特" "奥尔露恩" "罗塔" "兰蒂格瑞斯" "拉斯格瑞斯" "瑞吉雷芙"
+				"希格德瑞法" "希格露恩" "斯加古尔" "斯克加利德" "斯维法" "诺特" "林德" "乔德" "达古" "斯加蒂" "芬里尔"
+				"约尔曼冈德" "海拉" "伊米尔" "蒂阿兹" "斯卡迪" "奥尔布达" "贡露" "欧德姆布拉" "密米尔" "贝斯特拉" "威利"
+				"维" "阿斯克" "恩布拉"
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+				"加拉尔" "斯提布拉特尼" "纳吉尔法" "安德华拉诺特" "德罗普尼尔"
+		}
+		
+		colonizer = {
+				"艾瑞尼尔" "布里希加曼" "雅恩格利佩尔" "米斯特丁" "姆乔尔尼尔"
+		}
+		
+		constructor = {
+				"昆古尼尔" "提尔锋" "斯莱布尼尔" "斯罗德万" "黄金苹果"
+		}
+		
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+		}
+		
+		military_station_small = {
+				"莫德古德" "加尔姆" "冈拉提" "冈洛特" "史莱普尼尔"
+		}
+		military_station_medium = {
+				"南那" "索克" "伐利" "比尔林" "瓦克"
+		}
+		military_station_large = {
+				"尼普" "布罗诺" "弗尔塞提" "尼德霍格" "拉塔托斯克"
+		}	
+	}
+	
+	fleet_names = {
+		sequential_name = "星海第%O%舰队"
+	}
+
+	### ARMIES
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "第%O%守备师团"
+		}
+
+		assault_army = {
+			sequential_name = "第%O%突击师团"
+		}
+		
+		slave_army = {
+			sequential_name = "第%O%辅助师团"
+		}
+		
+		clone_army = { 
+			sequential_name = "第%O%克隆人师团"
+		}
+		
+		robotic_army = {
+			sequential_name = "第%O%机器人师团"
+		}
+		
+		android_army = {
+			sequential_name = "第%O%智能人师团"
+		}
+		
+		psionic_army = { 
+			sequential_name = "第%O%灵能师团"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "第%O%异形师团"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "第%O%基因武士师团"
+		}
+	}
+
+		
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				"尤古特拉希尔" "米德加尔特" "阿斯加德" "海姆冥界" "尼福尔海姆" "穆斯贝尔海姆" "约顿海姆" "亚尔夫海姆"
+				"瓦特海姆" "华纳海姆" "艾达华尔" "凡格尔夫" "比弗罗斯特" "比尔斯基尼尔" "特鲁德海姆" "布列达布利克"
+				"埃利伐加尔" "金伦加" "赫瓦格密尔" "维穆尔" "吉欧尔" "格尼帕" "斯利德" "埃留德尼尔" "纳斯特隆德" "芬萨里尔"
+				"弗尔克范格" "色斯灵尼尔" "瓦尔哈拉" "津利" "格拉兹海姆" "格利特尼尔" "希敏约格" "诺欧顿" "索克瓦贝克"
+				"索列姆海姆" "格拉希尔" "维格利德" "伊达利尔"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				"奥丁" "弗丽加" "索尔" "提尔" "洛基" "希芙" "海姆达尔" "巴德尔" "霍德尔" "布拉基" "伊登" "纳尔弗" "海尼尔"
+				"乌勒尔" "斯露德" "维达" "弗雷" "弗雷亚" "尼奥尔德" "古尔维格" "乌尔德" "维尔丹蒂" "斯库蒂" "亚尔维特"
+				"布伦希尔德" "杰罗露尔" "杰尔斯科古尔" "格雷" "格恩达尔" "冈恩" "古斯" "海芙约特" "赫尔维尔" "希露德"
+				"荷拉德古纳" "荷拉斯古斯" "赫罗克" "荷瑞斯特" "密斯特" "奥尔露恩" "罗塔" "兰蒂格瑞斯" "拉斯格瑞斯" "瑞吉雷芙"
+				"希格德瑞法" "希格露恩" "斯加古尔" "斯克加利德" "斯维法" "诺特" "林德" "乔德" "达古" "斯加蒂" "芬里尔"
+				"约尔曼冈德" "海拉" "伊米尔" "蒂阿兹" "斯卡迪" "奥尔布达" "贡露" "欧德姆布拉" "密米尔" "贝斯特拉" "威利"
+				"维" "阿斯克" "恩布拉"
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				"亚萨" "华纳"
+			}
+
+			regnal_first_names = {
+				"奥丁" "弗丽加" "索尔" "提尔" "洛基" "希芙" "海姆达尔" "巴德尔" "霍德尔" "布拉基" "伊登" "纳尔弗" "海尼尔"
+				"乌勒尔" "斯露德" "维达"
+			}
+			
+			regnal_second_names = {
+				"亚萨"
+			}
+		}
+	}
+}

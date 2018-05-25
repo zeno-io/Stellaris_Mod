@@ -1,0 +1,508 @@
+﻿## Supremacists
+pop_faction_name_parts_list = {
+	key = "supremacist_names_1"
+	parts = {
+		"至上" = 1
+		"统合" = 1
+		"优先" = 1
+		"支配" = 1
+		"未来" = 1
+		"优势" = 1
+		"优越" = 1
+		"存续" = 1
+		"纯正" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "supremacist_names_2"
+	parts = {
+		"先锋" = 1
+		"前线" = 1
+		"运动" = 1
+		"党派" = 1
+		"集团" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "supremacist"
+		}
+	}
+	format = "[This.Owner.GetSpeciesName]<supremacist_names_1><supremacist_names_2>"
+}
+
+## Imperialists
+pop_faction_name_parts_list = {
+	key = "imperialist_names"
+	parts = {
+		"军官协会" = 1
+		"胜利老兵运动" = 1
+		"军火工业复合体" = 1
+		"透过征服展现实力联盟" = 1
+		"虚空骑士团" = 1
+		"爱国者先锋" = 1
+		"燃烧星的秩序" = 1
+		"红色战士守卫" = 1
+		"第一战斗军团"= 1
+		"红色军团"= 1
+		"磨刀倡议"= 1
+		"作战呐喊"= 1
+		"胜利旗帜"= 1
+		"战友兄弟会"= 1
+		"银色卫队"= 1
+		"荣耀倡议"= 1
+		"胜利之路委员会"= 1
+		"先锋之选"= 1
+		"胜利党派"= 1
+		"荆棘斗士"= 1
+		"军事霸权联盟"= 1
+		"三月勇气"= 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "imperialist"
+		}
+	}
+	format = "<imperialist_names>"
+}
+
+## Isolationists
+pop_faction_name_parts_list = {
+	key = "isolationist_names_1"
+	parts = {
+		"非干预者"= 1
+		"无纠纷"= 1
+		"国防第一"= 1
+		"内部繁荣"= 1
+		"国家准备"= 1
+		"防御准备"= 1
+		"中立主义"= 1
+		"内部力量"= 1
+		"封闭边界"= 1
+		"永恒警惕"= 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "isolationist_names_2"
+	parts = {
+		"联盟"= 1
+		"议会"= 1
+		"委员会"= 1
+		"中心"= 1
+		"基金会"= 1
+		"倡议"= 1
+		"社会"= 1
+		"守望"= 1
+		"联盟"= 1
+		"运动"= 1
+		"团体"= 1
+		"组织"= 1
+		"网络"= 1
+		"论坛"= 1
+		"协会"= 1
+		"联会"= 1
+		"党派"= 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "isolationist"
+		}
+	}
+	format = "<isolationist_names_1><isolationist_names_2>"
+}
+
+## Totalitarians
+pop_faction_name_parts_list = {
+	key = "totalitarian_names_1"
+	parts = {
+		"团结力量"= 1
+		"专制"= 1
+		"帝国统合"= 1
+		"一个王座"= 1
+		"明确阶级"= 1
+		"团结一体"= 1
+		"贵族特权"= 1
+		"君主主义"= 1
+		"有序社会"= 1
+		"和平与秩序"= 1
+		"忠诚公民"= 1
+		"公民精英"= 1
+		"公民服从"= 1
+		"服从忠诚与义务"= 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "totalitarian_names_2"
+	parts = {
+		"倡议" = 1
+		"联盟" = 1
+		"运动" = 1
+		"团体" = 1
+		"联会" = 1
+		"党派" = 1
+		"先锋" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "totalitarian"
+		}
+	}
+	format = "<totalitarian_names_1><totalitarian_names_2>"
+}
+
+## Progressives
+pop_faction_name_parts_list = {
+	key = "progressive_names_1"
+	parts = {
+		"民主潮流"= 1
+		"自由乐土"= 1
+		"自由选举"= 1
+		"现在自由"= 1
+		"民主改革"= 1
+		"公民自决主义"= 1
+		"解放"= 1
+		"真正的民主"= 1
+		"个人选择"= 1
+		"自由思想"= 1
+		"免费公民"= 1
+		"全民投票"= 1
+		"民主权利"= 1
+		"自由之友"= 1
+		"银河解放"= 1
+		"选举自由"= 1
+		"自由公民"= 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "progressive_names_2"
+	parts = {
+        	"同盟"= 1
+		"议会"= 1
+		"委员会"= 1
+		"中心"= 1
+		"基金会"= 1
+		"倡议"= 1
+		"社会"= 1
+		"守望"= 1
+		"联盟"= 1
+		"运动"= 1
+		"团体"= 1
+		"组织"= 1
+		"网络"= 1
+		"论坛"= 1
+		"协会"= 1
+		"联会"= 1
+		"党派"= 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "progressive"
+		}
+	}
+	format = "<progressive_names_1><progressive_names_2>"
+}
+
+
+## Prosperity Faction
+pop_faction_name_parts_list = {
+	key = "prosperity_names_1"
+	parts = {
+		"经济增长"= 1
+		"经济发展"= 1
+		"国家财政"= 1
+		"金融稳定"= 1
+		"金融发展"= 1
+		"经济安全"= 1
+		"国家财富"= 1
+		"资源控制"= 1
+		"经济发展"= 1
+		"联合经济学家"= 1
+		"国家偿付能力"= 1
+		"国家信投"= 1
+		"商业分析师"= 1
+		"金融监管"= 1
+		"财富提升"= 1
+		"繁荣"= 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "prosperity_names_2"
+	parts = {
+		"基金会" = 1
+		"倡议" = 1
+		"联会" = 1
+		"平台" = 1
+		"委员会" = 1
+		"党派" = 1
+		"联盟" = 1
+		"团体" = 1
+		"游行" = 1
+		"网络" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "prosperity"
+		}
+	}
+	format = "<prosperity_names_1><prosperity_names_2>"
+}
+
+## Technologists
+pop_faction_name_parts_list = {
+	key = "technologist_names_1"
+	parts = {
+		"委员会" = 1
+		"学术团体" = 1
+		"议会" = 1
+		"学会" = 1
+		"联会" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "technologist_names_2"
+	parts = {
+		"高等教育"= 1
+		"联合科学家"= 1
+		"技术进步"= 1
+		"技术专家"= 1
+		"先进科学"= 1
+		"科学学者"= 1
+		"科学优越"= 1
+		"高技术"= 1
+		"科学进步"= 1
+		"技术改革"= 1
+		"研究效率"= 1
+		"技术精通"= 1
+		"科学改良"= 1
+		"机器人科学"= 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "technologist"
+		}
+	}
+	format = "<technologist_names_2><technologist_names_1>"
+}
+
+## Traditionalists
+pop_faction_name_parts_list = {
+	key = "traditionalist_names_1"
+	parts = {
+		"联合" = 1
+		"同盟" = 1
+		"议会" = 1
+		"委员会" = 1
+		"教会" = 1
+		"主教会议" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "traditionalist_names_2"
+	parts = {
+		"传统价值观"= 1
+		"精神家"= 1
+		"神圣指引"= 1
+		"神圣传统"= 1
+		"宗教保守主义"= 1
+		"精神救赎"= 1
+		"灵性"= 1
+		"真福音"= 1
+		"精神哲学"= 1
+		"传统基金"= 1
+		"形而上净化"= 1
+		"崇高的神职人员"= 1
+		"大祭司"= 1
+		"神圣真理"= 1
+		"虔诚传统主义者"= 1
+		"信仰与价值观"= 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "traditionalist"
+		}
+	}
+	format = "<traditionalist_names_2><traditionalist_names_1>"
+}
+
+## Xenoists
+pop_faction_name_parts_list = {
+	key = "xenoist_names_1"
+	parts = {
+		"外星人" = 1
+		"异星人" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "xenoist_names_2"
+	parts = {
+		"权利"= 1
+		"容忍"= 1
+		"友谊"= 1
+		"平等"= 1
+		"正义"= 1
+		"同情"= 1
+		"保护"= 1
+		"自由"= 1
+		"自由"= 1
+		"援助"= 1
+		"改革"= 1
+		"意识"= 1
+		"选举权"= 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "xenoist_names_3"
+	parts = {
+		"联盟"= 1
+		"游行"= 1
+		"议会"= 1
+		"委员会"= 1
+		"中心"= 1
+		"基金会"= 1
+		"倡议"= 1
+		"社会"= 1
+		"观察"= 1
+		"联盟"= 1
+		"运动"= 1
+		"团体"= 1
+		"组织"= 1
+		"网络"= 1
+		"论坛"= 1
+		"协会"= 1
+		"信仰"= 1
+		"学会"= 1
+		"联会"= 1
+		"天文台"= 1
+		"党派"= 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "xenoist"
+		}
+	}
+	format = "<xenoist_names_1><xenoist_names_2><xenoist_names_3>"
+}
+
+## Democratic election minor factions
+pop_faction_name_parts_list = {
+	key = "democratic_election_names_1_1"
+	parts = {
+		"民主"= 1
+		"人民民主"= 1
+		"自由民主"= 1
+		"进步"= 1
+		"联合民主"= 1
+		"新民主党"= 1
+		"人人民主"= 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "democratic_election_names_1_2"
+	parts = {
+		"党派" = 6
+		"代表大会" = 1
+		"联会" = 1
+		"同盟" = 1
+		"集团" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "democratic_election_faction_1"
+		}
+	}
+	format = "<democratic_election_names_1_1><democratic_election_names_1_2>"
+}
+
+pop_faction_name_parts_list = {
+	key = "democratic_election_names_2_1"
+	parts = {
+		"统合中立"= 1
+		"进步中心"= 1
+		"公民传统"= 1
+		"激进市政"= 1
+		"人人中心"= 1
+		"公民典范"= 1
+		"中立主义"= 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "democratic_election_names_2_2"
+	parts = {
+		"党派" = 6
+		"代表大会" = 1
+		"联会" = 1
+		"同盟" = 1
+		"集团" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "democratic_election_faction_2"
+		}
+	}
+	format = "<democratic_election_names_2_1><democratic_election_names_2_2>"
+}

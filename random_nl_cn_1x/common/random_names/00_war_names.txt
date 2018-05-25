@@ -1,0 +1,108 @@
+war_name_parts_list = {
+	key = "war_names"
+	parts = {
+		"战争" = 1
+		"之战" = 1
+		"事变" = 1
+		"之争" = 1
+		"冲突" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "freedom_names"
+	parts = {
+		"自由" = 1
+		"解放" = 1
+		"自由权" = 1
+		"独立" = 1
+	}
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				has_federation = yes
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "[This.MainAttacker.GetAllianceName]-[This.MainDefender.GetAllianceName]<war_names>"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				has_federation = yes
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "[This.MainAttacker.GetAllianceName]-[This.MainDefender.GetSpeciesName]<war_names>"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "[This.MainAttacker.GetSpeciesName]-[This.MainDefender.GetAllianceName]<war_names>"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				OR = {
+					NOT = {
+						exists = overlord
+					}
+					root = {
+						NOT = {
+							defender = {
+								is_same_value = prev.attacker.overlord
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	format = "[This.MainAttacker.GetSpeciesName]-[This.MainDefender.GetSpeciesName]<war_names>"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				exists = overlord
+			}
+			defender = {
+				is_same_value = prev.attacker.overlord
+			}
+		}
+	}
+	format = "[This.MainAttacker.GetAdj]<freedom_names><war_names>"
+}
