@@ -1,0 +1,223 @@
+﻿### Machine 3
+### Written by Dee Majek
+
+MACHINE3 = {
+	should_name_home_system_planets = no
+	
+	ship_names = {
+
+		generic = {
+		}
+
+		corvette = {
+			钢反应器  钢哨兵  艾恩塞德应答器  铬保持器  钢铁骑士  钢铁冠军  钢铁游击队  钢盔  铬战士  钢铁护林员  钢铁枪手  镀铬典狱长  铁守护者  钢铁防御者  镀铬防护罩  钢盔  钢铁哨兵  铁警戒剂  镀铬机  钢铁观察者  铬保管人  钢保护器  铬护卫舰  钢护筒  镀铬胶辊  铁盾  钢铁谢巴德  铬天鹅绒  铁病房  铬标书  钢质监护仪  铁棚  钢铁坚韧  铁监工  机器应答器  伏打哨兵  电流保持器  电骑士  原电冠军  银色游击队  银色长矛  伏特战士  网络化游侠  电流枪手  银监  镀锌监护仪  同步防御者  机械防护装置  网络管理员  同步哨兵  伏特警戒  联系守门员  银质守望者  机器保护器  联系护航  同步保存器  连锁巡逻车  镀锌屏蔽  控制谢巴德  银盾  电镀病房  共时监测器  机械监工  钢底座  铁皮  银质堡垒  银幔 
+		}	
+	
+		destroyer = {
+			钢反应器  钢哨兵  艾恩塞德应答器  铬保持器  钢铁骑士  钢铁冠军  钢铁游击队  钢盔  铬战士  钢铁护林员  钢铁枪手  镀铬典狱长  铁守护者  钢铁防御者  镀铬防护罩  钢盔  钢铁哨兵  铁警戒剂  镀铬机  钢铁观察者  铬保管人  钢保护器  铬护卫舰  钢护筒  镀铬胶辊  铁盾  钢铁谢巴德  铬天鹅绒  铁病房  铬标书  钢质监护仪  铁棚  钢铁坚韧  铁监工  机器应答器  伏打哨兵  电流保持器  电骑士  原电冠军  银色游击队  银色长矛  伏特战士  网络化游侠  电流枪手  银监  镀锌监护仪  同步防御者  机械防护装置  网络管理员  同步哨兵  伏特警戒  联系守门员  银质守望者  机器保护器  联系护航  同步保存器  连锁巡逻车  镀锌屏蔽  控制谢巴德  银盾  电镀病房  共时监测器  机械监工  钢底座  铁皮  银质堡垒  银幔
+		}
+		
+		cruiser = {
+			钢反应器  钢哨兵  艾恩塞德应答器  铬保持器  钢铁骑士  钢铁冠军  钢铁游击队  钢盔  铬战士  钢铁护林员  钢铁枪手  镀铬典狱长  铁守护者  钢铁防御者  镀铬防护罩  钢盔  钢铁哨兵  铁警戒剂  镀铬机  钢铁观察者  铬保管人  钢保护器  铬护卫舰  钢护筒  镀铬胶辊  铁盾  钢铁谢巴德  铬天鹅绒  铁病房  铬标书  钢质监护仪  铁棚  钢铁坚韧  铁监工  机器应答器  伏打哨兵  电流保持器  电骑士  原电冠军  银色游击队  银色长矛  伏特战士  网络化游侠  电流枪手  银监  镀锌监护仪  同步防御者  机械防护装置  网络管理员  同步哨兵  伏特警戒  联系守门员  银质守望者  机器保护器  联系护航  同步保存器  连锁巡逻车  镀锌屏蔽  控制谢巴德  银盾  电镀病房  共时监测器  机械监工  钢底座  铁皮  银质堡垒  银幔
+		}
+		
+		battleship = {
+			钢反应器 钢哨兵 艾恩塞德应答器 铬保持器 钢铁骑士 钢铁冠军 钢铁游击队 钢盔 铬战士 钢铁护林员 钢铁枪手 镀铬典狱长 铁守护者 钢铁防御者 镀铬防护罩 钢盔 钢铁哨兵 铁警戒剂 镀铬机 钢铁观察者 铬保管人 钢保护器 铬护卫舰 钢护筒 镀铬胶辊 铁盾 钢铁谢巴德 铬天鹅绒 铁病房 铬标书 钢质监护仪 铁棚 钢铁坚韧 铁监工 机器应答器 伏打哨兵 电流保持器 电骑士 原电冠军 银色游击队 银色长矛 伏特战士 网络化游侠 电流枪手 银监 镀锌监护仪 同步防御者 机械防护装置 网络管理员 同步哨兵 伏特警戒 联系守门员 银质守望者 机器保护器 联系护航 同步保存器 连锁巡逻车 镀锌屏蔽 控制谢巴德 银盾 电镀病房 共时监测器 机械监工 钢底座 铁皮 银质堡垒 银幔
+		}
+
+		titan = {
+			钢反应器 钢哨兵 艾恩塞德应答器 铬保持器 钢铁骑士 钢铁冠军 钢铁游击队 钢盔 铬战士 钢铁护林员 钢铁枪手 镀铬典狱长 铁守护者 钢铁防御者 镀铬防护罩 钢盔 钢铁哨兵 铁警戒剂 镀铬机 钢铁观察者 铬保管人 钢保护器 铬护卫舰 钢护筒 镀铬胶辊 铁盾 钢铁谢巴德 铬天鹅绒 铁病房 铬标书 钢质监护仪 铁棚 钢铁坚韧 铁监工 机器应答器 伏打哨兵 电流保持器 电骑士 原电冠军 银色游击队 银色长矛 伏特战士 网络化游侠 电流枪手 银监 镀锌监护仪 同步防御者 机械防护装置 网络管理员 同步哨兵 伏特警戒 联系守门员 银质守望者 机器保护器 联系护航 同步保存器 连锁巡逻车 镀锌屏蔽 控制谢巴德 银盾 电镀病房 共时监测器 机械监工 钢底座 铁皮 银质堡垒 银幔
+		}
+
+		colossus = {
+			钢反应器 钢哨兵 艾恩塞德应答器 铬保持器 钢铁骑士 钢铁冠军 钢铁游击队 钢盔 铬战士 钢铁护林员 钢铁枪手 镀铬典狱长 铁守护者 钢铁防御者 镀铬防护罩 钢盔 钢铁哨兵 铁警戒剂 镀铬机 钢铁观察者 铬保管人 钢保护器 铬护卫舰 钢护筒 镀铬胶辊 铁盾 钢铁谢巴德 铬天鹅绒 铁病房 铬标书 钢质监护仪 铁棚 钢铁坚韧 铁监工 机器应答器 伏打哨兵 电流保持器 电骑士 原电冠军 银色游击队 银色长矛 伏特战士 网络化游侠 电流枪手 银监 镀锌监护仪 同步防御者 机械防护装置 网络管理员 同步哨兵 伏特警戒 联系守门员 银质守望者 机器保护器 联系护航 同步保存器 连锁巡逻车 镀锌屏蔽 控制谢巴德 银盾 电镀病房 共时监测器 机械监工 钢底座 铁皮 银质堡垒 银幔
+		}
+		
+		science = { 
+			"科学模块"
+		}
+		
+		colonizer = {
+			"克隆模块"
+		}
+		
+		constructor = { 
+			"建造模块"
+		}
+
+		transport = { 
+			"运输模块"
+		}
+
+		military_station_small = {
+			铁菱形  钢护墙
+		}
+
+		ion_cannon = {
+			"谷歌守护者"
+		}
+
+		### For Fallen Empires
+		small_ship_fallen_empire = {
+			"Deca" "Deci" "Centi" "Nano" "Pico" "Femto" "Atto" "Zepto" "Yocto" "Exa" "Peta" "Tera" "Giga" "Mega" "Zetta" "Yotta" "Kibi" "Mebi" "Gibi" "Tebi" "Pebi" "Exbi" "Zebi" "Yobi" "Myria" "Demi" "Xenna" "Weka" "Vendeka" "Xono" "Weco" "Vundo" "Hedbo" "Micri"
+		}
+		large_ship_fallen_empire = {
+			"Deca" "Deci" "Centi" "Nano" "Pico" "Femto" "Atto" "Zepto" "Yocto" "Exa" "Peta" "Tera" "Giga" "Mega" "Zetta" "Yotta" "Kibi" "Mebi" "Gibi" "Tebi" "Pebi" "Exbi" "Zebi" "Yobi" "Myria" "Demi" "Xenna" "Weka" "Vendeka" "Xono" "Weco" "Vundo" "Hedbo" "Micri"
+		}
+		massive_ship_fallen_empire = {
+			"Deca" "Deci" "Centi" "Nano" "Pico" "Femto" "Atto" "Zepto" "Yocto" "Exa" "Peta" "Tera" "Giga" "Mega" "Zetta" "Yotta" "Kibi" "Mebi" "Gibi" "Tebi" "Pebi" "Exbi" "Zebi" "Yobi" "Myria" "Demi" "Xenna" "Weka" "Vendeka" "Xono" "Weco" "Vundo" "Hedbo" "Micri"
+		}
+	}
+
+	ship_class_names = {
+		generic = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			警戒安全梯队 警卫安全梯队 不懈安全梯队 保持安全梯队 随行保安梯队 执行安全梯队 坚决安全梯队 安全梯队 安全梯队 坚定安全梯队 热情安全梯队
+		}
+		sequential_name = "%CCC%安全梯队"
+	}
+	
+	army_names = {
+		
+		machine_assault_1 = {
+			sequential_name = "%O%积极监管者"
+		}
+
+		machine_defense = {
+			sequential_name = "%O%防御监管者"
+		}
+		
+		machine_assault_2 = {
+			sequential_name = "%O%激进监管者"
+		}
+		
+		machine_assault_3 = {
+			sequential_name = "%O%超级巨像"
+		}
+		
+		defense_army = {
+			sequential_name = "%O%策展防护者"
+		}
+			
+		assault_army = {
+			sequential_name = "%O%策展看守者"
+		}
+		
+		clone_army = {
+			sequential_name = "%O%策展克隆军"
+		}
+
+		machine_occupation_army = {
+			sequential_name = "%O%占领看守者"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				 "Kzzt" "Bwok" "Blip" "Koaxi" "Dwook" "Kwok" "Vworp" "Trock" "Clanck" "Qwert" "Zyzzyx" "Blixt" "Bleep" "Fzzz" "Thwock" "Zonk" "Tessel" "Vrrr" "Whirr" "Flik" "Clack" "Vizz" "Klonk" "Zap" "Plonk" "Krank" "Vert" "Pix" "Plink" "Bolt" "Klink" "Zpark" "Bzzt" "Cyl" "Axl" "Wovv" "Klik" "Mekk" "Brrow" "Ping" "Dex" "Werx" "Gizmek" "Auton" "Motron" "Scy" "Int" "Char" "Bool" "Daton"
+			}
+		}
+		
+		pc_desert = {
+			names = { 
+				
+			}
+		}
+		
+		pc_tropical = {
+			names = { 
+				
+			}
+		}
+		
+		pc_arid = {
+			names = { 
+				
+			}
+		}
+		
+		pc_continental = {
+			names = { 
+				
+			}
+		}
+		
+		pc_ocean = {
+			names = { 
+				
+			}
+		}
+		
+		pc_tundra = {
+			names = { 
+				
+			}
+		}
+		
+		pc_arctic = {
+			names = { 
+				
+			}
+		}
+
+		pc_savannah = {
+			names = { 
+				
+			}
+		}
+
+		pc_alpine = {
+			names = { 
+				
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = { 
+				"直升机驾驶A9" "直升机驾驶B8" "直升机驾驶C7" "直升机驾驶D6" "直升机驾驶E5" "直升机驾驶F4" "直升机驾驶G3" "直升机驾驶H2" "直升机驾驶I1" "直升机驾驶J0" "直升机驾驶K1" "直升机驾驶L2" "直升机驾驶M3" "直升机驾驶N4" "直升机驾驶O5" "直升机驾驶P6" "直升机驾驶Q7" "直升机驾驶R8" "直升机驾驶S9" "直升机驾驶T0" "直升机驾驶U1" "直升机驾驶V2" "直升机驾驶W3" "直升机驾驶X4" "直升机驾驶Y5" "直升机驾驶Z6"
+				"深裂者4A" "深裂者5B" "深裂者6C" "深裂者7D" "深裂者8E" "深裂者9F" "深裂者1G" "深裂者2H" "深裂者3I" "深裂者4J" "深裂者5K" "深裂者6L" "深裂者7M" "深裂者8N" "深裂者9O" "深裂者0P" "深裂者1Q" "深裂者2R" "深裂者3S" "深裂者4T" "深裂者5U" "深裂者6V" "深裂者7W" "深裂者1X" "深裂者2Y" "深裂者3Z"
+				"辅同步器XA" "辅同步器XE" "辅同步器XO" "辅同步器XI" "辅同步器XY" "辅同步器XU" "辅同步器VR" "辅同步器VH" "辅同步器VN" "辅同步器VC" "辅同步器VT" "辅同步器VQ" "辅同步器NA" "辅同步器NE" "辅同步器NO" "辅同步器NI" "辅同步器NY" "辅同步器NU" "辅同步器ZF" "辅同步器ZG" "辅同步器ZJ" "辅同步器ZP" "辅同步器ZM" "辅同步器ZB" "辅同步器RA" "辅同步器RE" "辅同步器RO" "辅同步器RI" "辅同步器RY" "辅同步器RU"
+				
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+				
+			}
+			
+			regnal_second_names = {
+				
+			}
+		}
+	}
+
+	ruler_names = {
+		default = {
+			full_names = {
+				看守者 依维莫司 尖峰信号 双向有线 模块 协调员 衰减器 拟像 调和器 帕尔 建筑师 制动器
+			}
+		}
+	}
+}

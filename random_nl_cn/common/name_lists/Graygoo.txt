@@ -1,0 +1,18 @@
+﻿### Gray Goo
+graygoo = {
+	selectable = { always = no }
+	randomized = no
+	
+	### SHIPS
+
+	ship_names = {
+	
+		graygoo_mothership = {
+			"康弗伦斯"
+		}
+
+		graygoo_interdictor = {
+			重铸者
+		}
+	}
+}

@@ -1,7 +1,7 @@
-### Humanoid 3
+### Humanoid 4
 ### Created by Maximilian Olbers
 
-MAM3 = {
+MAM4 = {
 	### SHIPS
 
 	ship_names = {
@@ -180,7 +180,7 @@ MAM3 = {
 			}
 			
 			regnal_second_names = {
-				"潘德拉贡"
+				"深摩多"
 			}
 		}
 	}
