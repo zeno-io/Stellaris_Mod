@@ -56,6 +56,23 @@ war_name_parts_list = {
 }
 
 war_name_parts_list = {
+	key = "galatron_war_names"
+	parts = {
+		"格兰顿之战" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "expel_corp_war_names"
+	parts = {
+		"禁运战争" = 1
+		"征收战争" = 1
+		"驱逐战争" = 1
+	}
+}
+
+
+war_name_parts_list = {
 	key = "tribute_war_names"
 	parts = {
 		"朝贡之战" = 1
@@ -285,7 +302,7 @@ war_name_format = {
 		modifier = {
 			add = 999
 			using_war_goal = {
-                type = wg_conquest
+                type = wg_hostile_takeover
                 owner = attacker
             }
             attacker = {
@@ -308,10 +325,16 @@ war_name_format = {
 		factor = 0
 		modifier = {
 			add = 999
-			using_war_goal = {
-                type = wg_subjugation
-                owner = attacker
-            }
+			OR = {
+				using_war_goal = {
+					type = wg_subjugation
+					owner = attacker
+				}
+				using_war_goal = {
+					type = wg_megacorp_subjugate
+					owner = attacker
+				}				
+			}
             attacker = {
 				has_federation = no
 				NOT = { has_government = gov_megacorporation }
@@ -330,10 +353,16 @@ war_name_format = {
 		factor = 0
 		modifier = {
 			add = 999
-			using_war_goal = {
-                type = wg_subjugation
-                owner = attacker
-            }
+			OR = {
+				using_war_goal = {
+					type = wg_subjugation
+					owner = attacker
+				}
+				using_war_goal = {
+					type = wg_megacorp_subjugate
+					owner = attacker
+				}				
+			}
 			attacker = {
 				has_federation = yes
 			}
@@ -351,10 +380,16 @@ war_name_format = {
 		factor = 0
 		modifier = {
 			add = 999
-			using_war_goal = {
-                type = wg_subjugation
-                owner = attacker
-            }
+			OR = {
+				using_war_goal = {
+					type = wg_subjugation
+					owner = attacker
+				}
+				using_war_goal = {
+					type = wg_megacorp_subjugate
+					owner = attacker
+				}				
+			}
 			attacker = {
 				has_federation = no
 			}
@@ -372,10 +407,16 @@ war_name_format = {
 		factor = 0
 		modifier = {
 			add = 999
-			using_war_goal = {
-                type = wg_subjugation
-                owner = attacker
-            }
+			OR = {
+				using_war_goal = {
+					type = wg_subjugation
+					owner = attacker
+				}
+				using_war_goal = {
+					type = wg_megacorp_subjugate
+					owner = attacker
+				}				
+			}
             attacker = {
 				has_federation = no
 				has_government = gov_megacorporation
@@ -1073,4 +1114,34 @@ war_name_format = {
 		}
 	}
 	format = "[This.MainDefender.GetAdj] <machine_uprising_war_names>"
+}
+
+## EXPEL CORP WARS
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_expel_corp
+                owner = attacker
+            }
+		}
+	}
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <expel_corp_war_names>"
+}
+
+## GALATRON WARS
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_take_galatron
+                owner = attacker
+            }
+		}
+	}
+	format = "<galatron_war_names>"
 }
