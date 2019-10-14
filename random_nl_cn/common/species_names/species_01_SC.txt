@@ -1517,7 +1517,7 @@ HUM = {
 		plural = 吉兰斯胡
 		home_planet = 吉瑞达尔
 		home_system = 加吉尔萨
-		name_list = "HUM4"
+		name_list = "HUM1"
 	}
 	
 	bebaki = {
