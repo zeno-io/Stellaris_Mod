@@ -1,10 +1,9 @@
-﻿# Generated species derive their names from here
+# Generated species derive their names from here
 
 ### MAMMALIANS
 
 HUM = {
 	alari = {
-		language = "l_simp_chinese"
 		name = 阿拉里
 		plural = 阿拉里
 		home_planet = 阿拉里
@@ -13,7 +12,6 @@ HUM = {
 	}
 	
 	mireesh = {
-		language = "l_simp_chinese"
 		name = 迷利西
 		plural = 迷利西
 		home_planet = 米拉提
@@ -22,7 +20,6 @@ HUM = {
 	}
 	
 	triech = {
-		language = "l_simp_chinese"
 		name = 催驰
 		plural = 催驰
 		home_planet = 催驰
@@ -31,7 +28,6 @@ HUM = {
 	}
 	
 	vrinn = {
-		language = "l_simp_chinese"
 		name = 维林
 		plural = 维林
 		home_planet = 维林
@@ -40,7 +36,6 @@ HUM = {
 	}
 	
 	cevanti = {
-		language = "l_simp_chinese"
 		name = 赛凡特
 		plural = 赛凡特
 		home_planet = 奥洛斯
@@ -49,7 +44,6 @@ HUM = {
 	}
 	
 	mishar = {
-		language = "l_simp_chinese"
 		name = 米沙
 		plural = 米沙
 		home_planet = 米沙里
@@ -58,7 +52,6 @@ HUM = {
 	}
 	
 	fareen = {
-		language = "l_simp_chinese"
 		name = 法拉恩
 		plural = 法拉恩
 		home_planet = 法拉
@@ -67,7 +60,7 @@ HUM = {
 	}
 	
 	yldar = {
-		language = "l_simp_chinese"
+
 		name = 伊尔达
 		plural = 伊尔达
 		home_planet = 伊尔达
@@ -76,7 +69,7 @@ HUM = {
 	}
 	
 	korinth = {
-		language = "l_simp_chinese"
+
 		name = 柯林斯
 		plural = 柯林斯
 		home_planet = 柯罗斯
@@ -85,7 +78,7 @@ HUM = {
 	}
 		
 	sildor = {
-		language = "l_simp_chinese"
+
 		name = 希拉多
 		plural = 希拉多
 		home_planet = 希拉多利亚
@@ -93,7 +86,7 @@ HUM = {
 		name_list = "HUM1"
 	}
 	nagyari = {
-		language = "l_simp_chinese"
+
 		name = 纳格亚利
 		plural = 纳格亚利
 		home_planet = 纳格亚利亚
@@ -102,7 +95,7 @@ HUM = {
 	}
 
 	kobarian = {
-		language = "l_simp_chinese"
+
 		name = 克伯利安
 		plural = 克伯利安斯
 		home_planet = 科巴利亚
@@ -111,7 +104,7 @@ HUM = {
 	}
 
 	Hesukar = {
-		language = "l_simp_chinese"
+
 		name = 海旭卡
 		plural = 海旭卡人
 		home_planet = "海旭主星"
@@ -120,7 +113,7 @@ HUM = {
 	}
 
 	giroid = {
-		language = "l_simp_chinese"
+
 		name = 吉尔罗德
 		plural = 吉尔罗德人
 		home_planet = 吉尔萨那星
@@ -129,7 +122,7 @@ HUM = {
 	}
 
 	akkano = {
-		language = "l_simp_chinese"
+
 		name = 阿卡诺
 		plural = 阿卡诺人
 		home_planet = 阿卡纳星
@@ -141,7 +134,7 @@ HUM = {
 
 MAM = {
 	kroll = {
-		language = "l_simp_chinese"
+
 		name = 科洛
 		plural = 科洛
 		home_planet = "科洛达主星"
@@ -150,7 +143,7 @@ MAM = {
 	}
 
 	orassian = {
-		language = "l_simp_chinese"
+
 		name = 奥拉斯安
 		plural = 奥拉斯安
 		home_planet = 奥拉西亚
@@ -159,7 +152,7 @@ MAM = {
 	}
 
 	aramathi = {
-		language = "l_simp_chinese"
+
 		name = 阿拉玛西
 		plural = 阿拉玛西
 		home_planet = 阿拉吉姆
@@ -168,7 +161,7 @@ MAM = {
 	}
 		
 	immutharan = {
-		language = "l_simp_chinese"
+
 		name = 伊姆斯兰
 		plural = 伊姆斯兰
 		home_planet = 伊姆斯
@@ -177,7 +170,7 @@ MAM = {
 	}
 
 	hiffnar = {
-		language = "l_simp_chinese"
+
 		name = 希弗纳
 		plural = 希弗纳
 		home_planet = 希弗努斯
@@ -186,7 +179,7 @@ MAM = {
 	}
 	
 	zaanami = {
-		language = "l_simp_chinese"
+
 		name = 扎纳玛尔
 		plural = 扎纳玛尔
 		home_planet = 扎纳玛尔
@@ -195,7 +188,7 @@ MAM = {
 	}
 
 	estwani = {
-		language = "l_simp_chinese"
+
 		name = 埃斯特瓦尼
 		plural = 埃斯特瓦尼
 		home_planet = 埃斯特瓦纳
@@ -204,7 +197,7 @@ MAM = {
 	}
 
 	vailon = {
-		language = "l_simp_chinese"
+
 		name = 维利安
 		plural = 维利安
 		home_planet = 瓦尔加
@@ -213,7 +206,7 @@ MAM = {
 	}
 
 	raltek = {
-		language = "l_simp_chinese"
+
 		name = 拉尔泰克
 		plural = 拉尔泰克
 		home_planet = "雷坦·布尔"
@@ -222,7 +215,7 @@ MAM = {
 	}
 
 	birnathi = {
-		language = "l_simp_chinese"
+
 		name = 比尔纳西
 		plural = 比尔纳西
 		home_planet = 比尔怒斯
@@ -231,7 +224,7 @@ MAM = {
 	}
 
 	othari = {
-		language = "l_simp_chinese"
+
 		name = 欧萨利
 		plural = 欧萨利
 		home_planet = 欧萨利亚
@@ -240,7 +233,7 @@ MAM = {
 	}
 
 	evandari = {
-		language = "l_simp_chinese"
+
 		name = 伊万达里
 		plural = 伊万达里
 		home_planet = "伊万达·祖恩"
@@ -249,7 +242,7 @@ MAM = {
 	}
 
 	bothrian = {
-		language = "l_simp_chinese"
+
 		name = 波萨利安
 		plural = 波萨利安
 		home_planet = 波萨利亚
@@ -258,7 +251,7 @@ MAM = {
 	}
 
 	dorbolan = {
-		language = "l_simp_chinese"
+
 		name = 多尔波兰
 		plural = 多尔波兰
 		home_planet = 多尔波尔
@@ -267,7 +260,7 @@ MAM = {
 	}
 
 	fevarian = {
-		language = "l_simp_chinese"
+
 		name = 非瓦利安
 		plural = 非瓦利安
 		home_planet = 非瓦利亚
@@ -276,7 +269,7 @@ MAM = {
 	}
 
 	kenjodan = {
-		language = "l_simp_chinese"
+
 		name = 肯约丹
 		plural = 肯约丹
 		home_planet = "肯约尔主星"
@@ -285,7 +278,7 @@ MAM = {
 	}
 
 	glyrran = {
-		language = "l_simp_chinese"
+
 		name = 格莱尔兰
 		plural = 格莱尔兰
 		home_planet = 格莱尔拉
@@ -294,7 +287,7 @@ MAM = {
 	}
 	
 	pallyrian = {
-		language = "l_simp_chinese"
+
 		name = 帕雷利安
 		plural = 帕雷利安
 		home_planet = 帕雷利亚
@@ -303,7 +296,7 @@ MAM = {
 	}
 	
 	quvarian = {
-		language = "l_simp_chinese"
+
 		name = 奎瓦利安
 		plural = 奎瓦利安
 		home_planet = 昆托斯
@@ -312,7 +305,7 @@ MAM = {
 	}
 	
 	qellnuram = {
-		language = "l_simp_chinese"
+
 		name = 魁尔纳达尔
 		plural = 魁尔纳达尔
 		home_planet = 魁尔
@@ -321,7 +314,7 @@ MAM = {
 	}
 	
 	valdari = {
-		language = "l_simp_chinese"
+
 		name = 瓦尔达利
 		plural = 瓦尔达利
 		home_planet = 瓦克诺莎
@@ -330,7 +323,7 @@ MAM = {
 	}
 	
 	igarian = {
-		language = "l_simp_chinese"
+
 		name = 伊加利恩
 		plural = 伊加利恩
 		home_planet = 伊加利亚
@@ -339,7 +332,7 @@ MAM = {
 	}
 	
 	adnoran = {
-		language = "l_simp_chinese"
+
 		name = 艾德诺兰
 		plural = 艾德诺兰
 		home_planet = 艾德诺
@@ -348,7 +341,7 @@ MAM = {
 	}
 	
 	tjell = {
-		language = "l_simp_chinese"
+
 		name = 图尤尔
 		plural = 图尤尔
 		home_planet = "西里斯莫"
@@ -357,7 +350,7 @@ MAM = {
 	}
 	
 	tarassi = {
-		language = "l_simp_chinese"
+
 		name = 塔拉斯
 		plural = 塔拉斯
 		home_planet = 塔拉斯克
@@ -366,7 +359,7 @@ MAM = {
 	}
 
 	sinrath = {
-		language = "l_simp_chinese"
+
 		name = 希纳斯
 		plural = 希纳斯
 		home_planet = 西加布乌
@@ -375,7 +368,7 @@ MAM = {
 	}
 
 	kaan_visam = {
-		language = "l_simp_chinese"
+
 		name = 卡威萨姆
 		plural = 卡威萨米
 		home_planet = 卡
@@ -384,7 +377,7 @@ MAM = {
 	}
 
 	tebazoid = {
-		language = "l_simp_chinese"
+
 		name = 提巴佐德
 		plural = 提巴佐德斯
 		home_planet = 提巴佐斯
@@ -393,7 +386,7 @@ MAM = {
 	}
 
 	kazam = {
-		language = "l_simp_chinese"
+
 		name = 卡札木
 		plural = 卡扎木斯
 		home_planet = 卡扎卡
@@ -402,7 +395,7 @@ MAM = {
 	}
 
 	quvab = {
-		language = "l_simp_chinese"
+
 		name = 库瓦布
 		plural = 库瓦布斯
 		home_planet = 库瓦
@@ -415,7 +408,7 @@ MAM = {
 
 FUN = {
 	bhennthell = {
-		language = "l_simp_chinese"
+
 		name = 本赛尔
 		plural = 本赛尔
 		home_planet = 赛尔
@@ -424,7 +417,7 @@ FUN = {
 	}
 
 	tendrazuhn = {
-		language = "l_simp_chinese"
+
 		name = 腾多拉-祖恩
 		plural = 腾多拉-祖恩
 		home_planet = 祖恩
@@ -433,7 +426,7 @@ FUN = {
 	}
 	
 	hahnmur = {
-		language = "l_simp_chinese"
+
 		name = 汉穆尔亚
 		plural = 汉穆尔亚
 		home_planet = 汉穆尔亚
@@ -442,7 +435,7 @@ FUN = {
 	}
 	
 	menjeti = {
-		language = "l_simp_chinese"
+
 		name = 门杰提
 		plural = 门杰提
 		home_planet = 门杰斯
@@ -451,7 +444,7 @@ FUN = {
 	}
 
 	hissma = {
-		language = "l_simp_chinese"
+
 		name = 西斯玛
 		plural = 西斯玛
 		home_planet = 西索莫
@@ -460,7 +453,7 @@ FUN = {
 	}
 
 	tycan = {
-		language = "l_simp_chinese"
+
 		name = 泰卡恩
 		plural = 泰卡恩
 		home_planet = "泰科尔主星"
@@ -469,7 +462,7 @@ FUN = {
 	}
 	
 	canthari = {
-		language = "l_simp_chinese"
+
 		name = 坎萨里
 		plural = 坎萨里
 		home_planet = "坎萨·舒克"
@@ -478,7 +471,7 @@ FUN = {
 	}
 	
 	otaga = {
-		language = "l_simp_chinese"
+
 		name = 欧塔加
 		plural = 欧塔加
 		home_planet = 欧提古尔
@@ -487,7 +480,7 @@ FUN = {
 	}
 	
 	zracon = {
-		language = "l_simp_chinese"
+
 		name = 佐拉康
 		plural = 佐拉康
 		home_planet = 佐拉格
@@ -496,7 +489,7 @@ FUN = {
 	}
 	
 	thembolon = {
-		language = "l_simp_chinese"
+
 		name = 西姆波尔兰
 		plural = 西姆波尔恩兰
 		home_planet = 西姆波利亚
@@ -505,7 +498,7 @@ FUN = {
 	}
 	
 	jhoolian = {
-		language = "l_simp_chinese"
+
 		name = 约尔人
 		plural = 约尔人
 		home_planet = "约尔主星"
@@ -514,7 +507,7 @@ FUN = {
 	}
 	
 	djunn = {
-		language = "l_simp_chinese"
+
 		name = 朱恩
 		plural = 朱恩
 		home_planet = 朱恩巴尔
@@ -523,7 +516,7 @@ FUN = {
 	}
 	
 	hulfir = {
-		language = "l_simp_chinese"
+
 		name = 胡法尔
 		plural = 胡法尔
 		home_planet = "胡法萨"
@@ -532,7 +525,7 @@ FUN = {
 	}
 	
 	ultur = {
-		language = "l_simp_chinese"
+
 		name = 乌尔图
 		plural = 乌尔图
 		home_planet = 图拉比
@@ -541,7 +534,7 @@ FUN = {
 	}
 	
 	tyrathian = {
-		language = "l_simp_chinese"
+
 		name = 泰拉斯恩
 		plural = 泰拉斯恩
 		home_planet = 泰拉斯
@@ -550,7 +543,7 @@ FUN = {
 	}
 	
 	kithri = {
-		language = "l_simp_chinese"
+
 		name = 奇瑟瑞
 		plural = 奇瑟瑞
 		home_planet = 奇瑟尔
@@ -559,7 +552,7 @@ FUN = {
 	}
 	
 	jibru = {
-		language = "l_simp_chinese"
+
 		name = 吉布鲁
 		plural = 吉布鲁
 		home_planet = 吉布萨
@@ -568,7 +561,7 @@ FUN = {
 	}
 	
 	hazar = {
-		language = "l_simp_chinese"
+
 		name = 哈扎
 		plural = 哈扎
 		home_planet = 哈扎力亚
@@ -577,7 +570,7 @@ FUN = {
 	}
 
 	kar-du = {
-		language = "l_simp_chinese"
+
 		name = 卡尔杜
 		plural = 卡尔杜
 		home_planet = 卡尔努
@@ -586,7 +579,7 @@ FUN = {
 	}
 	
 	uriy = {
-		language = "l_simp_chinese"
+
 		name = 乌瑞伊
 		plural = 乌瑞伊
 		home_planet = 乌拉雅
@@ -595,7 +588,7 @@ FUN = {
 	}
 	
 	gorf = {
-		language = "l_simp_chinese"
+
 		name = 戈尔夫
 		plural = 戈尔夫
 		home_planet = "宏伟戈尔夫"
@@ -604,7 +597,7 @@ FUN = {
 	}
 	
 	zik-mok = {
-		language = "l_simp_chinese"
+
 		name = 泽克默克
 		plural = 泽克默克
 		home_planet = 摩克
@@ -613,7 +606,7 @@ FUN = {
 	}
 	
 	neborite = {
-		language = "l_simp_chinese"
+
 		name = 内博利特
 		plural = 内博利特
 		home_planet = 内博利亚
@@ -622,7 +615,7 @@ FUN = {
 	}
 	
 	syldaean = {
-		language = "l_simp_chinese"
+
 		name = 赛尔达恩
 		plural = 赛尔达恩
 		home_planet = "赛尔达主星"
@@ -631,7 +624,7 @@ FUN = {
 	}
 	
 	meshben = {
-		language = "l_simp_chinese"
+
 		name = 梅什本
 		plural = 梅什本
 		home_planet = 梅什本纳
@@ -640,7 +633,7 @@ FUN = {
 	}
 
 	bothrazoid = {
-		language = "l_simp_chinese"
+
 		name = 博拉人
 		plural = 博拉人
 		home_planet = 博拉泽星
@@ -649,7 +642,7 @@ FUN = {
 	}
 
 	makaru = {
-		language = "l_simp_chinese"
+
 		name = 马卡鲁
 		plural = 马卡鲁
 		home_planet = 马卡里亚
@@ -658,7 +651,7 @@ FUN = {
 	}
 
 	sojagg = {
-		language = "l_simp_chinese"
+
 		name = 索佳格
 		plural = 索佳格斯
 		home_planet = "先锋索格"
@@ -667,7 +660,7 @@ FUN = {
 	}
 
 	vatnaka = {
-		language = "l_simp_chinese"
+
 		name = 瓦特纳卡
 		plural = 瓦特纳卡
 		home_planet = "大瓦特尼"
@@ -676,7 +669,7 @@ FUN = {
 	}
 
 	ishni = {
-		language = "l_simp_chinese"
+
 		name = 没关系
 		plural = 没关系
 		home_planet = 伊什
@@ -689,7 +682,7 @@ FUN = {
 
 ART = {
 	themlar = {
-		language = "l_simp_chinese"
+
 		name = 瑟姆拉
 		plural = 瑟姆拉
 		home_planet = 西姆
@@ -698,7 +691,7 @@ ART = {
 	}
 
 	tezhnid = {
-		language = "l_simp_chinese"
+
 		name = 特索尼
 		plural = 特索尼
 		home_planet = 特索纳
@@ -707,7 +700,7 @@ ART = {
 	}
 	
 	pithok = {
-		language = "l_simp_chinese"
+
 		name = 皮索科
 		plural = 皮索科
 		home_planet = 索契
@@ -716,7 +709,7 @@ ART = {
 	}
 
 	cithin = {
-		language = "l_simp_chinese"
+
 		name = 希斯辛
 		plural = 希斯辛
 		home_planet = 希斯辛拉尔
@@ -725,7 +718,7 @@ ART = {
 	}
 
 	thimoid = {
-		language = "l_simp_chinese"
+
 		name = 西莫伊德
 		plural = 西莫伊德
 		home_planet = 西莫杜鲁斯
@@ -734,7 +727,7 @@ ART = {
 	}
 
 	rutharian = {
-		language = "l_simp_chinese"
+
 		name = 卢萨利安
 		plural = 卢萨利安
 		home_planet = 卢萨利亚
@@ -743,7 +736,7 @@ ART = {
 	}
 
 	jhabbanid = {
-		language = "l_simp_chinese"
+
 		name = 加布尼德
 		plural = 加布尼德
 		home_planet = 加布恩
@@ -752,7 +745,7 @@ ART = {
 	}
 
 	saathid = {
-		language = "l_simp_chinese"
+
 		name = 萨斯德
 		plural = 萨斯德
 		home_planet = 萨苏尔纳
@@ -761,7 +754,7 @@ ART = {
 	}
 
 	iknurval = {
-		language = "l_simp_chinese"
+
 		name = 伊克努瓦尔
 		plural = 伊克努瓦尔
 		home_planet = 伊克
@@ -770,7 +763,7 @@ ART = {
 	}
 	
 	haddam = {
-		language = "l_simp_chinese"
+
 		name = 哈达姆
 		plural = 哈达姆
 		home_planet = "伊克"
@@ -779,7 +772,7 @@ ART = {
 	}
 	
 	xeltek = {
-		language = "l_simp_chinese"
+
 		name = 赛尔泰克
 		plural = 赛尔泰克
 		home_planet = "赛尔·米卢斯"
@@ -788,7 +781,7 @@ ART = {
 	}
 
 	zithorian = {
-		language = "l_simp_chinese"
+
 		name = 泽索里安
 		plural = 泽索里安
 		home_planet = 泽索里亚
@@ -797,7 +790,7 @@ ART = {
 	}
 	
 	hantak = {
-		language = "l_simp_chinese"
+
 		name = 汉塔克
 		plural = 汉塔克
 		home_planet = 汉塔卡
@@ -806,7 +799,7 @@ ART = {
 	}
 	
 	rontor = {
-		language = "l_simp_chinese"
+
 		name = 伦托尔
 		plural = 伦托尔
 		home_planet = "伦图斯主星"
@@ -815,7 +808,7 @@ ART = {
 	}
 	
 	talakkur = {
-		language = "l_simp_chinese"
+
 		name = 塔尔阿酷尔
 		plural = 塔尔阿酷尔
 		home_planet = 塔尔德斯米
@@ -824,7 +817,7 @@ ART = {
 	}
 	
 	myrran = {
-		language = "l_simp_chinese"
+
 		name = 玛兰
 		plural = 玛兰
 		home_planet = 玛利亚
@@ -833,7 +826,7 @@ ART = {
 	}
 	
 	athallid = {
-		language = "l_simp_chinese"
+
 		name = 艾萨利德
 		plural = 艾萨利德
 		home_planet = "亚祖·约尔"
@@ -842,7 +835,7 @@ ART = {
 	}
 	
 	entheri = {
-		language = "l_simp_chinese"
+
 		name = 埃恩萨里
 		plural = 埃恩萨里
 		home_planet = 埃恩萨
@@ -851,7 +844,7 @@ ART = {
 	}
 	
 	chimm = {
-		language = "l_simp_chinese"
+
 		name = 奇姆
 		plural = 奇姆
 		home_planet = 奇姆纳
@@ -860,7 +853,7 @@ ART = {
 	}
 	
 	shabtak = {
-		language = "l_simp_chinese"
+
 		name = 沙布塔卡
 		plural = 沙布塔卡
 		home_planet = 沙布托尔
@@ -869,7 +862,7 @@ ART = {
 	}
 	
 	yibrak = {
-		language = "l_simp_chinese"
+
 		name = 伊巴尔克
 		plural = 伊巴尔克
 		home_planet = "伊巴尔主星"
@@ -878,7 +871,7 @@ ART = {
 	}
 	
 	qiramulan = {
-		language = "l_simp_chinese"
+
 		name = 奇拉穆兰
 		plural = 奇拉穆兰
 		home_planet = "雄伟齐鲁斯"
@@ -887,7 +880,7 @@ ART = {
 	}
 	
 	ethir = {
-		language = "l_simp_chinese"
+
 		name = 艾希尔
 		plural = 艾希尔
 		home_planet = 艾尔本萨
@@ -896,7 +889,7 @@ ART = {
 	}
 	
 	avtyrran = {
-		language = "l_simp_chinese"
+
 		name = 阿维泰瑞恩
 		plural = 阿维泰瑞恩
 		home_planet = "阿维泰瑞亚主星"
@@ -905,7 +898,7 @@ ART = {
 	}
 	
 	pirak = {
-		language = "l_simp_chinese"
+
 		name = 皮拉克
 		plural = 皮拉克
 		home_planet = 皮洛克
@@ -914,7 +907,7 @@ ART = {
 	}
 
 	izki = {
-		language = "l_simp_chinese"
+
 		name = 艾兹基
 		plural = 艾兹基
 		home_planet = "艾兹基中心"
@@ -923,7 +916,7 @@ ART = {
 	}
 
 	pakari = {
-		language = "l_simp_chinese"
+
 		name = 帕卡利
 		plural = 帕卡利
 		home_planet = 帕克
@@ -932,7 +925,7 @@ ART = {
 	}
 
 	wi-ziraki = {
-		language = "l_simp_chinese"
+
 		name = 维兹拉克
 		plural = 维兹拉克
 		home_planet = 胜利
@@ -941,7 +934,7 @@ ART = {
 	}
 
 	maggar = {
-		language = "l_simp_chinese"
+
 		name = 马格
 		plural = 马格斯
 		home_planet = 马咖
@@ -950,7 +943,7 @@ ART = {
 	}
 
 	krithakkan = {
-		language = "l_simp_chinese"
+
 		name = 克斯萨坎
 		plural = 克斯萨坎斯
 		home_planet = 克斯
@@ -963,7 +956,7 @@ ART = {
 
 REP = {
 	rethellian = {
-		language = "l_simp_chinese"
+
 		name = 雷塞利安
 		plural = 雷塞利安
 		home_planet = 雷塞利亚
@@ -972,7 +965,7 @@ REP = {
 	}
 	
 	kammarian = {
-		language = "l_simp_chinese"
+
 		name = 卡玛利安
 		plural = 卡玛利安
 		home_planet = 卡姆多尔
@@ -981,7 +974,7 @@ REP = {
 	}
 	
 	anathurian = {
-		language = "l_simp_chinese"
+
 		name = 阿纳托利安
 		plural = 阿纳托利安
 		home_planet = 阿纳托利
@@ -990,7 +983,7 @@ REP = {
 	}
 
 	zuifvan = {
-		language = "l_simp_chinese"
+
 		name = 祖伊芬
 		plural = 祖伊芬
 		home_planet = 祖伊弗
@@ -999,7 +992,7 @@ REP = {
 	}
 	
 	reshethi = {
-		language = "l_simp_chinese"
+
 		name = 锐什西
 		plural = 锐什西
 		home_planet = 锐什
@@ -1008,7 +1001,7 @@ REP = {
 	}
 
 	dethakkan = {
-		language = "l_simp_chinese"
+
 		name = 德萨坎
 		plural = 德萨坎
 		home_planet = 德萨克
@@ -1017,7 +1010,7 @@ REP = {
 	}
 
 	ikarzuri = {
-		language = "l_simp_chinese"
+
 		name = 伊卡祖里
 		plural = 伊卡祖里
 		home_planet = 伊卡拉
@@ -1026,7 +1019,7 @@ REP = {
 	}
 
 	vhemm = {
-		language = "l_simp_chinese"
+
 		name = 维姆博尔
 		plural = 维姆安
 		home_planet = 维姆
@@ -1035,7 +1028,7 @@ REP = {
 	}
 	
 	tendrakkian = {
-		language = "l_simp_chinese"
+
 		name = 腾多拉奇恩
 		plural = 特兰德拉金
 		home_planet = 腾多拉奇
@@ -1044,7 +1037,7 @@ REP = {
 	}
 	
 	baanthurian = {
-		language = "l_simp_chinese"
+
 		name = 班西利安
 		plural = 班西利安
 		home_planet = 班西尔
@@ -1053,7 +1046,7 @@ REP = {
 	}
 	
 	cormathani = {
-		language = "l_simp_chinese"
+
 		name = 科尔麦西尼
 		plural = 科尔麦西尼
 		home_planet = 科尔麦西
@@ -1062,7 +1055,7 @@ REP = {
 	}
 	
 	kirillian = {
-		language = "l_simp_chinese"
+
 		name = 奇利尔安
 		plural = 奇利尔安
 		home_planet = 奇利尔
@@ -1071,7 +1064,7 @@ REP = {
 	}
 	
 	beldross = {
-		language = "l_simp_chinese"
+
 		name = 贝尔多斯
 		plural = 贝尔多斯
 		home_planet = 芬哈洛尔
@@ -1080,7 +1073,7 @@ REP = {
 	}
 	
 	jurinn = {
-		language = "l_simp_chinese"
+
 		name = 朱力恩
 		plural = 朱力恩
 		home_planet = 约兰达尔
@@ -1089,7 +1082,7 @@ REP = {
 	}
 	
 	ziiran = {
-		language = "l_simp_chinese"
+
 		name = 泽拉
 		plural = 泽兰
 		home_planet = 内兹拉
@@ -1098,7 +1091,7 @@ REP = {
 	}
 	
 	athanebian = {
-		language = "l_simp_chinese"
+
 		name = 埃塞恩比安
 		plural = 埃塞恩比安
 		home_planet = 埃塞恩比亚
@@ -1107,7 +1100,7 @@ REP = {
 	}
 	
 	diri = {
-		language = "l_simp_chinese"
+
 		name = 德尔里
 		plural = 德尔里
 		home_planet = 德尔-瓦努斯
@@ -1116,7 +1109,7 @@ REP = {
 	}
 	
 	hydari = {
-		language = "l_simp_chinese"
+
 		name = 海达里
 		plural = 海达里
 		home_planet = 海达克斯
@@ -1125,7 +1118,7 @@ REP = {
 	}
 	
 	cirrulan = {
-		language = "l_simp_chinese"
+
 		name = 希尔卢兰
 		plural = 希尔卢兰
 		home_planet = 希尔拉
@@ -1134,7 +1127,7 @@ REP = {
 	}
 	
 	yaanari = {
-		language = "l_simp_chinese"
+
 		name = 雅安纳里
 		plural = 雅安纳里
 		home_planet = 雅安
@@ -1143,7 +1136,7 @@ REP = {
 	}
 	
 	ubaric = {
-		language = "l_simp_chinese"
+
 		name = 乌巴利克
 		plural = 乌巴利克
 		home_planet = 乌巴利亚
@@ -1152,7 +1145,7 @@ REP = {
 	}
 	
 	kedeshi = {
-		language = "l_simp_chinese"
+
 		name = 柯代希
 		plural = 柯代希
 		home_planet = 科朔
@@ -1161,7 +1154,7 @@ REP = {
 	}
 	
 	tebadoran = {
-		language = "l_simp_chinese"
+
 		name = 特拔多兰
 		plural = 特拔多兰
 		home_planet = 特拔多尔
@@ -1170,7 +1163,7 @@ REP = {
 	}
 	
 	bessadon = {
-		language = "l_simp_chinese"
+
 		name = 贝萨顿
 		plural = 贝萨顿
 		home_planet = 贝斯卡
@@ -1179,7 +1172,7 @@ REP = {
 	}
 	
 	lyrite = {
-		language = "l_simp_chinese"
+
 		name = 雷里特
 		plural = 雷里特
 		home_planet = 雷拉斯
@@ -1188,7 +1181,7 @@ REP = {
 	}
 
 	sathori = {
-		language = "l_simp_chinese"
+
 		name = 萨苏里
 		plural = 萨苏里
 		home_planet = 萨苏里
@@ -1197,7 +1190,7 @@ REP = {
 	}
 
 	suramo = {
-		language = "l_simp_chinese"
+
 		name = 苏拉摩
 		plural = 苏拉摩斯
 		home_planet = "先锋苏拉摩"
@@ -1206,7 +1199,7 @@ REP = {
 	}
 
 	knatza = {
-		language = "l_simp_chinese"
+
 		name = 卡纳扎
 		plural = 卡拉兹
 		home_planet = 卡纳兹
@@ -1215,7 +1208,7 @@ REP = {
 	}
 
 	bryll = {
-		language = "l_simp_chinese"
+
 		name = 贝里尔
 		plural = 贝里尔人
 		home_planet = 贝里尔塔娜星
@@ -1224,7 +1217,7 @@ REP = {
 	}
 
 	raxar = {
-		language = "l_simp_chinese"
+
 		name = 拉戈萨
 		plural = 拉戈萨尼
 		home_planet = 拉戈卡纳
@@ -1237,7 +1230,7 @@ REP = {
 
 AVI = {
 	shantari = {
-		language = "l_simp_chinese"
+
 		name = 山塔尔
 		plural = 山塔尔
 		home_planet = "山塔尔主星"
@@ -1246,7 +1239,7 @@ AVI = {
 	}
 	
 	saiiban = {
-		language = "l_simp_chinese"
+
 		name = 赛班
 		plural = 赛班
 		home_planet = 萨巴克
@@ -1255,7 +1248,7 @@ AVI = {
 	}
 
 	ikaanan = {
-		language = "l_simp_chinese"
+
 		name = 伊克南
 		plural = 伊克南
 		home_planet = 伊克恩
@@ -1264,7 +1257,7 @@ AVI = {
 	}
 
 	avarrian = {
-		language = "l_simp_chinese"
+
 		name = 阿瓦利安
 		plural = 阿瓦利安
 		home_planet = "阿瓦尔主星"
@@ -1273,7 +1266,7 @@ AVI = {
 	}
 
 	khessam = {
-		language = "l_simp_chinese"
+
 		name = 克萨姆
 		plural = 克萨姆
 		home_planet = "凯撒·托拉里斯"
@@ -1282,7 +1275,7 @@ AVI = {
 	}
 	
 	cynn = {
-		language = "l_simp_chinese"
+
 		name = 塞恩
 		plural = 塞恩
 		home_planet = 塞恩多尔
@@ -1291,7 +1284,7 @@ AVI = {
 	}
 	
 	yeon = {
-		language = "l_simp_chinese"
+
 		name = 伊恩
 		plural = 伊恩
 		home_planet = "尤恩度斯"
@@ -1300,7 +1293,7 @@ AVI = {
 	}
 	
 	tezekian = {
-		language = "l_simp_chinese"
+
 		name = 特泽克恩
 		plural = 特泽克恩
 		home_planet = 特泽克
@@ -1309,7 +1302,7 @@ AVI = {
 	}
 	
 	khemplar = {
-		language = "l_simp_chinese"
+
 		name = 科姆普拉尔
 		plural = 科姆普拉尔
 		home_planet = 科姆萨拉
@@ -1318,7 +1311,7 @@ AVI = {
 	}
 	
 	vissari = {
-		language = "l_simp_chinese"
+
 		name = 维萨里
 		plural = 维萨里
 		home_planet = 维斯
@@ -1327,7 +1320,7 @@ AVI = {
 	}
 
 	rackuddon = {
-		language = "l_simp_chinese"
+
 		name = 拉库顿
 		plural = 拉库顿
 		home_planet = 拉库尔
@@ -1336,7 +1329,7 @@ AVI = {
 	}
 	
 	tiyal = {
-		language = "l_simp_chinese"
+
 		name = 提雅尔
 		plural = 提雅尔
 		home_planet = 伊欧恩
@@ -1345,7 +1338,7 @@ AVI = {
 	}
 	
 	keerim = {
-		language = "l_simp_chinese"
+
 		name = 科利姆
 		plural = 科利姆
 		home_planet = 科尔西
@@ -1354,7 +1347,7 @@ AVI = {
 	}
 	
 	fiiral = {
-		language = "l_simp_chinese"
+
 		name = 西拉尔
 		plural = 西拉尔
 		home_planet = "西里斯主星"
@@ -1363,7 +1356,7 @@ AVI = {
 	}
 	
 	cynur = {
-		language = "l_simp_chinese"
+
 		name = 赛恩努尔
 		plural = 赛恩努尔
 		home_planet = "克瑞斯主星"
@@ -1372,7 +1365,7 @@ AVI = {
 	}
 	
 	imari = {
-		language = "l_simp_chinese"
+
 		name = 伊玛里
 		plural = 伊玛里
 		home_planet = 伊玛里a
@@ -1381,7 +1374,7 @@ AVI = {
 	}
 	
 	izirian = {
-		language = "l_simp_chinese"
+
 		name = 伊泽尔兰
 		plural = 伊泽尔兰
 		home_planet = 伊泽尔
@@ -1390,7 +1383,7 @@ AVI = {
 	}
 	
 	figyar = {
-		language = "l_simp_chinese"
+
 		name = 菲吉雅
 		plural = 菲吉雅
 		home_planet = "耶鲁斯主星"
@@ -1399,7 +1392,7 @@ AVI = {
 	}
 	
 	sibulan = {
-		language = "l_simp_chinese"
+
 		name = 西布兰
 		plural = 西布兰
 		home_planet = "古西布拉"
@@ -1408,7 +1401,7 @@ AVI = {
 	}
 	
 	miidari = {
-		language = "l_simp_chinese"
+
 		name = 米达里
 		plural = 米达里
 		home_planet = 米达克
@@ -1417,7 +1410,7 @@ AVI = {
 	}
 	
 	spyran = {
-		language = "l_simp_chinese"
+
 		name = 斯派兰
 		plural = 斯派兰
 		home_planet = 斯派利亚
@@ -1426,7 +1419,7 @@ AVI = {
 	}
 	
 	bruggan = {
-		language = "l_simp_chinese"
+
 		name = 布鲁干
 		plural = 布鲁干
 		home_planet = 布拉纳加
@@ -1435,7 +1428,7 @@ AVI = {
 	}
 	
 	inari = {
-		language = "l_simp_chinese"
+
 		name = 伊纳克
 		plural = 伊纳克
 		home_planet = 伊纳努斯
@@ -1444,7 +1437,7 @@ AVI = {
 	}
 	
 	penthulan = {
-		language = "l_simp_chinese"
+
 		name = 佩恩斯兰
 		plural = 佩恩斯兰
 		home_planet = 佩恩斯鲁
@@ -1453,7 +1446,7 @@ AVI = {
 	}
 	
 	rixi = {
-		language = "l_simp_chinese"
+
 		name = 雷克斯
 		plural = 雷克斯
 		home_planet = 雷克斯
@@ -1462,7 +1455,7 @@ AVI = {
 	}
 
 	baviir = {
-		language = "l_simp_chinese"
+
 		name = 巴维尔
 		plural = 巴维尔人
 		home_planet = 巴维尔拉星
@@ -1471,7 +1464,7 @@ AVI = {
 	}
 
 	ospranian = {
-		language = "l_simp_chinese"
+
 		name = 奥斯普瑞恩
 		plural = 奥斯普瑞恩斯
 		home_planet = 奥斯普尼亚
@@ -1480,7 +1473,7 @@ AVI = {
 	}
 
 	erissu = {
-		language = "l_simp_chinese"
+
 		name = 埃里苏
 		plural = 埃里苏
 		home_planet = 埃马里斯
@@ -1489,7 +1482,7 @@ AVI = {
 	}
 
 	skanuri = {
-		language = "l_simp_chinese"
+
 		name = 西卡利
 		plural = 西卡利
 		home_planet = 萨卡纳
@@ -1498,7 +1491,7 @@ AVI = {
 	}
 
 	hiran = {
-		language = "l_simp_chinese"
+
 		name = 西岚
 		plural = 西岚人
 		home_planet = 西尔星
@@ -1511,7 +1504,7 @@ AVI = {
 
 MOL = {
 	Aztani = {
-		language = "l_simp_chinese"
+
 		name = 阿兹坦尼
 		plural = 阿兹坦尼
 		home_planet = "尼拉·阿兹坦"
@@ -1520,7 +1513,7 @@ MOL = {
 	}
 	
 	karabnar = {
-		language = "l_simp_chinese"
+
 		name = 卡拉布纳
 		plural = 卡拉布纳
 		home_planet = 卡拉布
@@ -1529,7 +1522,7 @@ MOL = {
 	}
 	
 	ymorz = {
-		language = "l_simp_chinese"
+
 		name = 伊莫尔兹
 		plural = 伊莫尔兹
 		home_planet = 伊莫尔亚
@@ -1538,7 +1531,7 @@ MOL = {
 	}
 	
 	bilnoc = {
-		language = "l_simp_chinese"
+
 		name = 比尔诺克
 		plural = 比尔诺克
 		home_planet = 比利斯
@@ -1547,7 +1540,7 @@ MOL = {
 	}
 	
 	larongo = {
-		language = "l_simp_chinese"
+
 		name = 拉伦哥
 		plural = 拉伦哥
 		home_planet = 拉伦吉亚
@@ -1556,7 +1549,7 @@ MOL = {
 	}
 	
 	uthonian = {
-		language = "l_simp_chinese"
+
 		name = 乌索尼安
 		plural = 乌索尼安
 		home_planet = 乌索拉
@@ -1565,7 +1558,7 @@ MOL = {
 	}
 	
 	elaaminid = {
-		language = "l_simp_chinese"
+
 		name = 艾拉米尼德
 		plural = 艾拉米尼德
 		home_planet = 艾拉姆
@@ -1574,7 +1567,7 @@ MOL = {
 	}
 	
 	heejam = {
-		language = "l_simp_chinese"
+
 		name = 黑甲姆
 		plural = 黑甲姆
 		home_planet = 黑约尔
@@ -1583,7 +1576,7 @@ MOL = {
 	}
 	
 	hannfelir = {
-		language = "l_simp_chinese"
+
 		name = 汉菲力尔
 		plural = 汉菲力尔
 		home_planet = 哈鲁姆
@@ -1592,7 +1585,7 @@ MOL = {
 	}
 	
 	cyggan = {
-		language = "l_simp_chinese"
+
 		name = 赛甘
 		plural = 赛甘
 		home_planet = 赛格雅
@@ -1601,7 +1594,7 @@ MOL = {
 	}
 	
 	gorothi = {
-		language = "l_simp_chinese"
+
 		name = 格罗斯
 		plural = 格罗斯
 		home_planet = 格罗斯
@@ -1610,7 +1603,7 @@ MOL = {
 	}
 	
 	connisthian = {
-		language = "l_simp_chinese"
+
 		name = 康尼西恩
 		plural = 康尼西恩
 		home_planet = "康雅拉米斯"
@@ -1619,7 +1612,7 @@ MOL = {
 	}
 	
 	nuurian = {
-		language = "l_simp_chinese"
+
 		name = 努尔兰
 		plural = 努尔兰
 		home_planet = 努尔
@@ -1628,7 +1621,7 @@ MOL = {
 	}
 	
 	genoggian = {
-		language = "l_simp_chinese"
+
 		name = 杰诺吉亚恩
 		plural = 杰诺吉亚恩
 		home_planet = 杰诺吉亚
@@ -1637,7 +1630,7 @@ MOL = {
 	}
 	
 	dabulan = {
-		language = "l_simp_chinese"
+
 		name = 代布兰
 		plural = 代布兰
 		home_planet = 代布尔
@@ -1646,7 +1639,7 @@ MOL = {
 	}
 	
 	uthabulan = {
-		language = "l_simp_chinese"
+
 		name = 乌萨布兰
 		plural = 乌萨布兰
 		home_planet = 乌萨布
@@ -1655,7 +1648,7 @@ MOL = {
 	}
 	
 	gurite = {
-		language = "l_simp_chinese"
+
 		name = 古尔利特
 		plural = 古尔利特
 		home_planet = 古尔
@@ -1664,7 +1657,7 @@ MOL = {
 	}
 	
 	hythean = {
-		language = "l_simp_chinese"
+
 		name = 海希恩
 		plural = 海希恩
 		home_planet = 海希雅
@@ -1673,7 +1666,7 @@ MOL = {
 	}
 	
 	tebbran = {
-		language = "l_simp_chinese"
+
 		name = 特波兰
 		plural = 特波兰
 		home_planet = 特波尔
@@ -1682,7 +1675,7 @@ MOL = {
 	}
 	
 	kundaric = {
-		language = "l_simp_chinese"
+
 		name = 昆丹
 		plural = 昆丹
 		home_planet = 昆迪亚 
@@ -1691,7 +1684,7 @@ MOL = {
 	}
 	
 	sejethari = {
-		language = "l_simp_chinese"
+
 		name = 瑟杰萨里
 		plural = 瑟杰萨里
 		home_planet = 瑟杰斯
@@ -1700,7 +1693,7 @@ MOL = {
 	}
 	
 	bakurian = {
-		language = "l_simp_chinese"
+
 		name = 巴克图里安
 		plural = 巴克图里安
 		home_planet = 巴克图尔
@@ -1709,7 +1702,7 @@ MOL = {
 	}
 	
 	sebannic = {
-		language = "l_simp_chinese"
+
 		name = 瑟班
 		plural = 瑟班
 		home_planet = 瑟班尼卡
@@ -1718,7 +1711,7 @@ MOL = {
 	}
 	
 	jakly = {
-		language = "l_simp_chinese"
+
 		name = 贾克雷
 		plural = 贾克雷
 		home_planet = 贾卡洛
@@ -1727,7 +1720,7 @@ MOL = {
 	}
 	
 	bavi = {
-		language = "l_simp_chinese"
+
 		name = 巴维
 		plural = 巴维
 		home_planet = 巴福
@@ -1736,7 +1729,7 @@ MOL = {
 	}
 
 	endurga = {
-		language = "l_simp_chinese"
+
 		name = 恩多人
 		plural = 恩多人
 		home_planet = 多加撒星
@@ -1745,7 +1738,7 @@ MOL = {
 	}
 
 	xabir = {
-		language = "l_simp_chinese"
+
 		name = 贾比亚
 		plural = 贾比亚
 		home_planet = "先锋贾比亚"
@@ -1754,7 +1747,7 @@ MOL = {
 	}
 
 	jubaran = {
-		language = "l_simp_chinese"
+
 		name = 容布朗
 		plural = 容布朗
 		home_planet = 容布
@@ -1763,7 +1756,7 @@ MOL = {
 	}
 
 	norani = {
-		language = "l_simp_chinese"
+
 		name = 纳拉尼
 		plural = 纳拉尼
 		home_planet = 纳拉尼亚
@@ -1772,7 +1765,7 @@ MOL = {
 	}
 
 	urzo = {
-		language = "l_simp_chinese"
+
 		name = 厄佐
 		plural = 厄佐
 		home_planet = 厄佐利亚
@@ -1785,7 +1778,7 @@ MOL = {
 
 AI = {
 	ai = {
-		language = "l_simp_chinese"
+
 		name = 人工智能
 		plural = 人工智能
 		home_planet = "格点 x0y0z0"

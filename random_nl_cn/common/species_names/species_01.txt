@@ -1,4 +1,4 @@
-﻿# Generated species derive their names from here
+# Generated species derive their names from here
 
 ### MAMMALIANS
 
@@ -291,7 +291,7 @@ FUN = {
 		name = 阿瓦伯比安
 		plural = 阿瓦伯比安
 		home_planet = 阿瓦伯比亚
-		home_system = 胡尔-阿洛巴瓦
+		home_system = "胡尔-阿洛巴瓦"
 		name_list = "FUN3"
 	}
 	
@@ -323,7 +323,7 @@ FUN = {
 		name = 齐帕达戈安
 		plural = 齐帕达戈安
 		home_planet = 帕达戈
-		home_system = 帕达戈-沃尔
+		home_system = "帕达戈-沃尔"
 		name_list = "FUN3"
 	}
 	
@@ -371,7 +371,7 @@ FUN = {
 		name = 乌尔胡伯
 		plural = 乌尔胡伯
 		home_planet = 乌尔胡巴
-		home_system = 戈瑞-布洛瓦
+		home_system = "戈瑞-布洛瓦"
 		name_list = "FUN3"
 	}
 	
@@ -387,7 +387,7 @@ FUN = {
 		name = 沃尔
 		plural = 沃尔
 		home_planet = 沃尔乌
-		home_system = 沃尔乌-乌姆
+		home_system = "沃尔乌-乌姆"
 		name_list = "FUN3"
 	}
 	
@@ -550,8 +550,8 @@ ART = {
 	qopinjaxi = {
 		name = 夸皮加西
 		plural = 夸皮加西
-		home_planet = 夸皮-加西
-		home_system = 加西-奥莫克
+		home_planet = "夸皮-加西"
+		home_system = "加西-奥莫克"
 		name_list = "ART3"
 	}
 	
@@ -559,7 +559,7 @@ ART = {
 		name = 纳吉卡克
 		plural = 纳吉卡克
 		home_planet = 纳吉卡克
-		home_system = 罗-吉斯图克
+		home_system = "罗-吉斯图克"
 		name_list = "ART3"
 	}
 	
@@ -631,7 +631,7 @@ ART = {
 		name = 齐特拉卡波尔
 		plural = 齐特拉卡波尔
 		home_planet = 齐特拉卡波尔
-		home_system = 齐特拉卡波尔-奥迪里
+		home_system = "齐特拉卡波尔-奥迪里"
 		name_list = "ART3"
 	}
 	
@@ -639,7 +639,7 @@ ART = {
 		name = 特切斯科兰
 		plural = 特切斯科兰
 		home_planet = 特切波尔
-		home_system = 特切波尔-克洛斯
+		home_system = "特切波尔-克洛斯"
 		name_list = "ART3"
 	}
 	
@@ -647,7 +647,7 @@ ART = {
 		name = 亚克卡洛克
 		plural = 亚克卡洛克
 		home_planet = 亚克波尔
-		home_system = 亚克波尔-克洛斯
+		home_system = "亚克波尔-克洛斯"
 		name_list = "ART3"
 	}
 	
@@ -763,7 +763,7 @@ REP = {
 		name = 瓦格-奥罗斯
 		plural = 瓦格-奥罗斯
 		home_planet = 奥罗斯
-		home_system = 奥罗斯-胡瓦克
+		home_system = "奥罗斯-胡瓦克"
 		name_list = "REP1"
 	}
 	
@@ -794,8 +794,8 @@ REP = {
 	gox = {
 		name = 戈西
 		plural = 戈西
-		home_planet = 瓦卡-拉夏
-		home_system = 杜-拉夏-纳西
+		home_planet = "瓦卡-拉夏"
+		home_system = "杜-拉夏-纳西"
 		name_list = "REP2"
 	}
 	
@@ -827,7 +827,7 @@ REP = {
 		name = 罗塔克
 		plural = 罗塔克
 		home_planet = 罗塔克
-		home_system = 维谢姆-基拉克
+		home_system = "维谢姆-基拉克"
 		name_list = "REP3"
 	}
 	
@@ -959,7 +959,7 @@ AVI = {
 		name = 吉万
 		plural = 吉万
 		home_planet = 吉万
-		home_system = 吉万-奥德尔
+		home_system = "吉万-奥德尔"
 		name_list = "AVI3"
 	}
 	
@@ -975,7 +975,7 @@ AVI = {
 		name = 赫万
 		plural = 赫万
 		home_planet = "赫万主星"
-		home_system = 赫万-吉尔
+		home_system = "赫万-吉尔"
 		name_list = "AVI2"
 	}
 	
@@ -983,7 +983,7 @@ AVI = {
 		name = 奥齐库西
 		plural = 奥齐库西
 		home_planet = "奥齐库西主星"
-		home_system = 谢奥齐-库西
+		home_system = "谢奥齐-库西"
 		name_list = "AVI2"
 	}
 	
@@ -1259,7 +1259,7 @@ MOL = {
 		name = 多曼纳
 		plural = 多曼纳
 		home_planet = 多曼尼卡
-		home_system = 佩图尔-普
+		home_system = "佩图尔-普"
 		name_list = "MOL3"
 	}
 	
@@ -1436,7 +1436,7 @@ HUM = {
 		name = 苏塔里安
 		plural = 苏塔里安
 		home_planet = 苏塔里亚
-		home_system = 苏提-卡萨
+		home_system = "苏提-卡萨"
 		name_list = "HUM2"
 	}
 	
@@ -1517,7 +1517,7 @@ HUM = {
 		plural = 吉兰斯胡
 		home_planet = 吉瑞达尔
 		home_system = 加吉尔萨
-		name_list = "HUM4"
+		name_list = "HUM1"
 	}
 	
 	bebaki = {

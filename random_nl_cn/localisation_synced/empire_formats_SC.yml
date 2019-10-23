@@ -1,4 +1,4 @@
-﻿l_default:
+﻿l_simp_chinese:
  format.imp_mil.1: "[This.Capital.System.GetName]<imperial_mil>"
  format.imp_mil.2: "[This.Capital.GetName]<imperial_mil>"
  format.imp_mil.3: "[This.GetSpeciesName]<imperial_mil>"
@@ -191,10 +191,10 @@
  format.diadochi.3: "<diadochi_names_3_1>[This.GetSpeciesName]<diadochi_names_3_2>"
  format.diadochi.4: "[This.GetSpeciesName]<diadochi_names_4_1><diadochi_names_4_2>"
  format.new_khanate: "<new_khanate_names_1_1>[This.GetSpeciesName]<new_khanate_names_1_2>"
- format.free_khanate: "<free_khanate_names_1_1> [This.GetSpeciesName]<free_khanate_names_1_2>"
+ format.free_khanate: "<free_khanate_names_1_1>[This.GetSpeciesName]<free_khanate_names_1_2>"
  format.drone_pirate.1: "<drone_pirate_names>"
  format.machine_pirate.1: "<machine_pirate_names>"
-  format.communal_parity.1: "[This.Capital.GetName]<communal_parity>"
+ format.communal_parity.1: "[This.Capital.GetName]<communal_parity>"
  format.communal_parity.2: "[This.Capital.System.GetName]<communal_parity>"
  format.communal_parity.3: "[This.GetSpeciesName]<communal_parity>"
  format.monopolistic_syndicate.1: "[This.GetSpeciesName]<monopolistic_syndicate>"

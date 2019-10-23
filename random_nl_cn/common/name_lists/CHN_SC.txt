@@ -95,18 +95,12 @@
 			傒囊号 穷奇号 天马号 兕号 何罗鱼号 长右号 青号
 		}
 		
-		orbital_station = { }
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		terraform_station = { }
-		observation_station = { }
-		outpost_station = {
+		#outpost_station = {
 			#random_names = {
-				西域 安西 安北 安东 安南 单于 北庭 陇右 燕然 瀚海 镇北 金山 西州 昆陵 镇西
+			#	西域 安西 安北 安东 安南 单于 北庭 陇右 燕然 瀚海 镇北 金山 西州 昆陵 镇西
 			#}
-			#sequential_name = "%O% 都护府"
-		}
+			#sequential_name = "%O%都护府"
+		#}
 		
 		transport = {
 			弘业号 雅健号 辰皓号 承弼号 温书号 英卓号 峻熙号 温纶号 宏远号 飞龙号 温瑜号 绍晖号 文曜号 波鸿号 昆颉号 祺祥号 立果号 凯复号 华茂号 
@@ -120,95 +114,64 @@
 			北楼口 利民堡 得胜口
 		}
 		
-		#military_station_small = { 
-		#	sequential_names = { 
-		#		"Outpost 1" "Outpost 2" "Outpost 3" "Outpost 4" "Outpost 5" "Outpost 6" "Outpost 7" "Outpost 8" "Outpost 9" "Outpost 10" "Outpost 11" "Outpost 12"
-		#		"Outpost 13" "Outpost 14" "Outpost 15" "Outpost 16" "Outpost 17" "Outpost 18" "Outpost 19" "Outpost 20" "Outpost 21" "Outpost 22" "Outpost 23"
-		#		"Outpost 24" "Outpost 25" "Outpost 26" "Outpost 27" "Outpost 28" "Outpost 29" "Outpost 30" "Outpost 31" "Outpost 32" "Outpost 33" "Outpost 34"
-		#		"Outpost 35" "Outpost 36" "Outpost 37" "Outpost 38" "Outpost 39" "Outpost 40"
-		#	}
-		#}
-		
 		military_station_medium = { 
 			宁远堡 平定堡 清阳关 新安关 镇远关 马水口 九门口 老龙头 董家口 刘家口 新开口 插箭岭 金山岭 独石口 马市口 
 			羊房堡 水口关 宣化城 三屯营 三道关 大毛山关 义院口 界岭口 重峪口 徐流口 冷口关 白洋峪关 青山关 潘家口 
 			铁门关 龙井关
 		}
 		
-		#military_station_medium = {
-		#	random_names = {
-		#		"Citadel Station" "Albacore Station" "Gateway Station" "Vincent Station" "Babylon Station" "Caernavon Station" "Acre Station" "Pembroke Station" 
-		#		"Acheron Station" "Spithead Station" "Halifax Station" "Victoria Station" "Chatham Station" "Anchorage Station" "Scapa Flow Station" "Hampton Roads Station"
-		#		"Brooklyn Station" "Norfolk Station" "Newport Station" "Guam Station" "Pensacola Station" "Vesuvius Station" "McKinley Station" "Everest Station"
-		#		"Kilimanjaro Station" "Aconcagua Station" "Elbrus Station" "St. Helens Station" "Fuji Station" "Olympus Station" "Sinai Station" "Ambrose Station"
-		#		"Bermuda Station" "Farpoint Station" "Blue Star Station" "Olympus Mons Station" "Tharsis Station" "Syrtis Station" "Blackham Station"
-		#	}
-		#		
-		#}
-		
 		military_station_large = { 
 			嘉峪关 山海关 古渝关 居庸关 玉门关 井陉关 娘子关 雁门关 偏头关 平型关 古北口 古铁门 喜峰口 松亭关 
 			榆林塞 瓦桥关 附三关 鸦鹘关 牛庄城 分水关 洪山口
 		}
-		
-		#military_station_large = { 
-		#	random_names = {
-		#		"Fletcher Naval Base" "Perry Naval Base" "Butakov Naval Base" "Morris Naval Base" "Moorsom Naval Base" "Hart Naval Base" "Hargood Naval Base"
-		#		"Spruance Naval Base" "Tanaka Naval Base" "Halsey Naval Base" "Turner Naval Base" "Doria Naval Base" "Tirpitz Naval Base" "Cunningham Naval Base"
-		#		"Jellicoe Naval Base" "Hipper Naval Base" "Beatty Naval Base" "Potemkin Naval Base" "Durham Naval Base" "Codrington Naval Base" "Milne Naval Base"
-		#		"Laforey Naval Base" "Tyler Naval Base" "Hawke Naval Base" "Yonai Naval Base" "Pound Naval Base" "King Naval Base" "Crutchley Naval Base"
-		#		"Mountbatten Naval Base" "Kountouriotis Naval Base" "Kuznetsov Naval Base" "Essen Naval Base" "Kornilov Naval Base" "Suffren Naval Base"
-		#		"Treville Naval Base" "Villeneuve Naval Base" "Grasse Naval Base" "Byng Naval Base" "Lezo Naval Base"
-		#	}
-		#}
 	}
 
 	fleet_names = {
 		random_names = {
 			装甲舰队 军团舰队 万军舰队 不朽舰队 游击舰队 大舰队 天空舰队 自由舰队 国防舰队 警卫舰队 巨炮舰队 冲锋舰队 支援舰队 世纪舰队
 		}
-		sequential_name = "%O% 舰队"
+		sequential_name = "%O%舰队"
 	}
 	
 	army_names = {
 	
 		defense_army = {
-			sequential_name = "%O% 行星护卫队"
+			sequential_name = "%O%行星护卫队"
 		}
 
 		assault_army = {
-			sequential_name = "%O% 远征军"
+			sequential_name = "%O%远征军"
 		}
 		
 		slave_army = {
-			sequential_name = "%O% 契约奴"
+			sequential_name = "%O%契约奴"
 		}
 		
 		clone_army = { 
-			sequential_name = "%O% 克隆军"
+			sequential_name = "%O%克隆军"
 		}
 		
 		robotic_army = {
-			sequential_name = "%O% 猎手小组"
+			sequential_name = "%O%猎手小组"
 		}
 		
 		android_army = {
-			sequential_name = "%O% 合成人流浪者"
+			sequential_name = "%O%合成人流浪者"
 		}
 		
 		psionic_army = { 
-			sequential_name = "%O% 心灵突击队"
+			sequential_name = "%O%心灵突击队"
 		}
 		
 		xenomorph_army = {
-			sequential_name = "%O% 生化部队"
+			sequential_name = "%O%生化部队"
 		}
 		
 		gene_warrior_army = {
 			random_names = {
 				乞活军 神策军 西园军 技击军 玄甲军 白袍军 细柳营 虎贲军 背嵬军 陷阵营 
 			}
-			sequential_name = "%O% 生物工程部队"
+			sequential_name = "%O%生物工程部队"
 		}
 	}
 

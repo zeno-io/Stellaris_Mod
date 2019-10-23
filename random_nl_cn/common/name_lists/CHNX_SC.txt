@@ -3,7 +3,7 @@
 
 	ship_names = {
 		generic = {
-			正阳号 崇文号 武德号 宣武号 少武号 朝阳号 少阳号 阜成号 安定号 德胜号 永定号 广安号 广闻号 天安号 神武号 天武号 天神号
+			正阳号 崇文号 武德号 宣武号 少武号 朝阳号 少阳号 阜成号 安定号 德胜号 永定号 广安号 广闻号 天安号 神武号 天武号 天神号 风卫号
 		}
 		
 		corvette = {
@@ -26,7 +26,7 @@
 		}
 		
 		science = {
-			奥尔德林 阿姆斯壮 哥白尼 科尔特斯 德雷克哥伦布 哈伯 哥达德 伽利略 爱因斯坦 加加林 捷列什科娃 郑和 雷夫 埃里克松 麦哲伦 杰姆斯 马可波罗 牛顿 特斯拉 "冯 布劳恩" "沃尔特罗利" 阿西莫夫 克拉克 萨根 "伊本 白图泰" 开普勒 托勒密 皮西亚斯 阿佐菲 发现 旅行者 信风 侦察 开拓者 探险家 霍金 埃尔哈特 诺贝尔 开尔文 华氏 春分 秋分 拉格朗日 齐奥尔科夫斯基
+			奥尔德林 阿姆斯壮 哥白尼 科尔特斯 德雷克哥伦布 哈伯 哥达德 伽利略 爱因斯坦 加加林 捷列什科娃 郑和 雷夫 埃里克松 麦哲伦 杰姆斯 马可波罗 牛顿 特斯拉 "冯 布劳恩" "沃尔特罗利" 阿西莫夫 克拉克 萨根 "伊本-白图泰" 开普勒 托勒密 皮西亚斯 阿佐菲 发现 旅行者 信风 侦察 开拓者 探险家 霍金 埃尔哈特 诺贝尔 开尔文 华氏 春分 秋分 拉格朗日 齐奥尔科夫斯基
 		}
 		
 		destroyer = {
@@ -56,15 +56,9 @@
 			力牧号 夸父号 神农号 胜利号 勇气号 强大号 不懈号 侠义号 勇敢号 堡垒号 后卫号 耐力号 警惕号 坚决号 坚韧号 天意号 神剑号 神枪号 神策号
 		}
 		
-		orbital_station = { }
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			sequential_name = "第%C%前哨站"
-		}
+		#outpost_station = {
+		#	sequential_name = "第%C%前哨站"
+		#}
 		
 		transport = {
 			弘业号 雅健号 辰皓号 承弼号 温书号 英卓号 峻熙号 温纶号 宏远号 云龙号 温瑜号 绍晖号 文曜号 波鸿号 昆颉号 祺祥号 立果号 凯复号 华茂号 
@@ -75,8 +69,8 @@
 
 	fleet_names = {
 		random_names = {
-			装甲舰队 重装舰队 方列舰队 军团舰队 不朽舰队 游击舰队 天空舰队 自由舰队 国防舰队 警卫舰队 巨炮舰队 冲锋舰队 支援舰队 世纪舰队
-			纪元舰队 近卫舰队 光荣舰队 大舰队
+			装甲舰队 重装舰队 方列舰队 不朽舰队 游击舰队 天空舰队 自由舰队 国防舰队 警卫舰队 巨炮舰队 冲锋舰队 世纪舰队
+			纪元舰队 近卫舰队 光荣舰队 永恒舰队 神威舰队 天策舰队 天罚舰队 真龙舰队 湮灭舰队 武卫舰队 元始舰队 太始舰队
 		}
 		sequential_name = "星海第%O%舰队"
 	}
@@ -84,42 +78,42 @@
 	army_names = {
 	
 		defense_army = {
-			sequential_name = "%O% 行星护卫队"
+			sequential_name = "%O%行星护卫队"
 		}
 
 		assault_army = {
-			sequential_name = "%O% 远征军"
+			sequential_name = "%O%远征军"
 		}
 		
 		slave_army = {
-			sequential_name = "%O% 仆从军团"
+			sequential_name = "%O%仆从军团"
 		}
 		
 		clone_army = { 
-			sequential_name = "%O% 克隆人军团"
+			sequential_name = "%O%克隆人军团"
 		}
 		
 		robotic_army = {
-			sequential_name = "%O% 机械化部队"
+			sequential_name = "%O%机械化部队"
 		}
 		
 		android_army = {
-			sequential_name = "%O% 自动化部队"
+			sequential_name = "%O%自动化部队"
 		}
 		
 		psionic_army = { 
-			sequential_name = "%O% 心灵突击队"
+			sequential_name = "%O%心灵突击队"
 		}
 		
 		xenomorph_army = {
-			sequential_name = "%O% 生化部队"
+			sequential_name = "%O%生化部队"
 		}
 		
 		gene_warrior_army = {
 			random_names = {
 				乞活军 神策军 西园军 技击军 玄甲军 白袍军 细柳营 虎贲军 背嵬军 陷阵营
 			}
-			sequential_name = "%O% 基因武士队"
+			sequential_name = "%O%基因武士队"
 		}
 	}
 

@@ -2248,7 +2248,7 @@ empire_name_format = {
 	}
 	format = "format.imp_gen.1"
 	noun = "[This.Capital.System.GetName]"
-	prefix_format = ""
+	prefix_format = "[This.Capital.System.GetName]<imperial_gen>"
 	# Empire of Sol
 }
 
@@ -2270,7 +2270,7 @@ empire_name_format = {
 	}
 	format = "format.imp_gen.2"
 	noun = "[This.Capital.GetName]"
-	prefix_format = ""
+	prefix_format = "[This.Capital.GetName]<imperial_gen>"
 	# Empire of Earth
 }
 
@@ -2292,7 +2292,7 @@ empire_name_format = {
 	}
 	format = "format.imp_gen.3"
 	noun = "[This.GetSpeciesName]"
-	prefix_format = ""
+	prefix_format = "[This.GetSpeciesName]<imperial_gen>"
 	# Human Empire
 }
 
@@ -3783,7 +3783,7 @@ empire_name_format = {
 	}
 	format = "format.dem_mil.5"
 	noun = "[This.GetSpeciesName]"
-	prefix_format = "[This.GetSpeciesName]<democratic_mil>
+	prefix_format = "[This.GetSpeciesName]<democratic_mil>"
 	# Human Star Empire
 }
 

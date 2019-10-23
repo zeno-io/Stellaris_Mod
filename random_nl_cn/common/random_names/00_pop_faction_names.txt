@@ -1,4 +1,4 @@
-﻿## Supremacists
+## Supremacists
 pop_faction_name_parts_list = {
 	key = "supremacist_names_1"
 	parts = {
