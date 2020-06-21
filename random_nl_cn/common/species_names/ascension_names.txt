@@ -1,7 +1,7 @@
 
 # Synthetic Evolution Species Names
 named_lists = {
-	robots_test = {
+	ascension_list = {
 		Species_1 = {
 			name = 拉克瑟
 			plural = 拉克瑟

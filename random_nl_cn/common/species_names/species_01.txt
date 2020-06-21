@@ -1536,3 +1536,272 @@ HUM = {
 		name_list = "HUM2"
 	}
 }
+
+### LITHOIDS
+
+LITHOID = {
+	tharbarite = {
+		name = 萨耳巴瑞特
+		plural = 萨耳巴瑞特
+		home_planet = 萨耳巴
+		home_system = 萨尔
+		name_list = "LITHOID1"
+	}
+
+	evarite = {
+		name = 艾万瑞特
+		plural = 艾万瑞特
+		home_planet = "艾万瑞首星"
+		home_system = 艾万瑞
+		name_list = "LITHOID2"
+	}
+
+	praku = {
+		name = 普拉库
+		plural = 普拉库
+		home_planet = "普拉库中心"
+		home_system = 普拉克
+		name_list = "LITHOID3"
+	}
+
+	rak-rak = {
+		name = 拉克-拉克
+		plural = 拉克-拉克
+		home_planet = 如克-拉克
+		home_system = 如克
+		name_list = "LITHOID4"
+	}
+
+	yru = {
+		name = 伊如
+		plural = 伊如
+		home_planet = 伊拉
+		home_system = 伊瑞
+		name_list = "LITHOID1"
+	}
+
+	kodranite = {
+		name = 科多拉内特
+		plural = 科多拉内特
+		home_planet = 科多拉
+		home_system = "科多拉尼尔"
+		name_list = "LITHOID2"
+	}
+
+	cherk = {
+		name = 切尔克
+		plural = 切尔克
+		home_planet = 切尔克
+		home_system = 沙哈纳
+		name_list = "LITHOID3"
+	}
+
+	tavurite = {
+		
+		name = 塔兀里特
+		plural = 塔兀里特
+		home_planet = 塔乌
+		home_system = "塔-苏"
+		name_list = "LITHOID4"
+	}
+
+	ti-zru = {
+		name = 悌-兹鲁
+		plural = 悌-匝
+		home_planet = 悌-匝
+		home_system = 悌
+		name_list = "LITHOID1"
+	}
+
+	polvanite = {
+		name = 波万奈特
+		plural = 波万奈特
+		home_planet = 波万
+		home_system = 波乌斯
+		name_list = "LITHOID2"
+	}
+
+	ithill = {
+		name = 艾斯尔
+		plural = 艾斯尔
+		home_planet = 艾斯依
+		home_system = 艾斯
+		name_list = "LITHOID3"
+	}
+
+	irzuku = {
+		name = 艾尔祖库
+		plural = 艾尔祖库
+		home_planet = 艾尔斯克
+		home_system = 祖库
+		name_list = "LITHOID4"
+	}
+
+	glirr = {
+		name = 格里尔
+		plural = 格里尔
+		home_planet = 格里瑞亚
+		home_system = 格里瓦萨
+		name_list = "LITHOID1"
+	}
+
+	qvagh = {
+		name = 库瓦格
+		plural = 库瓦基
+		home_planet = 库瓦
+		home_system = 库瓦汗
+		name_list = "LITHOID2"
+	}
+
+	zurite = {
+		name = 祖尔艾特
+		plural = 祖尔艾特
+		home_planet = 祖尔乌
+		home_system = 祖尔乌
+		name_list = "LITHOID3"
+	}
+
+	oviir = {
+		name = 奥维依尔
+		plural = 奥维依利
+		home_planet = 奥维依
+		home_system = "大奥维依"
+		name_list = "LITHOID4"
+	}
+
+	rukkari = {
+		name = 卢卡莉
+		plural = 卢卡莉
+		home_planet = 卢克
+		home_system = 卢克-安特
+		name_list = "LITHOID1"
+	}
+
+	uraki = {
+		name = 尤卡吉
+		plural = 尤卡吉
+		home_planet = 沃利奥特
+		home_system = 尤卡库
+		name_list = "LITHOID2"
+	}
+
+	bodranite = {
+		name = 伯德拉奈特
+		plural = 伯德拉奈特
+		home_planet = "伯德利拉"
+		home_system = 伯德
+		name_list = "LITHOID3"
+	}
+
+	vran = {
+		name = 乌兰
+		plural = 乌兰尼
+		home_planet = "乌兰首星"
+		home_system = 乌兰奈
+		name_list = "LITHOID4"
+	}
+
+	zri = {
+		name = 兹伊
+		plural = 兹伊
+		home_planet = 兹伊沙
+		home_system = 兹伊萨
+		name_list = "LITHOID1"
+	}
+
+	vuur = {
+		name = 乌尔
+		plural = 乌尔尼
+		home_planet = 瓦尔
+		home_system = 瓦尔鲁斯
+		name_list = "LITHOID2"
+	}
+
+	croll = {
+		name = 克诺尔
+		plural = 克诺尔
+		home_planet = 克诺鲁斯
+		home_system = 克诺匝
+		name_list = "LITHOID3"
+	}
+
+	bruvan = {
+		name = 布鲁万
+		plural = 布鲁万
+		home_planet = 布鲁乌
+		home_system = 布鲁瓦斯
+		name_list = "LITHOID4"
+	}
+
+	hrun = {
+		name = 胡-鲁尼
+		plural = 胡-鲁尼
+		home_planet = 鲁尼
+		home_system = 鲁尼-佛
+		name_list = "LITHOID1"
+	}
+
+	rhonzar = {
+		name = 龙扎
+		plural = 龙扎
+		home_planet = 龙扎
+		home_system = "龙扎-伽里夫"
+		name_list = "LITHOID2"
+	}
+
+	bhiir = {
+		name = 皮伊尔
+		plural = 皮伊莉
+		home_planet = 皮伊拉
+		home_system = 葩尔苏
+		name_list = "LITHOID3"
+	}
+
+	bzadi = {
+		name = 巴扎迪
+		plural = 巴扎迪
+		home_planet = 哈-巴扎迪
+		home_system = 巴扎德
+		name_list = "LITHOID4"
+	}
+
+	mtok = {
+		name =姆-托克
+		plural = 姆-托克
+		home_planet = 姆-瓦勒库
+		home_system = 姆-法卢克
+		name_list = "LITHOID1"
+	}
+
+	makar = {
+		name = 玛-卡尔
+		plural = 玛-卡瑞
+		home_planet = 泰勒-霍
+		home_system = 科什-科哈
+		name_list = "LITHOID2"
+	}
+
+	shapa = {
+		name = 夏帕
+		plural = 夏帕
+		home_planet = 夏帕拉
+		home_system = 夏帕
+		name_list = "LITHOID3"
+	}
+
+	ferbanite = {
+		name = 佛本耐特
+		plural = 佛本耐特
+		home_planet = 佛本耐特
+		home_system = 吉乌
+		name_list = "LITHOID4"
+	}
+
+	pliffplaff = {
+		name = 普利夫-普拉夫
+		plural = 普利夫普拉夫
+		home_planet = 普利夫
+		home_system = 普拉佛
+		name_list = "LITHOID1"
+	}
+}

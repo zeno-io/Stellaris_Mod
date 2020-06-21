@@ -3,7 +3,7 @@ pre_communications_name_parts_list = {
 	key = "first"
 	parts = {
 		"外星人'" = 1000
-#		"Enigma'" = 100
+#		"神秘能量'" = 100
 	}
 }
 
@@ -81,8 +81,8 @@ pre_communications_name_parts_list = {
 	key = "xenophobe_first"
 	parts = {
 		"威胁'" = 100
-#		"Threat'" = 10
-#		"Hazard'" = 1
+#		"恐吓'" = 10
+#		"危险'" = 1
 	}
 }
 

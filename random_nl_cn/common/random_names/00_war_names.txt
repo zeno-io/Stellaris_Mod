@@ -657,6 +657,10 @@ war_name_format = {
 			add = 999
 			OR = {
 				using_war_goal = {
+					type = wg_renegade_containment
+					owner = attacker
+				}
+				using_war_goal = {
 					type = wg_end_threat
 					owner = attacker
 				}
@@ -683,6 +687,10 @@ war_name_format = {
 		modifier = {
 			add = 999
 			OR = {
+				using_war_goal = {
+					type = wg_renegade_containment
+					owner = attacker
+				}
 				using_war_goal = {
 					type = wg_end_threat
 					owner = attacker
