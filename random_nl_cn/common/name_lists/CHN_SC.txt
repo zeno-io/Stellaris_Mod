@@ -173,6 +173,26 @@
 			}
 			sequential_name = "%O%生物工程部队"
 		}
+
+    occupation_army = {
+      sequential_name = "%O%占领军"
+    }
+
+    robotic_occupation_army = {
+      sequential_name = "%O%机械占领军"
+    }
+
+    primitive_army = {
+      sequential_name = "原始军队 %C%"
+    }
+
+    industrial_army = {
+      sequential_name = "工业军队 %C%"
+    }
+
+    postatomic_army = {
+      sequential_name = "后原子军 %C%"
+    }
 	}
 
 	planet_names = {
