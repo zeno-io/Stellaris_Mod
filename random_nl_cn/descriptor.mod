@@ -1,8 +1,8 @@
 name="Random NameList : Chinese"
-version="2.8.1"
+version="3.0.*"
 picture="thumbnail.png"
 tags={
 	"Translation"
 }
-supported_version="2.8.*"
+supported_version="3.0.*"
 remote_file_id="832446933"

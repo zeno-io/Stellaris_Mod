@@ -199,7 +199,7 @@ pop_faction_name_parts_list = {
 pop_faction_name_parts_list = {
 	key = "progressive_names_2"
 	parts = {
-        	"同盟"= 1
+    "同盟"= 1
 		"议会"= 1
 		"委员会"= 1
 		"中心"= 1
@@ -434,4 +434,35 @@ pop_faction_name_format = {
 		}
 	}
 	format = "<xenoist_names_1><xenoist_names_2><xenoist_names_3>"
+}
+
+## Manifesti
+pop_faction_name_parts_list = {
+	key = "manifesti_names_1"
+	parts = {
+		"宣言" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "manifesti_names_2"
+	parts = {
+		"聚会" = 1
+		"公报" = 1
+		"色调" = 1
+		"卷积" = 1
+		"实践" = 1
+		"编织" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "manifesti"
+		}
+	}
+	format = "<manifesti_names_1><manifesti_names_2>"
 }

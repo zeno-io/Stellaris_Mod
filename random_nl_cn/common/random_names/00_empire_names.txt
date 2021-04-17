@@ -521,7 +521,7 @@ empire_name_parts_list = {
 		"圣赐" = 4
 		"神灵" = 4
 		"圣极" = 4
-		"敬神" = 4
+		"尊神" = 4
 	}
 }
 
@@ -534,7 +534,7 @@ empire_name_parts_list = {
 		"圣赐" = 4
 		"神灵" = 4
 		"圣极" = 4
-		"敬神" = 4
+		"尊神" = 4
 	}
 }
 
@@ -547,7 +547,7 @@ empire_name_parts_list = {
 		"圣赐" = 4
 		"神灵" = 4
 		"圣极" = 4
-		"敬神" = 4
+		"尊神" = 4
 	}
 }
 
@@ -560,7 +560,7 @@ empire_name_parts_list = {
 		"圣赐" = 4
 		"神灵" = 4
 		"圣极" = 4
-		"敬神" = 4
+		"尊神" = 4
 	}
 }
 
@@ -575,7 +575,7 @@ empire_name_parts_list = {
 		"圣赐" = 4
 		"神灵" = 4
 		"圣极" = 4
-		"敬神" = 4
+		"尊神" = 4
 	}
 }
 
@@ -588,7 +588,7 @@ empire_name_parts_list = {
 		"圣赐" = 4
 		"神灵" = 4
 		"圣极" = 4
-		"敬神" = 4
+		"尊神" = 4
 	}
 }
 
@@ -601,7 +601,7 @@ empire_name_parts_list = {
 		"圣赐" = 4
 		"神灵" = 4
 		"圣极" = 4
-		"敬神" = 4
+		"尊神" = 4
 	}
 }
 
@@ -614,7 +614,7 @@ empire_name_parts_list = {
 		"圣赐" = 4
 		"神灵" = 4
 		"圣极" = 4
-		"敬神" = 4
+		"尊神" = 4
 	}
 }
 
@@ -1142,7 +1142,7 @@ empire_name_parts_list = {
 		"集合体" = 3
 		"集群" = 3
 		"众" = 2
-		"有机体" = 1		
+		"有机体" = 1
 	}
 }
 
@@ -4634,6 +4634,7 @@ empire_name_format = {
 	# Human Empire
 }
 
+
 # Megacorporation
 empire_name_format = {
 	random_weight = {
@@ -4652,6 +4653,7 @@ empire_name_format = {
 	prefix_format = "[This.GetSpeciesName]<oligarchic_corp>"
 	# Human Empire
 }
+
 # Megachurch
 empire_name_format = {
 	random_weight = {
@@ -4812,7 +4814,6 @@ empire_name_format = {
 	# Human People's Republic
 }
 
-			
 # Bandit Kingdom
 empire_name_format = {
 	random_weight = {
@@ -4822,7 +4823,7 @@ empire_name_format = {
 			OR = {
 				has_government = "gov_bandit_kingdom"
 				has_government = "gov_bandit_commune"
-				has_government = "gov_band_blood"					 
+				has_government = "gov_band_blood"
 			}
 			is_pirate = no
 			is_primitive = no
@@ -5211,6 +5212,25 @@ empire_name_format = {
 	prefix_format = "[This.GetSpeciesName]<diadochi_names_4_1><diadochi_names_4_2>"
 }
 
+empire_name_format = { #this is only used to make the error log be silent, the name is overwritten straight away
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			has_government = "gov_diadochi"
+			NOR = {
+				has_country_flag = diadochi_1
+				has_country_flag = diadochi_2
+				has_country_flag = diadochi_3
+				has_country_flag = diadochi_4
+			}
+		}
+	}
+	format = "format.diadochi.4"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName]<diadochi_names_4_1><diadochi_names_4_2>"
+}
+
 # New Khanate
 empire_name_parts_list = {
 	key = "new_khanate_names_1_1"
@@ -5230,7 +5250,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 1000
-			has_country_flag = new_khanate_flag
+			OR = {
+				has_government = gov_successor_khanate
+				has_country_flag = new_khanate_flag
+			}
 		}
 	}
 	format = "format.new_khanate"
@@ -5265,6 +5288,7 @@ empire_name_format = {
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "[This.GetSpeciesName]<free_khanate_names_1_1><free_khanate_names_1_2>"
 }
+
 
 ### FALLEN EMPIRE NAMES
 
@@ -5530,6 +5554,7 @@ empire_name_format = {
 	noun = "[This.GetSpeciesName]"
 	# Corrupted Custodian
 }
+
 ### MACHINE EMPIRE NAMES
 
 # Generic
@@ -5705,7 +5730,7 @@ empire_name_parts_list = {
 		"缔造者" = 40
 		"制作者" = 40
 		"复制者" = 40
-		"铸造者" = 40		
+		"铸造者" = 40
 		"网络" = 10		
 		"网格" = 10
 		"汇合" = 10
@@ -5905,6 +5930,92 @@ empire_name_format = {
 	format = "format.rad_cult.1"
 	noun = "<radical_cult_names>"
 	# Final Crucible
+}
+
+############################## Imperial Domains ######################
+
+# Normal empires
+empire_name_parts_list = {
+	key = "imperial_domain_names"
+	parts = {
+		"Imperial Core" = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			has_government = "gov_imperial_domain"
+		}
+	}
+	format = "format.imp_dom.1"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName]<imperial_domain_names>"
+}
+
+# Machines
+empire_name_parts_list = {
+	key = "imperial_domain_names_2"
+	parts = {
+		"Imperial Nexus" = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			has_government = "gov_imperial_domain_machines"
+		}
+	}
+	format = "format.imp_dom.2"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName]<imperial_domain_names_2>"
+}
+
+# Hives
+empire_name_parts_list = {
+	key = "imperial_domain_names_3"
+	parts = {
+		"Imperial Hive" = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			has_government = "gov_imperial_domain_hives"
+		}
+	}
+	format = "format.imp_dom.3"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName]<imperial_domain_names_3>"
+}
+
+# MegaCorps
+empire_name_parts_list = {
+	key = "imperial_domain_names_4"
+	parts = {
+		"ImperiCorp" = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			has_government = "gov_imperial_domain_megacorp"
+		}
+	}
+	format = "format.imp_dom.4"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName]<imperial_domain_names_4>"
 }
 
 ############################## AI ##############################

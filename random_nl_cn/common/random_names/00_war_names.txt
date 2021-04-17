@@ -15,7 +15,7 @@ war_name_parts_list = {
 	key = "federation_war_names"
 	parts = {
 		"大战" = 1
-		"星系战争" = 1
+		"星际战争" = 1
 		"联盟冲突" = 1
 		"联邦战争" = 1
 	}
@@ -119,7 +119,7 @@ war_name_parts_list = {
 }
 
 war_name_parts_list = {
-	key = "fe_stop_ai_names_war_names"
+	key = "fe_stop_ai_war_names"
 	parts = {
 		"反机器人行动" = 1
 	}
@@ -142,7 +142,7 @@ war_name_parts_list = {
 war_name_parts_list = {
 	key = "machine_uprising_war_names"
 	parts = {
-		"机器人起义"
+		"机械崛起"
 	}
 }
 
@@ -206,7 +206,7 @@ war_name_format = {
 	random_weight = {
 		factor = 1
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <default_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<default_war_names>"
 }
 
 ### FEDERATION WARS
@@ -225,7 +225,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAllianceName] <federation_war_names>"
+	format = "[This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAllianceName]<federation_war_names>"
 }
 
 ### CONQUEST WARS
@@ -249,7 +249,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <conquest_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<conquest_war_names>"
 }
 
 # Conquest - Attacker Federation
@@ -270,7 +270,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAdj] <war_names>"
+	format = "[This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAdj]<conquest_war_names>"
 }
 
 # Conquest - Defender Federation
@@ -291,7 +291,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName] <war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]<conquest_war_names>"
 }
 
 # Conquest - Corporate Attacker, No Federations
@@ -313,7 +313,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <corp_conquest_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<corp_conquest_war_names>"
 }
 
 ### SUBJUGATION WARS
@@ -343,7 +343,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <subjugation_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<subjugation_war_names>"
 }
 
 # Subjugation - Attacker Federation
@@ -370,7 +370,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAdj] <subjugation_war_names>"
+	format = "[This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAdj]<subjugation_war_names>"
 }
 
 # Subjugation - Defender Federation
@@ -397,7 +397,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName] <subjugation_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]<subjugation_war_names>"
 }
 
 # Subjugation - Corporate Attacker, No Federations
@@ -425,7 +425,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <corp_subjugation_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<corp_subjugation_war_names>"
 }
 
 ### TRIBUTE WARS
@@ -449,7 +449,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <tribute_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<tribute_war_names>"
 }
 
 # Tribute - Attacker Federation
@@ -470,7 +470,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAdj] <tribute_war_names>"
+	format = "[This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAdj]<tribute_war_names>"
 }
 
 # Tribute - Defender Federation
@@ -491,7 +491,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName] <tribute_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]<tribute_war_names>"
 }
 
 # Tribute - Corporate Attacker, No Federations
@@ -513,7 +513,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <corp_tribute_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<corp_tribute_war_names>"
 }
 
 ### FORCE IDEOLOGY WARS
@@ -536,7 +536,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <force_ideology_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<force_ideology_war_names>"
 }
 
 # Force Ideology - Attacker Federation
@@ -557,7 +557,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAdj] <force_ideology_war_names>"
+	format = "[This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAdj]<force_ideology_war_names>"
 }
 
 # Force Ideology - Defender Federation
@@ -578,7 +578,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName] <force_ideology_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]<force_ideology_war_names>"
 }
 
 ### HUMILIATION WARS
@@ -601,7 +601,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <humiliation_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<humiliation_war_names>"
 }
 
 # Humiliation - Attacker Federation
@@ -622,7 +622,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAdj] <humiliation_war_names>"
+	format = "[This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAdj]<humiliation_war_names>"
 }
 
 # Humiliation - Defender Federation
@@ -643,7 +643,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName] <humiliation_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]<humiliation_war_names>"
 }
 
 ### PROTECTION WAR NAMES
@@ -676,7 +676,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <protection_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<protection_war_names>"
 }
 
 # Protection - Attacker Federation
@@ -707,7 +707,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAdj] <protection_war_names>"
+	format = "[This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAdj]<protection_war_names>"
 }
 
 ### CLEANSING PURIFIERS WAR NAMES
@@ -731,7 +731,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <cleansing_pur_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<cleansing_pur_war_names>"
 }
 
 # Cleansing Purifiers - Defender Federation
@@ -753,7 +753,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName] <cleansing_pur_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]<cleansing_pur_war_names>"
 }
 
 ### CLEANSING EXTERMINATORS WAR NAMES
@@ -777,7 +777,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <cleansing_ext_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<cleansing_ext_war_names>"
 }
 
 # Cleansing Exterminators - Defender Federation
@@ -799,7 +799,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName] <cleansing_ext_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]<cleansing_ext_war_names>"
 }
 
 ### ABSORPTION WAR NAMES
@@ -822,7 +822,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <absorption_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<absorption_war_names>"
 }
 
 # Absorption - Defender Federation
@@ -843,7 +843,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName] <absorption_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]<absorption_war_names>"
 }
 
 ### FALLEN EMPIRE HUMILIATION WARS
@@ -866,7 +866,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <fe_humiliation_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<fe_humiliation_war_names>"
 }
 
 # Fallen Empire Humiliation - Defender Federation
@@ -887,7 +887,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName] <fe_humiliation_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]<fe_humiliation_war_names>"
 }
 
 ### FALLEN EMPIRE STOP ATROCITIES WARS
@@ -910,7 +910,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <fe_stop_atrocities_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<fe_stop_atrocities_war_names>"
 }
 
 # Fallen Empire Stop Atrocities - Defender Federation
@@ -931,7 +931,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName] <fe_stop_atrocities_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]<fe_stop_atrocities_war_names>"
 }
 
 ### FALLEN EMPIRE STOP AI WARS
@@ -954,7 +954,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <fe_stop_ai_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<fe_stop_ai_war_names>"
 }
 
 # Fallen Empire Stop AI - Defender Federation
@@ -975,7 +975,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName] <fe_stop_ai_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]<fe_stop_ai_war_names>"
 }
 
 ### FALLEN EMPIRE CLEANSE HOLY WORLDS WARS
@@ -998,7 +998,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <fe_cleanse_holy_worlds_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<fe_cleanse_holy_worlds_war_names>"
 }
 
 # Fallen Empire Cleanse Holy Worlds - Defender Federation
@@ -1019,7 +1019,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName] <fe_cleanse_holy_worlds_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]<fe_cleanse_holy_worlds_war_names>"
 }
 
 ### FALLEN EMPIRE CLEANSE BORDER WORLDS WARS
@@ -1042,7 +1042,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <fe_cleanse_border_worlds_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<fe_cleanse_border_worlds_war_names>"
 }
 
 # Fallen Empire Cleanse Border Worlds - Defender Federation
@@ -1063,7 +1063,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName] <fe_cleanse_border_worlds_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]<fe_cleanse_border_worlds_war_names>"
 }
 
 ### INDEPENDENCE WAR NAMES
@@ -1135,7 +1135,7 @@ war_name_format = {
             }
 		}
 	}
-	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <expel_corp_war_names>"
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]<expel_corp_war_names>"
 }
 
 ## GALATRON WARS
