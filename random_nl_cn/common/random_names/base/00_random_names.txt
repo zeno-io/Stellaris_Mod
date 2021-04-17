@@ -10,10 +10,10 @@
 
 species_modification_postfix = { 
 	"高等"
-	"变异"
-	"适用"
+	"异能"
+	"全能"
 	"臻善"
-	"增强"
+	"至强"
 }
 
 black_hole_names = {

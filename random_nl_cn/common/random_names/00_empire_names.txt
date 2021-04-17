@@ -1141,8 +1141,8 @@ empire_name_parts_list = {
 		"实体" = 3
 		"集合体" = 3
 		"集群" = 3
-		"原典" = 2
-		"有机体" = 1
+		"众" = 2
+		"有机体" = 1		
 	}
 }
 
@@ -1181,6 +1181,33 @@ empire_name_parts_list = {
 		"泯灭国"
 		"杀手国"
 		"收割国"
+	}
+}
+
+# Necrophage Middle Descriptive
+empire_name_parts_list = {
+	key = "necrophagers_start"
+	parts = {
+		"饥饿" = 3
+		"贪婪" = 3
+		"贪吃" = 1
+		"无厌" = 3
+		"暴食" = 1
+		"饕餮" = 1
+	}
+}
+
+# Necrophage End
+empire_name_parts_list = {
+	key = "necrophagers"
+	parts = {
+		"吞食者" = 3
+		"大胃王" = 1
+		"食尸者" = 2
+		"吸食者" = 2
+		"杂货商" = 2
+		"咀嚼者" = 1
+		"清洁者" = 1
 	}
 }
 
@@ -1306,7 +1333,7 @@ empire_name_parts_list = {
 }
 
 
-# Bandit Kingdom		
+# Bandit Kingdom
 empire_name_parts_list = {
 	key = "bandit_kingdom"
 	parts = {
@@ -1720,7 +1747,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 5
-			has_government = "gov_divine_empire"
+			OR = {
+				has_government = "gov_divine_empire"
+				has_government = "gov_mortal_empire"
+			}
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -1739,7 +1769,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 2
-			has_government = "gov_divine_empire"
+			OR = {
+				has_government = "gov_divine_empire"
+				has_government = "gov_mortal_empire"
+			}
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -1758,7 +1791,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 2
-			has_government = "gov_divine_empire"
+			OR = {
+				has_government = "gov_divine_empire"
+				has_government = "gov_mortal_empire"
+			}
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -4622,7 +4658,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 5
-			has_government = "gov_megachurch"
+			OR = {
+				has_government = "gov_megachurch"
+				has_government = "gov_sacrificial_megachurch"
+			}
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -4679,7 +4718,9 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 5
-			has_government = "gov_subversive_cult"
+				has_government = "gov_subversive_cult"
+				has_government = "gov_grim_council"
+			}
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -4698,7 +4739,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 5
-			has_government = "gov_subversive_cult"
+			OR = {
+				has_government = "gov_subversive_cult"
+				has_government = "gov_grim_council"
+			}
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
@@ -4778,6 +4822,7 @@ empire_name_format = {
 			OR = {
 				has_government = "gov_bandit_kingdom"
 				has_government = "gov_bandit_commune"
+				has_government = "gov_band_blood"					 
 			}
 			is_pirate = no
 			is_primitive = no
@@ -5767,6 +5812,69 @@ empire_name_format = {
 	format = "format.machine.6"
 	noun = "[This.GetSpeciesName]"
 	# Mechanoid Network
+}
+
+
+### Necrophages
+
+# Necrophages 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 2
+			has_origin = origin_necrophage
+		}
+	}
+	format = "format.necrophage.1"
+	prefix_format = "[This.Capital.System.GetName]<necrophagers>"
+	noun = "[This.Capital.System.GetName]"
+	# Empire of Sol
+}
+
+# Necrophages 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 2
+			has_origin = origin_necrophage
+		}
+	}
+	format = "format.necrophage.2"
+	prefix_format = "[This.Capital.GetName]<necrophagers>"
+	noun = "[This.Capital.GetName]"
+	# Empire of Earth
+}
+
+# Necrophages 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 8
+			has_origin = origin_necrophage
+		}
+	}
+	format = "format.necrophage.3"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName]<necrophagers>"
+	# Human Empire
+}
+
+# Necrophages 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			has_origin = origin_necrophage
+		}
+	}
+	format = "format.necrophage.4"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName]<necrophagers>"
+	# Great Human Empire
 }
 ############################## Radical Cult ##############################
 

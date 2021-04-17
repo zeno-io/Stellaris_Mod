@@ -435,4 +435,3 @@ pop_faction_name_format = {
 	}
 	format = "<xenoist_names_1><xenoist_names_2><xenoist_names_3>"
 }
-
