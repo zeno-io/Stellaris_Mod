@@ -5156,7 +5156,7 @@ empire_name_format = {
 empire_name_parts_list = {
 	key = "diadochi_names_3_1"
 	parts = {
-		"真理" = 30
+		"正统" = 30
 	}
 }
 empire_name_parts_list = {
@@ -5203,6 +5203,25 @@ empire_name_format = {
 			add = 1000
 			AND = {
 				has_government = "gov_diadochi"
+				has_country_flag = diadochi_4
+			}
+		}
+	}
+	format = "format.diadochi.4"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName]<diadochi_names_4_1><diadochi_names_4_2>"
+}
+
+empire_name_format = { #this is only used to make the error log be silent, the name is overwritten straight away
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			has_government = "gov_diadochi"
+			NOR = {
+				has_country_flag = diadochi_1
+				has_country_flag = diadochi_2
+				has_country_flag = diadochi_3
 				has_country_flag = diadochi_4
 			}
 		}
