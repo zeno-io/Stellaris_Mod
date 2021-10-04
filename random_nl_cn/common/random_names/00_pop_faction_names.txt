@@ -33,7 +33,7 @@ pop_faction_name_format = {
 			is_pop_faction_type = "supremacist"
 		}
 	}
-	format = "[This.Owner.GetSpeciesName]<supremacist_names_1><supremacist_names_2>"
+	format = "format.pop_faction.supremacist"
 }
 
 ## Imperialists
@@ -73,7 +73,7 @@ pop_faction_name_format = {
 			is_pop_faction_type = "imperialist"
 		}
 	}
-	format = "<imperialist_names>"
+	format = "format.pop_faction.imperialist"
 }
 
 ## Isolationists
@@ -124,7 +124,7 @@ pop_faction_name_format = {
 			is_pop_faction_type = "isolationist"
 		}
 	}
-	format = "<isolationist_names_1><isolationist_names_2>"
+	format = "format.pop_faction.isolationist"
 }
 
 ## Totalitarians
@@ -169,7 +169,7 @@ pop_faction_name_format = {
 			is_pop_faction_type = "totalitarian"
 		}
 	}
-	format = "<totalitarian_names_1><totalitarian_names_2>"
+	format = "format.pop_faction.totalitarian"
 }
 
 ## Progressives
@@ -227,7 +227,7 @@ pop_faction_name_format = {
 			is_pop_faction_type = "progressive"
 		}
 	}
-	format = "<progressive_names_1><progressive_names_2>"
+	format = "format.pop_faction.progressive"
 }
 
 
@@ -278,7 +278,7 @@ pop_faction_name_format = {
 			is_pop_faction_type = "prosperity"
 		}
 	}
-	format = "<prosperity_names_1><prosperity_names_2>"
+	format = "format.pop_faction.prosperity"
 }
 
 ## Technologists
@@ -321,7 +321,7 @@ pop_faction_name_format = {
 			is_pop_faction_type = "technologist"
 		}
 	}
-	format = "<technologist_names_2><technologist_names_1>"
+	format = "format.pop_faction.technologist"
 }
 
 ## Traditionalists
@@ -367,7 +367,7 @@ pop_faction_name_format = {
 			is_pop_faction_type = "traditionalist"
 		}
 	}
-	format = "<traditionalist_names_2><traditionalist_names_1>"
+	format = "format.pop_faction.traditionalist"
 }
 
 ## Xenoists
@@ -433,7 +433,7 @@ pop_faction_name_format = {
 			is_pop_faction_type = "xenoist"
 		}
 	}
-	format = "<xenoist_names_1><xenoist_names_2><xenoist_names_3>"
+	format = "format.pop_faction.xenoist"
 }
 
 ## Manifesti
@@ -464,36 +464,5 @@ pop_faction_name_format = {
 			is_pop_faction_type = "manifesti"
 		}
 	}
-	format = "<manifesti_names_1><manifesti_names_2>"
-}
-
-## Manifesti
-pop_faction_name_parts_list = {
-	key = "manifesti_names_1"
-	parts = {
-		"宣言" = 1
-	}
-}
-
-pop_faction_name_parts_list = {
-	key = "manifesti_names_2"
-	parts = {
-		"聚会" = 1
-		"公报" = 1
-		"色调" = 1
-		"卷积" = 1
-		"实践" = 1
-		"编织" = 1
-	}
-}
-
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "manifesti"
-		}
-	}
-	format = "<manifesti_names_1><manifesti_names_2>"
+	format = "format.pop_faction.manifesti"
 }
