@@ -258,4 +258,9 @@
  NAME_Polaris_E: "冻雨"
  NAME_Polaris_F: "永久冻土"
  NAME_Polaris_G: "时蔬"
- NAME_Polaris_ship: "冰柱"                                     
+ NAME_Polaris_ship: "冰柱"
+ NAME_Hillos_fleet: "幽灵船"
+ NAME_Hillos_ship: "乌布梅"
+ ghost_ship: "幽灵船"
+ NAME_hillos_country: "幽灵船"
+ 

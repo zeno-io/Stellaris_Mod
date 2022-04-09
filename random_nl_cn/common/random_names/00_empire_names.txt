@@ -1359,26 +1359,6 @@ empire_name_parts_list = {
 	}
 }
 
-# Machine Intelligence
-empire_name_parts_list = {
-	key = "machine_intelligence"
-	parts = {
-		"机器智慧"
-		"智能机械"
-	}
-
-}
-
-# Machine Intelligence
-empire_name_parts_list = {
-	key = "machine_terminator"
-	parts = {
-		"天网"
-		"冷兵器"
-		"致命器械"
-	}
-}
-
 ### GENERIC DESCRIPTIVES
 
 # Generic Imperial Descriptive
@@ -1492,7 +1472,7 @@ empire_name_parts_list = {
 # NAME FORMATS #
 ################
 
-### Imperial Militarist 
+### Imperial Militarist
 
 # Imperial Militarist 1
 empire_name_format = {
@@ -4615,6 +4595,25 @@ empire_name_format = {
 	prefix_format = "[This.GetSpeciesName]<hive_mind>"
 	# Human Empire
 }
+# Hive Mind
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10
+			has_government = "gov_hive_mind"
+			has_origin = origin_necrophage
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.necrophage_hive_mind.1"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName]<hive_mind>"
+	# Hungry Human Empire
+}
 # Devouring Swarm
 empire_name_format = {
 	random_weight = {
@@ -4633,6 +4632,27 @@ empire_name_format = {
 	prefix_format = "[This.GetSpeciesName]<devouring_swarm>"
 	# Human Empire
 }
+
+# Devouring Swarm
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10
+			has_government = "gov_devouring_swarm"
+			has_origin = origin_necrophage
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.necrophage_devouring_swarm.1"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <devouring_swarm>"
+	# Human Empire
+}
+
 
 
 # Megacorporation
@@ -4720,6 +4740,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 5
+			OR = {
 				has_government = "gov_subversive_cult"
 				has_government = "gov_grim_council"
 			}
@@ -5325,7 +5346,7 @@ empire_name_parts_list = {
 # Spiritualist
 empire_name_parts_list = {
 	key = "fallen_empire_names_4"
-	parts = {	
+	parts = {
 		"保护者" = 10
 		"守望者" = 10
 		"守护者" = 10
@@ -5335,7 +5356,7 @@ empire_name_parts_list = {
 # Machine
 empire_name_parts_list = {
 	key = "fallen_empire_names_machine"
-	parts = {	
+	parts = {
 		"统一体" = 10
 		"延续体" = 10		
 		"联结体" = 10
@@ -5457,7 +5478,7 @@ empire_name_parts_list = {
 # Machine
 empire_name_parts_list = {
 	key = "awakened_fallen_empire_names_machine_1"
-	parts = {	
+	parts = {
 		"最终命令" = 10
 		"防御协议" = 10
 		"托管者" = 10
@@ -5466,7 +5487,7 @@ empire_name_parts_list = {
 
 empire_name_parts_list = {
 	key = "awakened_fallen_empire_names_machine_2"
-	parts = {	
+	parts = {
 		"暗黑防御体" = 10
 		"缺陷保管者" = 10
 		"堕落监管者" = 10
@@ -5849,6 +5870,7 @@ empire_name_format = {
 		modifier = {
 			add = 2
 			has_origin = origin_necrophage
+            is_hive_empire = no
 		}
 	}
 	format = "format.necrophage.1"
@@ -5864,6 +5886,7 @@ empire_name_format = {
 		modifier = {
 			add = 2
 			has_origin = origin_necrophage
+			is_hive_empire = no
 		}
 	}
 	format = "format.necrophage.2"
@@ -5879,6 +5902,7 @@ empire_name_format = {
 		modifier = {
 			add = 8
 			has_origin = origin_necrophage
+			is_hive_empire = no
 		}
 	}
 	format = "format.necrophage.3"
@@ -5894,6 +5918,7 @@ empire_name_format = {
 		modifier = {
 			add = 4
 			has_origin = origin_necrophage
+			is_hive_empire = no
 		}
 	}
 	format = "format.necrophage.4"
@@ -5938,7 +5963,7 @@ empire_name_format = {
 empire_name_parts_list = {
 	key = "imperial_domain_names"
 	parts = {
-		"Imperial Core" = 10
+		"帝王核心" = 10
 	}
 }
 
@@ -5959,7 +5984,7 @@ empire_name_format = {
 empire_name_parts_list = {
 	key = "imperial_domain_names_2"
 	parts = {
-		"Imperial Nexus" = 10
+		"帝国枢纽" = 10
 	}
 }
 
@@ -5980,7 +6005,7 @@ empire_name_format = {
 empire_name_parts_list = {
 	key = "imperial_domain_names_3"
 	parts = {
-		"Imperial Hive" = 10
+		"帝王蜂巢" = 10
 	}
 }
 
