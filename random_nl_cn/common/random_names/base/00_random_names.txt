@@ -1,4 +1,4 @@
-﻿species_modification_prefix = { 
+﻿species_modification_prefix = {
 	"新-"
 	"后-"
 	"极-"
@@ -8,7 +8,7 @@
 	"高-"
 }
 
-species_modification_postfix = { 
+species_modification_postfix = {
 	"高等"
 	"异能"
 	"全能"
@@ -53,14 +53,14 @@ black_hole_names = {
 	"齐波克漩涡"
 	"利泰瑞安漩涡"
 	"赞塔利斯黑洞"
-	"亚梅克黑洞"
-	"布恩黑洞"
-	"D-471黑洞"
-	"XT-81黑洞"
-	"LR-9黑洞"
-	"X-941黑洞"
-	"BX-799黑洞"
-	"P94-L黑洞"
+	"亚梅克奇点"
+	"布恩奇点"
+	"D-471奇点"
+	"XT-81奇点"
+	"LR-9奇点"
+	"X-941奇点"
+	"BX-799奇点"
+	"P94-L奇点"
 	"天国之门"
 	"可疑深渊"
 	"尖叫深渊"
@@ -74,12 +74,13 @@ black_hole_names = {
 	"地狱领地"
 	"永恒的地平线"
 	"鹰眼"
+	"真理深渊"
 }
 
 asteroid_prefix = {
-	TFL- 
-	TD-1- 
-	LM- 
+	TFL-
+	TD-1-
+	LM-
 	RX2-
 	A1-
 	BT-
@@ -218,9 +219,9 @@ asteroid_prefix = {
 }
 
 asteroid_postfix = {
-	413 
-	3254 
-	233-D 
+	413
+	3254
+	233-D
 	001B
 	1138
 	426
